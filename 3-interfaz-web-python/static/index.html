@@ -1,0 +1,197 @@
+<!--
+  ===========================================================================
+   index.html - la pagina de la interfaz web
+
+   Este archivo solo pinta la estructura. No tiene logica: toda la
+   responsabilidad esta en app.js, y los datos vienen de servidor.py
+   (Python), que a su vez los lee de MongoDB.
+
+   La pagina tiene 4 pestanas, y 3 de ellas son las operaciones pedidas:
+
+     Fichas    -> GET  /api/paises    las 250 fichas
+     Comparar  -> POST /api/comparar  comparar poblaciones
+     Buscar    -> GET  /api/buscar    filtros por moneda, idioma, region...
+     Resumen   -> GET  /api/resumen   la tabla que calculo Apache Flink
+
+   La 4a pestana (Resumen Flink) no calcula nada en el navegador: muestra
+   los 6 resultados que el job por lotes dejo en Mundo.resumen_regiones.
+
+   Ver GUIA-FLINK.md para saber donde se aplica Flink y donde no.
+  ===========================================================================
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondo - Paises del mundo</title>
+  <link rel="stylesheet" href="/estilos.css">
+</head>
+<body>
+
+<header>
+  <div class="contenedor">
+    <div class="cabecera">
+      <div>
+        <h1>Mondo</h1>
+        <p class="subtitulo">250 paises, procesados por lotes con Apache Flink</p>
+      </div>
+      <div class="estado" id="estado">
+        <span class="punto"></span> <span id="estadoTexto">conectando...</span>
+      </div>
+    </div>
+
+    <nav class="pestanas">
+      <button class="pestana activa" data-vista="fichas">Fichas</button>
+      <button class="pestana" data-vista="comparar">Comparar</button>
+      <button class="pestana" data-vista="buscar">Buscar</button>
+      <button class="pestana" data-vista="resumen">Resumen Flink</button>
+    </nav>
+  </div>
+</header>
+
+<main class="contenedor">
+
+  <!-- ================================================================== -->
+  <!--  1. FICHAS                                                         -->
+  <!-- ================================================================== -->
+  <section class="vista activa" id="vista-fichas">
+
+    <div class="barra-herramientas">
+      <div class="busca-simple">
+        <input type="search" id="fichaTexto"
+               placeholder="Filtrar por nombre, capital o region...">
+      </div>
+      <div class="filtro-region" id="fichaRegion"></div>
+      <div class="contador" id="fichaContador">cargando...</div>
+    </div>
+
+    <div class="fichas" id="fichas"></div>
+
+  </section>
+
+  <!-- ================================================================== -->
+  <!--  2. COMPARAR POBLACIONES                                          -->
+  <!-- ================================================================== -->
+  <section class="vista" id="vista-comparar">
+
+    <div class="aviso-panel">
+      <h2>Comparar poblaciones</h2>
+      <p>Elige hasta 40 paises y pulsa <strong>Comparar</strong>. Abajo veras
+         las barras, la tabla con los porcentajes y cuantos veces mas tiene
+         el mayor que el menor.</p>
+    </div>
+
+    <div class="selector-paises">
+      <div class="barra-herramientas">
+        <div class="busca-simple">
+          <input type="search" id="compararTexto"
+                 placeholder="Buscar pais para anadir a la comparacion...">
+        </div>
+        <button class="boton" id="compararLimpiar">Limpiar seleccion</button>
+        <div class="contador" id="compararContador">0 seleccionados</div>
+      </div>
+      <div class="lista-checkbox" id="listaCheckbox"></div>
+    </div>
+
+    <div class="comparar-boton-zona">
+      <button class="boton boton-grande" id="compararEjecutar" disabled>
+        Comparar
+      </button>
+    </div>
+
+    <div id="resultadoComparar"></div>
+
+  </section>
+
+  <!-- ================================================================== -->
+  <!--  3. BUSCADOR                                                       -->
+  <!-- ================================================================== -->
+  <section class="vista" id="vista-buscar">
+
+    <div class="buscador">
+      <h2>Buscar paises</h2>
+      <p class="subtitulo">Todos los filtros se combinan a la vez con Y.
+         Si buscas <em>euro</em> y <em>Asia</em>, sale solo lo que cumple
+         las dos cosas.</p>
+
+      <div class="campo">
+        <label for="bTexto">Texto libre</label>
+        <input type="search" id="bTexto"
+               placeholder="nombre, capital, subregion...">
+      </div>
+
+      <div class="rejilla-campos">
+        <div class="campo">
+          <label for="bRegion">Region</label>
+          <select id="bRegion"><option value="">todas</option></select>
+        </div>
+
+        <div class="campo">
+          <label for="bMoneda">Moneda</label>
+          <input type="search" id="bMoneda" list="listaMonedas"
+                 placeholder="cualquiera">
+          <datalist id="listaMonedas"></datalist>
+        </div>
+
+        <div class="campo">
+          <label for="bIdioma">Idioma</label>
+          <input type="search" id="bIdioma" list="listaIdiomas"
+                 placeholder="cualquiera">
+          <datalist id="listaIdiomas"></datalist>
+        </div>
+      </div>
+
+      <div class="rejilla-campos">
+        <div class="campo">
+          <label for="bSupMin">Superficie desde (km2)</label>
+          <input type="number" id="bSupMin" min="0" step="1000" placeholder="0">
+        </div>
+        <div class="campo">
+          <label for="bSupMax">Superficie hasta (km2)</label>
+          <input type="number" id="bSupMax" min="0" step="1000" placeholder="sin limite">
+        </div>
+        <div class="campo">
+          <label for="bPobMin">Poblacion desde</label>
+          <input type="number" id="bPobMin" min="0" step="1000" placeholder="0">
+        </div>
+        <div class="campo">
+          <label for="bPobMax">Poblacion hasta</label>
+          <input type="number" id="bPobMax" min="0" step="1000" placeholder="sin limite">
+        </div>
+      </div>
+
+      <div class="botones">
+        <button class="boton boton-grande" id="bBuscar">Buscar</button>
+        <button class="boton" id="bLimpiar">Limpiar filtros</button>
+      </div>
+    </div>
+
+    <div class="contador" id="bContador"></div>
+    <div class="fichas fichas-comparables" id="resultadoBuscar"></div>
+
+  </section>
+
+  <!-- ================================================================== -->
+  <!--  4. RESUMEN QUE CALCULO FLINK                                      -->
+  <!-- ================================================================== -->
+  <section class="vista" id="vista-resumen">
+    <div class="aviso-panel">
+      <h2>Resumen por region</h2>
+      <p>Esta tabla no la calcula el navegador. La escribio el job de
+         Apache Flink, que leyo los 250 paises de MongoDB repartidos en
+         subtareas, los agrupo por region y sumo los totales.</p>
+    </div>
+    <div id="resumenTabla"></div>
+  </section>
+
+</main>
+
+<footer class="contenedor">
+  <p>Los datos de los paises no son reales: son estimados a partir de la
+     superficie. El total de poblacion es <span id="pieTotal">-</span>.</p>
+</footer>
+
+<script src="/app.js"></script>
+</body>
+</html>

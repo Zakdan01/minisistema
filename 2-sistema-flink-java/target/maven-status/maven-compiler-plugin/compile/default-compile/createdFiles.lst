@@ -1,0 +1,8 @@
+com\minisistema\ComprobarReparto.class
+com\minisistema\AnalisisFlinkBatch.class
+com\minisistema\Config.class
+com\minisistema\flink\MongoResumenOutputFormat.class
+com\minisistema\flink\MongoSplit.class
+com\minisistema\modelo\Pais.class
+com\minisistema\modelo\IndicadoresRegion.class
+com\minisistema\flink\MongoPaisesInputFormat.class

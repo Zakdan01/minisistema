@@ -1,0 +1,9 @@
+# La unica dependencia del servidor web.
+#
+# El job de Apache Flink es Java y no usa esto: el driver de MongoDB para
+# Java viene del pom.xml. Aqui solo se necesita el driver de Python para
+# leer Mundo.paises y Mundo.resumen_regiones.
+#
+# El servidor HTTP no necesita nada mas: http.server es de la libreria
+# estandar de Python, por eso no hay Flask ni FastAPI en la lista.
+pymongo>=4.18

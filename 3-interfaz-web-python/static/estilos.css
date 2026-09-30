@@ -1,0 +1,550 @@
+/* ==========================================================================
+   Mondo - estilos
+
+   El unico archivo de estilo de toda la pagina. No hay framework: son
+   variables CSS en :root y bloques con nombre, uno por cada parte de la
+   interfaz.
+
+   Como esta organizado, en orden:
+
+     :root            variables de color y medidas, se cambian aqui
+     cabecera, .pestanas      el encabezado y las 4 pestanas
+     .vista           el contenedor de cada pestana (solo una visible)
+     .barra-herramientas, .boton, .contador    los controles comunes
+     .ficha           la tarjeta de un pais, usada por Fichas y Buscar
+     comparacion      la lista de casillas, las barras y las cajas
+     .buscador        el formulario de la pestana Buscar
+     .tabla           la tabla del resumen de Flink
+     .vacio           el mensaje cuando un filtro no devuelve nada
+     footer, media   el pie y la version para pantallas chicas
+
+   Los datos los pone app.js; aqui solo se les da forma.
+   ========================================================================== */
+
+:root {
+  --fondo:        #0f1216;
+  --superficie:   #171c23;
+  --superficie-2: #1f2630;
+  --borde:        #2b3540;
+  --texto:        #e6edf3;
+  --texto-suave:  #8b98a5;
+  --acento:       #4a9eff;
+  --acento-2:     #2f7fe0;
+  --verde:        #3fb950;
+  --ambar:        #d29922;
+  --rojo:         #f85149;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--fondo);
+  color: var(--texto);
+  font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+  line-height: 1.5;
+}
+
+.contenedor {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* --- Cabecera ---------------------------------------------------------- */
+
+header {
+  background: var(--superficie);
+  border-bottom: 1px solid var(--borde);
+  padding: 24px 0 0;
+  margin-bottom: 28px;
+}
+
+.cabecera {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2rem;
+  letter-spacing: -0.5px;
+}
+
+.subtitulo {
+  margin: 4px 0 0;
+  color: var(--texto-suave);
+  font-size: 0.95rem;
+}
+
+.estado {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.85rem;
+  color: var(--texto-suave);
+  background: var(--superficie-2);
+  border: 1px solid var(--borde);
+  border-radius: 20px;
+  padding: 6px 14px;
+}
+
+.punto {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--ambar);
+}
+.estado.ok    .punto { background: var(--verde); }
+.estado.error .punto { background: var(--rojo); }
+
+/* --- Pestanas ---------------------------------------------------------- */
+
+.pestanas {
+  display: flex;
+  gap: 4px;
+  margin-top: 24px;
+}
+
+.pestana {
+  background: none;
+  border: none;
+  border-bottom: 3px solid transparent;
+  color: var(--texto-suave);
+  padding: 12px 18px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  font-family: inherit;
+  transition: color 0.15s, border-color 0.15s;
+}
+
+.pestana:hover { color: var(--texto); }
+
+.pestana.activa {
+  color: var(--acento);
+  border-bottom-color: var(--acento);
+}
+
+/* --- Vistas ------------------------------------------------------------ */
+
+.vista { display: none; }
+.vista.activa { display: block; animation: aparecer 0.2s ease; }
+
+@keyframes aparecer {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: none; }
+}
+
+/* --- Barra de herramientas -------------------------------------------- */
+
+.barra-herramientas {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.busca-simple { flex: 1 1 300px; }
+
+input, select, button {
+  font-family: inherit;
+  font-size: 0.95rem;
+}
+
+input[type="text"], input[type="search"], input[type="number"], select {
+  width: 100%;
+  background: var(--superficie-2);
+  border: 1px solid var(--borde);
+  border-radius: 8px;
+  color: var(--texto);
+  padding: 10px 14px;
+  outline: none;
+  transition: border-color 0.15s;
+}
+
+input:focus, select:focus {
+  border-color: var(--acento);
+}
+
+input::placeholder { color: #5c6875; }
+
+.filtro-region select { width: auto; min-width: 170px; }
+
+.contador {
+  color: var(--texto-suave);
+  font-size: 0.88rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.boton {
+  background: var(--superficie-2);
+  border: 1px solid var(--borde);
+  border-radius: 8px;
+  color: var(--texto);
+  padding: 10px 18px;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.boton:hover:not(:disabled) {
+  background: #273040;
+  border-color: var(--acento);
+}
+
+.boton:disabled { opacity: 0.4; cursor: not-allowed; }
+
+.boton-grande {
+  background: var(--acento-2);
+  border-color: var(--acento-2);
+  color: #fff;
+  font-weight: 600;
+  padding: 12px 30px;
+}
+
+.boton-grande:hover:not(:disabled) {
+  background: var(--acento);
+  border-color: var(--acento);
+}
+
+/* --- Fichas ------------------------------------------------------------ */
+
+.fichas {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+  gap: 16px;
+}
+
+.ficha {
+  background: var(--superficie);
+  border: 1px solid var(--borde);
+  border-radius: 12px;
+  padding: 18px;
+  transition: border-color 0.15s, transform 0.15s;
+}
+
+.ficha:hover {
+  border-color: var(--acento);
+  transform: translateY(-2px);
+}
+
+.ficha-cabecera {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.ficha-nombre {
+  margin: 0;
+  font-size: 1.08rem;
+  font-weight: 600;
+}
+
+.ficha-oficial {
+  color: var(--texto-suave);
+  font-size: 0.8rem;
+  font-style: italic;
+  margin: 2px 0 0;
+}
+
+.codigo {
+  font-family: "Consolas", "Courier New", monospace;
+  font-size: 0.8rem;
+  background: var(--superficie-2);
+  border: 1px solid var(--borde);
+  border-radius: 6px;
+  padding: 3px 8px;
+  color: var(--acento);
+  flex-shrink: 0;
+}
+
+.ficha-datos {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 6px 12px;
+  font-size: 0.87rem;
+  margin-bottom: 12px;
+}
+
+.ficha-datos dt { color: var(--texto-suave); }
+.ficha-datos dd { margin: 0; text-align: right; }
+
+.etiquetas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.etiqueta {
+  font-size: 0.75rem;
+  background: var(--superficie-2);
+  border: 1px solid var(--borde);
+  border-radius: 5px;
+  padding: 2px 7px;
+  color: var(--texto-suave);
+}
+
+.etiqueta-extra { color: #5c6875; }
+
+/* --- Checkbox de comparacion -------------------------------------------- */
+
+.fichas-comparables .ficha { position: relative; cursor: pointer; }
+
+.ficha-seleccionada {
+  border-color: var(--acento);
+  background: #1a2432;
+}
+
+.check-ficha {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid var(--borde);
+  font-size: 0.85rem;
+  color: var(--texto-suave);
+  cursor: pointer;
+}
+
+input[type="checkbox"] { accent-color: var(--acento); width: 15px; height: 15px; }
+
+/* --- Panel de comparar -------------------------------------------------- */
+
+.aviso-panel {
+  background: var(--superficie);
+  border: 1px solid var(--borde);
+  border-left: 3px solid var(--acento);
+  border-radius: 10px;
+  padding: 18px 22px;
+  margin-bottom: 24px;
+}
+
+.aviso-panel h2 { margin: 0 0 6px; font-size: 1.2rem; }
+.aviso-panel p  { margin: 0; color: var(--texto-suave); font-size: 0.92rem; }
+
+.selector-paises { margin-bottom: 24px; }
+
+.lista-checkbox {
+  max-height: 480px;
+  overflow-y: auto;
+  border: 1px solid var(--borde);
+  border-radius: 10px;
+  padding: 12px;
+  background: var(--superficie);
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 5px;
+}
+
+.item-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 9px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.88rem;
+}
+
+.item-checkbox:hover { background: var(--superficie-2); }
+.item-checkbox input { flex-shrink: 0; }
+.item-checkbox .codigo-mini {
+  color: var(--texto-suave);
+  font-size: 0.75rem;
+  font-family: monospace;
+  margin-left: auto;
+}
+
+.comparar-boton-zona { text-align: center; margin: 24px 0 32px; }
+
+/* --- Resultado de comparar ---------------------------------------------- */
+
+.barras { margin-bottom: 28px; }
+
+.barra-fila { margin-bottom: 14px; }
+
+.barra-etiqueta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.88rem;
+  margin-bottom: 5px;
+}
+
+.barra-etiqueta .valor {
+  color: var(--texto-suave);
+  font-variant-numeric: tabular-nums;
+}
+
+.barra-pista {
+  height: 22px;
+  background: var(--superficie-2);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.barra-relleno {
+  height: 100%;
+  background: linear-gradient(90deg, var(--acento-2), var(--acento));
+  border-radius: 5px;
+  transition: width 0.4s ease;
+}
+
+.barra-fila.mayor .barra-relleno {
+  background: linear-gradient(90deg, #1f6f3a, var(--verde));
+}
+
+.barra-fila.menor .barra-relleno {
+  background: linear-gradient(90deg, #7a2a25, #c0574f);
+}
+
+.resumen-cajas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 14px;
+  margin-bottom: 28px;
+}
+
+.caja {
+  background: var(--superficie);
+  border: 1px solid var(--borde);
+  border-radius: 10px;
+  padding: 16px;
+}
+
+.caja-etiqueta {
+  font-size: 0.8rem;
+  color: var(--texto-suave);
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  margin-bottom: 6px;
+}
+
+.caja-valor {
+  font-size: 1.35rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+.caja-detalle { font-size: 0.8rem; color: var(--texto-suave); margin-top: 3px; }
+
+/* --- Tablas -------------------------------------------------------------- */
+
+.tabla {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--superficie);
+  border: 1px solid var(--borde);
+  border-radius: 10px;
+  overflow: hidden;
+  font-size: 0.9rem;
+}
+
+.tabla th {
+  background: var(--superficie-2);
+  text-align: left;
+  padding: 12px 14px;
+  font-weight: 600;
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  color: var(--texto-suave);
+}
+
+.tabla td {
+  padding: 11px 14px;
+  border-top: 1px solid var(--borde);
+  font-variant-numeric: tabular-nums;
+}
+
+.tabla tr:hover td { background: var(--superficie-2); }
+.tabla .num { text-align: right; }
+
+.marca { color: var(--verde); font-weight: 600; }
+
+/* --- Buscador ------------------------------------------------------------ */
+
+.buscador {
+  background: var(--superficie);
+  border: 1px solid var(--borde);
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 24px;
+}
+
+.buscador h2 { margin: 0 0 4px; font-size: 1.25rem; }
+.buscador .subtitulo { margin-bottom: 20px; }
+
+.campo { margin-bottom: 16px; }
+
+.campo label {
+  display: block;
+  font-size: 0.82rem;
+  color: var(--texto-suave);
+  margin-bottom: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+.rejilla-campos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 16px;
+}
+
+.botones {
+  display: flex;
+  gap: 12px;
+  margin-top: 8px;
+  flex-wrap: wrap;
+}
+
+/* --- Estados vacios ------------------------------------------------------ */
+
+.vacio {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--texto-suave);
+  background: var(--superficie);
+  border: 1px dashed var(--borde);
+  border-radius: 12px;
+}
+
+.vacio .grande { font-size: 2.2rem; display: block; margin-bottom: 10px; }
+
+.cargando {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 40px;
+  color: var(--texto-suave);
+}
+
+/* --- Pie ---------------------------------------------------------------- */
+
+footer {
+  margin-top: 50px;
+  padding: 24px 0 32px;
+  border-top: 1px solid var(--borde);
+  color: var(--texto-suave);
+  font-size: 0.85rem;
+}
+
+footer p { margin: 0; }
+
+/* --- Pantallas chicas ---------------------------------------------------- */
+
+@media (max-width: 640px) {
+  .cabecera { flex-direction: column; }
+  h1 { font-size: 1.5rem; }
+  .pestanas { overflow-x: auto; }
+  .pestana { padding: 12px 14px; font-size: 0.88rem; }
+  .fichas { grid-template-columns: 1fr; }
+  .lista-checkbox { grid-template-columns: 1fr; }
+}

@@ -1,0 +1,7092 @@
+[
+    {
+        "_id": "ABW",
+        "nombre_comun": "Aruba",
+        "nombre_oficial": "Aruba",
+        "region": "Americas",
+        "subregion": "Caribbean",
+        "capital": [
+            "Oranjestad"
+        ],
+        "poblacion": 3465,
+        "superficie_km2": 180,
+        "densidad": 19.25,
+        "monedas": [
+            {
+                "codigo": "AWG",
+                "nombre": "Aruban florin",
+                "simbolo": "ƒ"
+            }
+        ],
+        "idiomas": [
+            "Dutch",
+            "Papiamento"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "AFG",
+        "nombre_comun": "Afganistán",
+        "nombre_oficial": "República Islámica de Afganistán",
+        "region": "Asia",
+        "subregion": "Southern Asia",
+        "capital": [
+            "Kabul"
+        ],
+        "poblacion": 77615370,
+        "superficie_km2": 652230,
+        "densidad": 119,
+        "monedas": [
+            {
+                "codigo": "AFN",
+                "nombre": "Afghan afghani",
+                "simbolo": "؋"
+            }
+        ],
+        "idiomas": [
+            "Dari",
+            "Pashto",
+            "Turkmen"
+        ],
+        "fronteras": [
+            "IRN",
+            "PAK",
+            "TKM",
+            "UZB",
+            "TJK",
+            "CHN"
+        ]
+    },
+    {
+        "_id": "AGO",
+        "nombre_comun": "Angola",
+        "nombre_oficial": "República de Angola",
+        "region": "Africa",
+        "subregion": "Middle Africa",
+        "capital": [
+            "Luanda"
+        ],
+        "poblacion": 53857440,
+        "superficie_km2": 1246700,
+        "densidad": 43.2,
+        "monedas": [
+            {
+                "codigo": "AOA",
+                "nombre": "Angolan kwanza",
+                "simbolo": "Kz"
+            }
+        ],
+        "idiomas": [
+            "Portuguese"
+        ],
+        "fronteras": [
+            "COG",
+            "COD",
+            "ZMB",
+            "NAM"
+        ]
+    },
+    {
+        "_id": "AIA",
+        "nombre_comun": "Anguilla",
+        "nombre_oficial": "Anguila",
+        "region": "Americas",
+        "subregion": "Caribbean",
+        "capital": [
+            "The Valley"
+        ],
+        "poblacion": 2434,
+        "superficie_km2": 91,
+        "densidad": 26.75,
+        "monedas": [
+            {
+                "codigo": "XCD",
+                "nombre": "Eastern Caribbean dollar",
+                "simbolo": "$"
+            }
+        ],
+        "idiomas": [
+            "English"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "ALA",
+        "nombre_comun": "Alandia",
+        "nombre_oficial": "Islas Åland",
+        "region": "Europe",
+        "subregion": "Northern Europe",
+        "capital": [
+            "Mariehamn"
+        ],
+        "poblacion": 119448,
+        "superficie_km2": 1580,
+        "densidad": 75.6,
+        "monedas": [
+            {
+                "codigo": "EUR",
+                "nombre": "Euro",
+                "simbolo": "€"
+            }
+        ],
+        "idiomas": [
+            "Swedish"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "ALB",
+        "nombre_comun": "Albania",
+        "nombre_oficial": "República de Albania",
+        "region": "Europe",
+        "subregion": "Southeast Europe",
+        "capital": [
+            "Tirana"
+        ],
+        "poblacion": 2334338,
+        "superficie_km2": 28748,
+        "densidad": 81.2,
+        "monedas": [
+            {
+                "codigo": "ALL",
+                "nombre": "Albanian lek",
+                "simbolo": "L"
+            }
+        ],
+        "idiomas": [
+            "Albanian"
+        ],
+        "fronteras": [
+            "MNE",
+            "GRC",
+            "MKD",
+            "UNK"
+        ]
+    },
+    {
+        "_id": "AND",
+        "nombre_comun": "Andorra",
+        "nombre_oficial": "Principado de Andorra",
+        "region": "Europe",
+        "subregion": "Southern Europe",
+        "capital": [
+            "Andorra la Vella"
+        ],
+        "poblacion": 24570,
+        "superficie_km2": 468,
+        "densidad": 52.5,
+        "monedas": [
+            {
+                "codigo": "EUR",
+                "nombre": "Euro",
+                "simbolo": "€"
+            }
+        ],
+        "idiomas": [
+            "Catalan"
+        ],
+        "fronteras": [
+            "FRA",
+            "ESP"
+        ]
+    },
+    {
+        "_id": "ARE",
+        "nombre_comun": "Emiratos Árabes Unidos",
+        "nombre_oficial": "Emiratos Árabes Unidos",
+        "region": "Asia",
+        "subregion": "Western Asia",
+        "capital": [
+            "Abu Dhabi"
+        ],
+        "poblacion": 9864800,
+        "superficie_km2": 83600,
+        "densidad": 118,
+        "monedas": [
+            {
+                "codigo": "AED",
+                "nombre": "United Arab Emirates dirham",
+                "simbolo": "د.إ"
+            }
+        ],
+        "idiomas": [
+            "Arabic"
+        ],
+        "fronteras": [
+            "OMN",
+            "SAU"
+        ]
+    },
+    {
+        "_id": "ARG",
+        "nombre_comun": "Argentina",
+        "nombre_oficial": "República Argentina",
+        "region": "Americas",
+        "subregion": "South America",
+        "capital": [
+            "Buenos Aires"
+        ],
+        "poblacion": 62559000,
+        "superficie_km2": 2780400,
+        "densidad": 22.5,
+        "monedas": [
+            {
+                "codigo": "ARS",
+                "nombre": "Argentine peso",
+                "simbolo": "$"
+            }
+        ],
+        "idiomas": [
+            "Guaraní",
+            "Spanish"
+        ],
+        "fronteras": [
+            "BOL",
+            "BRA",
+            "CHL",
+            "PRY",
+            "URY"
+        ]
+    },
+    {
+        "_id": "ARM",
+        "nombre_comun": "Armenia",
+        "nombre_oficial": "República de Armenia",
+        "region": "Asia",
+        "subregion": "Western Asia",
+        "capital": [
+            "Yerevan"
+        ],
+        "poblacion": 2914814,
+        "superficie_km2": 29743,
+        "densidad": 98,
+        "monedas": [
+            {
+                "codigo": "AMD",
+                "nombre": "Armenian dram",
+                "simbolo": "֏"
+            }
+        ],
+        "idiomas": [
+            "Armenian"
+        ],
+        "fronteras": [
+            "AZE",
+            "GEO",
+            "IRN",
+            "TUR"
+        ]
+    },
+    {
+        "_id": "ASM",
+        "nombre_comun": "Samoa Americana",
+        "nombre_oficial": "Samoa Americana",
+        "region": "Oceania",
+        "subregion": "Polynesia",
+        "capital": [
+            "Pago Pago"
+        ],
+        "poblacion": 1000,
+        "superficie_km2": 199,
+        "densidad": 5.03,
+        "monedas": [
+            {
+                "codigo": "USD",
+                "nombre": "United States dollar",
+                "simbolo": "$"
+            }
+        ],
+        "idiomas": [
+            "English",
+            "Samoan"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "ATA",
+        "nombre_comun": "Antártida",
+        "nombre_oficial": "Antártida",
+        "region": "Antarctic",
+        "subregion": "",
+        "capital": [],
+        "poblacion": 1274000,
+        "superficie_km2": 14000000,
+        "densidad": 0.09,
+        "monedas": [],
+        "idiomas": [],
+        "fronteras": []
+    },
+    {
+        "_id": "ATF",
+        "nombre_comun": "Tierras Australes y Antárticas Francesas",
+        "nombre_oficial": "Territorio del Francés Tierras australes y antárticas",
+        "region": "Antarctic",
+        "subregion": "",
+        "capital": [
+            "Port-aux-Français"
+        ],
+        "poblacion": 1000,
+        "superficie_km2": 7747,
+        "densidad": 0.13,
+        "monedas": [
+            {
+                "codigo": "EUR",
+                "nombre": "Euro",
+                "simbolo": "€"
+            }
+        ],
+        "idiomas": [
+            "French"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "ATG",
+        "nombre_comun": "Antigua y Barbuda",
+        "nombre_oficial": "Antigua y Barbuda",
+        "region": "Americas",
+        "subregion": "Caribbean",
+        "capital": [
+            "Saint John's"
+        ],
+        "poblacion": 8840,
+        "superficie_km2": 442,
+        "densidad": 20,
+        "monedas": [
+            {
+                "codigo": "XCD",
+                "nombre": "Eastern Caribbean dollar",
+                "simbolo": "$"
+            }
+        ],
+        "idiomas": [
+            "English"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "AUS",
+        "nombre_comun": "Australia",
+        "nombre_oficial": "Mancomunidad de Australia",
+        "region": "Oceania",
+        "subregion": "Australia and New Zealand",
+        "capital": [
+            "Canberra"
+        ],
+        "poblacion": 35383310,
+        "superficie_km2": 7692024,
+        "densidad": 4.6,
+        "monedas": [
+            {
+                "codigo": "AUD",
+                "nombre": "Australian dollar",
+                "simbolo": "$"
+            }
+        ],
+        "idiomas": [
+            "English"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "AUT",
+        "nombre_comun": "Austria",
+        "nombre_oficial": "República de Austria",
+        "region": "Europe",
+        "subregion": "Central Europe",
+        "capital": [
+            "Vienna"
+        ],
+        "poblacion": 5577422,
+        "superficie_km2": 83871,
+        "densidad": 66.5,
+        "monedas": [
+            {
+                "codigo": "EUR",
+                "nombre": "Euro",
+                "simbolo": "€"
+            }
+        ],
+        "idiomas": [
+            "Austro-Bavarian German"
+        ],
+        "fronteras": [
+            "CZE",
+            "DEU",
+            "HUN",
+            "ITA",
+            "LIE",
+            "SVK",
+            "SVN",
+            "CHE"
+        ]
+    },
+    {
+        "_id": "AZE",
+        "nombre_comun": "Azerbaiyán",
+        "nombre_oficial": "República de Azerbaiyán",
+        "region": "Asia",
+        "subregion": "Western Asia",
+        "capital": [
+            "Baku"
+        ],
+        "poblacion": 9872400,
+        "superficie_km2": 86600,
+        "densidad": 114,
+        "monedas": [
+            {
+                "codigo": "AZN",
+                "nombre": "Azerbaijani manat",
+                "simbolo": "₼"
+            }
+        ],
+        "idiomas": [
+            "Azerbaijani",
+            "Russian"
+        ],
+        "fronteras": [
+            "ARM",
+            "GEO",
+            "IRN",
+            "RUS",
+            "TUR"
+        ]
+    },
+    {
+        "_id": "BDI",
+        "nombre_comun": "Burundi",
+        "nombre_oficial": "República de Burundi",
+        "region": "Africa",
+        "subregion": "Eastern Africa",
+        "capital": [
+            "Gitega"
+        ],
+        "poblacion": 1214954,
+        "superficie_km2": 27834,
+        "densidad": 43.65,
+        "monedas": [
+            {
+                "codigo": "BIF",
+                "nombre": "Burundian franc",
+                "simbolo": "Fr"
+            }
+        ],
+        "idiomas": [
+            "French",
+            "Kirundi"
+        ],
+        "fronteras": [
+            "COD",
+            "RWA",
+            "TZA"
+        ]
+    },
+    {
+        "_id": "BEL",
+        "nombre_comun": "Bélgica",
+        "nombre_oficial": "Reino de Bélgica",
+        "region": "Europe",
+        "subregion": "Western Europe",
+        "capital": [
+            "Brussels"
+        ],
+        "poblacion": 2243808,
+        "superficie_km2": 30528,
+        "densidad": 73.5,
+        "monedas": [
+            {
+                "codigo": "EUR",
+                "nombre": "Euro",
+                "simbolo": "€"
+            }
+        ],
+        "idiomas": [
+            "German",
+            "French",
+            "Dutch"
+        ],
+        "fronteras": [
+            "FRA",
+            "DEU",
+            "LUX",
+            "NLD"
+        ]
+    },
+    {
+        "_id": "BEN",
+        "nombre_comun": "Benín",
+        "nombre_oficial": "República de Benin",
+        "region": "Africa",
+        "subregion": "Western Africa",
+        "capital": [
+            "Porto-Novo"
+        ],
+        "poblacion": 5625469,
+        "superficie_km2": 112622,
+        "densidad": 49.95,
+        "monedas": [
+            {
+                "codigo": "XOF",
+                "nombre": "West African CFA franc",
+                "simbolo": "Fr"
+            }
+        ],
+        "idiomas": [
+            "French"
+        ],
+        "fronteras": [
+            "BFA",
+            "NER",
+            "NGA",
+            "TGO"
+        ]
+    },
+    {
+        "_id": "BFA",
+        "nombre_comun": "Burkina Faso",
+        "nombre_oficial": "Burkina Faso",
+        "region": "Africa",
+        "subregion": "Western Africa",
+        "capital": [
+            "Ouagadougou"
+        ],
+        "poblacion": 9458307,
+        "superficie_km2": 272967,
+        "densidad": 34.65,
+        "monedas": [
+            {
+                "codigo": "XOF",
+                "nombre": "West African CFA franc",
+                "simbolo": "Fr"
+            }
+        ],
+        "idiomas": [
+            "French"
+        ],
+        "fronteras": [
+            "BEN",
+            "CIV",
+            "GHA",
+            "MLI",
+            "NER",
+            "TGO"
+        ]
+    },
+    {
+        "_id": "BGD",
+        "nombre_comun": "Bangladesh",
+        "nombre_oficial": "República Popular de Bangladesh",
+        "region": "Asia",
+        "subregion": "Southern Asia",
+        "capital": [
+            "Dhaka"
+        ],
+        "poblacion": 14314290,
+        "superficie_km2": 147570,
+        "densidad": 97,
+        "monedas": [
+            {
+                "codigo": "BDT",
+                "nombre": "Bangladeshi taka",
+                "simbolo": "৳"
+            }
+        ],
+        "idiomas": [
+            "Bengali"
+        ],
+        "fronteras": [
+            "MMR",
+            "IND"
+        ]
+    },
+    {
+        "_id": "BGR",
+        "nombre_comun": "Bulgaria",
+        "nombre_oficial": "República de Bulgaria",
+        "region": "Europe",
+        "subregion": "Southeast Europe",
+        "capital": [
+            "Sofia"
+        ],
+        "poblacion": 7761530,
+        "superficie_km2": 110879,
+        "densidad": 70,
+        "monedas": [
+            {
+                "codigo": "EUR",
+                "nombre": "Euro",
+                "simbolo": "€"
+            }
+        ],
+        "idiomas": [
+            "Bulgarian"
+        ],
+        "fronteras": [
+            "GRC",
+            "MKD",
+            "ROU",
+            "SRB",
+            "TUR"
+        ]
+    },
+    {
+        "_id": "BHR",
+        "nombre_comun": "Bahrein",
+        "nombre_oficial": "Reino de Bahrein",
+        "region": "Asia",
+        "subregion": "Western Asia",
+        "capital": [
+            "Manama"
+        ],
+        "poblacion": 80325,
+        "superficie_km2": 765,
+        "densidad": 105,
+        "monedas": [
+            {
+                "codigo": "BHD",
+                "nombre": "Bahraini dinar",
+                "simbolo": ".د.ب"
+            }
+        ],
+        "idiomas": [
+            "Arabic"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "BHS",
+        "nombre_comun": "Bahamas",
+        "nombre_oficial": "Commonwealth de las Bahamas",
+        "region": "Americas",
+        "subregion": "Caribbean",
+        "capital": [
+            "Nassau"
+        ],
+        "poblacion": 386918,
+        "superficie_km2": 13943,
+        "densidad": 27.75,
+        "monedas": [
+            {
+                "codigo": "BSD",
+                "nombre": "Bahamian dollar",
+                "simbolo": "$"
+            },
+            {
+                "codigo": "USD",
+                "nombre": "United States dollar",
+                "simbolo": "$"
+            }
+        ],
+        "idiomas": [
+            "English"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "BIH",
+        "nombre_comun": "Bosnia y Herzegovina",
+        "nombre_oficial": "Bosnia y Herzegovina",
+        "region": "Europe",
+        "subregion": "Southeast Europe",
+        "capital": [
+            "Sarajevo"
+        ],
+        "poblacion": 4158171,
+        "superficie_km2": 51209,
+        "densidad": 81.2,
+        "monedas": [
+            {
+                "codigo": "BAM",
+                "nombre": "Bosnia and Herzegovina convertible mark",
+                "simbolo": "KM"
+            }
+        ],
+        "idiomas": [
+            "Bosnian",
+            "Croatian",
+            "Serbian"
+        ],
+        "fronteras": [
+            "HRV",
+            "MNE",
+            "SRB"
+        ]
+    },
+    {
+        "_id": "BLM",
+        "nombre_comun": "San Bartolomé",
+        "nombre_oficial": "Colectividad de San Barthélemy",
+        "region": "Americas",
+        "subregion": "Caribbean",
+        "capital": [
+            "Gustavia"
+        ],
+        "poblacion": 1000,
+        "superficie_km2": 21,
+        "densidad": 47.62,
+        "monedas": [
+            {
+                "codigo": "EUR",
+                "nombre": "Euro",
+                "simbolo": "€"
+            }
+        ],
+        "idiomas": [
+            "French"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "SHN",
+        "nombre_comun": "Santa Elena, Ascensión y Tristán de Acuña",
+        "nombre_oficial": "Santa Elena, Ascensión y Tristán de Acuña",
+        "region": "Africa",
+        "subregion": "Western Africa",
+        "capital": [
+            "Jamestown"
+        ],
+        "poblacion": 14007,
+        "superficie_km2": 394,
+        "densidad": 35.55,
+        "monedas": [
+            {
+                "codigo": "GBP",
+                "nombre": "Pound sterling",
+                "simbolo": "£"
+            },
+            {
+                "codigo": "SHP",
+                "nombre": "Saint Helena pound",
+                "simbolo": "£"
+            }
+        ],
+        "idiomas": [
+            "English"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "BLR",
+        "nombre_comun": "Bielorrusia",
+        "nombre_oficial": "República de Belarús",
+        "region": "Europe",
+        "subregion": "Eastern Europe",
+        "capital": [
+            "Minsk"
+        ],
+        "poblacion": 14677320,
+        "superficie_km2": 207600,
+        "densidad": 70.7,
+        "monedas": [
+            {
+                "codigo": "BYN",
+                "nombre": "Belarusian ruble",
+                "simbolo": "Br"
+            }
+        ],
+        "idiomas": [
+            "Belarusian",
+            "Russian"
+        ],
+        "fronteras": [
+            "LVA",
+            "LTU",
+            "POL",
+            "RUS",
+            "UKR"
+        ]
+    },
+    {
+        "_id": "BLZ",
+        "nombre_comun": "Belice",
+        "nombre_oficial": "Belice",
+        "region": "Americas",
+        "subregion": "Central America",
+        "capital": [
+            "Belmopan"
+        ],
+        "poblacion": 442096,
+        "superficie_km2": 22966,
+        "densidad": 19.25,
+        "monedas": [
+            {
+                "codigo": "BZD",
+                "nombre": "Belize dollar",
+                "simbolo": "$"
+            }
+        ],
+        "idiomas": [
+            "Belizean Creole",
+            "English",
+            "Spanish"
+        ],
+        "fronteras": [
+            "GTM",
+            "MEX"
+        ]
+    },
+    {
+        "_id": "BMU",
+        "nombre_comun": "Bermudas",
+        "nombre_oficial": "Bermuda",
+        "region": "Americas",
+        "subregion": "North America",
+        "capital": [
+            "Hamilton"
+        ],
+        "poblacion": 1013,
+        "superficie_km2": 54,
+        "densidad": 18.76,
+        "monedas": [
+            {
+                "codigo": "BMD",
+                "nombre": "Bermudian dollar",
+                "simbolo": "$"
+            }
+        ],
+        "idiomas": [
+            "English"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "BOL",
+        "nombre_comun": "Bolivia",
+        "nombre_oficial": "Estado Plurinacional de Bolivia",
+        "region": "Americas",
+        "subregion": "South America",
+        "capital": [
+            "Sucre"
+        ],
+        "poblacion": 27739170,
+        "superficie_km2": 1098581,
+        "densidad": 25.25,
+        "monedas": [
+            {
+                "codigo": "BOB",
+                "nombre": "Bolivian boliviano",
+                "simbolo": "Bs."
+            }
+        ],
+        "idiomas": [
+            "Aymara",
+            "Guaraní",
+            "Quechua",
+            "Spanish"
+        ],
+        "fronteras": [
+            "ARG",
+            "BRA",
+            "CHL",
+            "PRY",
+            "PER"
+        ]
+    },
+    {
+        "_id": "BES",
+        "nombre_comun": "Caribe Neerlandés",
+        "nombre_oficial": "Bonaire, San Eustaquio y Saba",
+        "region": "Americas",
+        "subregion": "Caribbean",
+        "capital": [
+            "Kralendijk",
+            "Oranjestad",
+            "The Bottom"
+        ],
+        "poblacion": 6232,
+        "superficie_km2": 328,
+        "densidad": 19,
+        "monedas": [
+            {
+                "codigo": "USD",
+                "nombre": "United States dollar",
+                "simbolo": "$"
+            }
+        ],
+        "idiomas": [
+            "English",
+            "Dutch",
+            "Papiamento"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "BRA",
+        "nombre_comun": "Brasil",
+        "nombre_oficial": "República Federativa del Brasil",
+        "region": "Americas",
+        "subregion": "South America",
+        "capital": [
+            "Brasília"
+        ],
+        "poblacion": 251215127,
+        "superficie_km2": 8515767,
+        "densidad": 29.5,
+        "monedas": [
+            {
+                "codigo": "BRL",
+                "nombre": "Brazilian real",
+                "simbolo": "R$"
+            }
+        ],
+        "idiomas": [
+            "Portuguese"
+        ],
+        "fronteras": [
+            "ARG",
+            "BOL",
+            "COL",
+            "GUF",
+            "GUY",
+            "PRY",
+            "PER",
+            "SUR",
+            "URY",
+            "VEN"
+        ]
+    },
+    {
+        "_id": "BRB",
+        "nombre_comun": "Barbados",
+        "nombre_oficial": "Barbados",
+        "region": "Americas",
+        "subregion": "Caribbean",
+        "capital": [
+            "Bridgetown"
+        ],
+        "poblacion": 9030,
+        "superficie_km2": 430,
+        "densidad": 21,
+        "monedas": [
+            {
+                "codigo": "BBD",
+                "nombre": "Barbadian dollar",
+                "simbolo": "$"
+            }
+        ],
+        "idiomas": [
+            "English"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "BRN",
+        "nombre_comun": "Brunei",
+        "nombre_oficial": "Nación de Brunei, Morada de la Paz",
+        "region": "Asia",
+        "subregion": "South-Eastern Asia",
+        "capital": [
+            "Bandar Seri Begawan"
+        ],
+        "poblacion": 432375,
+        "superficie_km2": 5765,
+        "densidad": 75,
+        "monedas": [
+            {
+                "codigo": "BND",
+                "nombre": "Brunei dollar",
+                "simbolo": "$"
+            },
+            {
+                "codigo": "SGD",
+                "nombre": "Singapore dollar",
+                "simbolo": "$"
+            }
+        ],
+        "idiomas": [
+            "Malay"
+        ],
+        "fronteras": [
+            "MYS"
+        ]
+    },
+    {
+        "_id": "BTN",
+        "nombre_comun": "Bután",
+        "nombre_oficial": "Reino de Bután",
+        "region": "Asia",
+        "subregion": "Southern Asia",
+        "capital": [
+            "Thimphu"
+        ],
+        "poblacion": 4031370,
+        "superficie_km2": 38394,
+        "densidad": 105,
+        "monedas": [
+            {
+                "codigo": "BTN",
+                "nombre": "Bhutanese ngultrum",
+                "simbolo": "Nu."
+            },
+            {
+                "codigo": "INR",
+                "nombre": "Indian rupee",
+                "simbolo": "₹"
+            }
+        ],
+        "idiomas": [
+            "Dzongkha"
+        ],
+        "fronteras": [
+            "CHN",
+            "IND"
+        ]
+    },
+    {
+        "_id": "BVT",
+        "nombre_comun": "Isla Bouvet",
+        "nombre_oficial": "Isla Bouvet",
+        "region": "Antarctic",
+        "subregion": "",
+        "capital": [],
+        "poblacion": 1000,
+        "superficie_km2": 49,
+        "densidad": 20.41,
+        "monedas": [],
+        "idiomas": [
+            "Norwegian"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "BWA",
+        "nombre_comun": "Botswana",
+        "nombre_oficial": "República de Botswana",
+        "region": "Africa",
+        "subregion": "Southern Africa",
+        "capital": [
+            "Gaborone"
+        ],
+        "poblacion": 30118500,
+        "superficie_km2": 582000,
+        "densidad": 51.75,
+        "monedas": [
+            {
+                "codigo": "BWP",
+                "nombre": "Botswana pula",
+                "simbolo": "P"
+            }
+        ],
+        "idiomas": [
+            "English",
+            "Tswana"
+        ],
+        "fronteras": [
+            "NAM",
+            "ZAF",
+            "ZMB",
+            "ZWE"
+        ]
+    },
+    {
+        "_id": "CAF",
+        "nombre_comun": "República Centroafricana",
+        "nombre_oficial": "República Centroafricana",
+        "region": "Africa",
+        "subregion": "Middle Africa",
+        "capital": [
+            "Bangui"
+        ],
+        "poblacion": 33080450,
+        "superficie_km2": 622984,
+        "densidad": 53.1,
+        "monedas": [
+            {
+                "codigo": "XAF",
+                "nombre": "Central African CFA franc",
+                "simbolo": "Fr"
+            }
+        ],
+        "idiomas": [
+            "French",
+            "Sango"
+        ],
+        "fronteras": [
+            "CMR",
+            "TCD",
+            "COD",
+            "COG",
+            "SSD",
+            "SDN"
+        ]
+    },
+    {
+        "_id": "CAN",
+        "nombre_comun": "Canadá",
+        "nombre_oficial": "Canadá",
+        "region": "Americas",
+        "subregion": "North America",
+        "capital": [
+            "Ottawa"
+        ],
+        "poblacion": 239632080,
+        "superficie_km2": 9984670,
+        "densidad": 24,
+        "monedas": [
+            {
+                "codigo": "CAD",
+                "nombre": "Canadian dollar",
+                "simbolo": "$"
+            }
+        ],
+        "idiomas": [
+            "English",
+            "French"
+        ],
+        "fronteras": [
+            "USA"
+        ]
+    },
+    {
+        "_id": "CCK",
+        "nombre_comun": "Islas Cocos o Islas Keeling",
+        "nombre_oficial": "Territorio de los (Keeling) Islas Cocos",
+        "region": "Oceania",
+        "subregion": "Australia and New Zealand",
+        "capital": [
+            "West Island"
+        ],
+        "poblacion": 1000,
+        "superficie_km2": 14,
+        "densidad": 71.43,
+        "monedas": [
+            {
+                "codigo": "AUD",
+                "nombre": "Australian dollar",
+                "simbolo": "$"
+            }
+        ],
+        "idiomas": [
+            "English"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "CHE",
+        "nombre_comun": "Suiza",
+        "nombre_oficial": "Confederación Suiza",
+        "region": "Europe",
+        "subregion": "Western Europe",
+        "capital": [
+            "Bern"
+        ],
+        "poblacion": 3323362,
+        "superficie_km2": 41284,
+        "densidad": 80.5,
+        "monedas": [
+            {
+                "codigo": "CHF",
+                "nombre": "Swiss franc",
+                "simbolo": "Fr."
+            }
+        ],
+        "idiomas": [
+            "French",
+            "Swiss German",
+            "Italian",
+            "Romansh"
+        ],
+        "fronteras": [
+            "AUT",
+            "FRA",
+            "ITA",
+            "LIE",
+            "DEU"
+        ]
+    },
+    {
+        "_id": "CHL",
+        "nombre_comun": "Chile",
+        "nombre_oficial": "República de Chile",
+        "region": "Americas",
+        "subregion": "South America",
+        "capital": [
+            "Santiago"
+        ],
+        "poblacion": 18713525,
+        "superficie_km2": 756102,
+        "densidad": 24.75,
+        "monedas": [
+            {
+                "codigo": "CLP",
+                "nombre": "Chilean peso",
+                "simbolo": "$"
+            }
+        ],
+        "idiomas": [
+            "Spanish"
+        ],
+        "fronteras": [
+            "ARG",
+            "BOL",
+            "PER"
+        ]
+    },
+    {
+        "_id": "CHN",
+        "nombre_comun": "China",
+        "nombre_oficial": "República Popular de China",
+        "region": "Asia",
+        "subregion": "Eastern Asia",
+        "capital": [
+            "Beijing"
+        ],
+        "poblacion": 1155128359,
+        "superficie_km2": 9706961,
+        "densidad": 119,
+        "monedas": [
+            {
+                "codigo": "CNY",
+                "nombre": "Chinese yuan",
+                "simbolo": "¥"
+            }
+        ],
+        "idiomas": [
+            "Chinese"
+        ],
+        "fronteras": [
+            "AFG",
+            "BTN",
+            "MMR",
+            "HKG",
+            "IND",
+            "KAZ",
+            "NPL",
+            "PRK",
+            "KGZ",
+            "LAO",
+            "MAC",
+            "MNG",
+            "PAK",
+            "RUS",
+            "TJK",
+            "VNM"
+        ]
+    },
+    {
+        "_id": "CIV",
+        "nombre_comun": "Costa de Marfil",
+        "nombre_oficial": "República de Côte d'Ivoire",
+        "region": "Africa",
+        "subregion": "Western Africa",
+        "capital": [
+            "Yamoussoukro"
+        ],
+        "poblacion": 10447801,
+        "superficie_km2": 322463,
+        "densidad": 32.4,
+        "monedas": [
+            {
+                "codigo": "XOF",
+                "nombre": "West African CFA franc",
+                "simbolo": "Fr"
+            }
+        ],
+        "idiomas": [
+            "French"
+        ],
+        "fronteras": [
+            "BFA",
+            "GHA",
+            "GIN",
+            "LBR",
+            "MLI"
+        ]
+    },
+    {
+        "_id": "CMR",
+        "nombre_comun": "Camerún",
+        "nombre_oficial": "República de Camerún",
+        "region": "Africa",
+        "subregion": "Middle Africa",
+        "capital": [
+            "Yaoundé"
+        ],
+        "poblacion": 17329861,
+        "superficie_km2": 475442,
+        "densidad": 36.45,
+        "monedas": [
+            {
+                "codigo": "XAF",
+                "nombre": "Central African CFA franc",
+                "simbolo": "Fr"
+            }
+        ],
+        "idiomas": [
+            "English",
+            "French"
+        ],
+        "fronteras": [
+            "CAF",
+            "TCD",
+            "COG",
+            "GNQ",
+            "GAB",
+            "NGA"
+        ]
+    },
+    {
+        "_id": "COD",
+        "nombre_comun": "Congo (Rep. Dem.)",
+        "nombre_oficial": "República Democrática del Congo",
+        "region": "Africa",
+        "subregion": "Middle Africa",
+        "capital": [
+            "Kinshasa"
+        ],
+        "poblacion": 88635632,
+        "superficie_km2": 2344858,
+        "densidad": 37.8,
+        "monedas": [
+            {
+                "codigo": "CDF",
+                "nombre": "Congolese franc",
+                "simbolo": "FC"
+            }
+        ],
+        "idiomas": [
+            "French",
+            "Kikongo",
+            "Lingala",
+            "Tshiluba",
+            "Swahili"
+        ],
+        "fronteras": [
+            "AGO",
+            "BDI",
+            "CAF",
+            "COG",
+            "RWA",
+            "SSD",
+            "TZA",
+            "UGA",
+            "ZMB"
+        ]
+    },
+    {
+        "_id": "COG",
+        "nombre_comun": "Congo",
+        "nombre_oficial": "República del Congo",
+        "region": "Africa",
+        "subregion": "Middle Africa",
+        "capital": [
+            "Brazzaville"
+        ],
+        "poblacion": 12619800,
+        "superficie_km2": 342000,
+        "densidad": 36.9,
+        "monedas": [
+            {
+                "codigo": "XAF",
+                "nombre": "Central African CFA franc",
+                "simbolo": "Fr"
+            }
+        ],
+        "idiomas": [
+            "French",
+            "Kikongo",
+            "Lingala"
+        ],
+        "fronteras": [
+            "AGO",
+            "CMR",
+            "CAF",
+            "COD",
+            "GAB"
+        ]
+    },
+    {
+        "_id": "COK",
+        "nombre_comun": "Islas Cook",
+        "nombre_oficial": "Islas Cook",
+        "region": "Oceania",
+        "subregion": "Polynesia",
+        "capital": [
+            "Avarua"
+        ],
+        "poblacion": 1097,
+        "superficie_km2": 236,
+        "densidad": 4.65,
+        "monedas": [
+            {
+                "codigo": "CKD",
+                "nombre": "Cook Islands dollar",
+                "simbolo": "$"
+            },
+            {
+                "codigo": "NZD",
+                "nombre": "New Zealand dollar",
+                "simbolo": "$"
+            }
+        ],
+        "idiomas": [
+            "English",
+            "Cook Islands Māori"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "COL",
+        "nombre_comun": "Colombia",
+        "nombre_oficial": "República de Colombia",
+        "region": "Americas",
+        "subregion": "South America",
+        "capital": [
+            "Bogotá"
+        ],
+        "poblacion": 19980590,
+        "superficie_km2": 1141748,
+        "densidad": 17.5,
+        "monedas": [
+            {
+                "codigo": "COP",
+                "nombre": "Colombian peso",
+                "simbolo": "$"
+            }
+        ],
+        "idiomas": [
+            "Spanish"
+        ],
+        "fronteras": [
+            "BRA",
+            "ECU",
+            "PAN",
+            "PER",
+            "VEN"
+        ]
+    },
+    {
+        "_id": "COM",
+        "nombre_comun": "Comoras",
+        "nombre_oficial": "Unión de las Comoras",
+        "region": "Africa",
+        "subregion": "Eastern Africa",
+        "capital": [
+            "Moroni"
+        ],
+        "poblacion": 87142,
+        "superficie_km2": 1862,
+        "densidad": 46.8,
+        "monedas": [
+            {
+                "codigo": "KMF",
+                "nombre": "Comorian franc",
+                "simbolo": "Fr"
+            }
+        ],
+        "idiomas": [
+            "Arabic",
+            "French",
+            "Comorian"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "CPV",
+        "nombre_comun": "Cabo Verde",
+        "nombre_oficial": "República de Cabo Verde",
+        "region": "Africa",
+        "subregion": "Western Africa",
+        "capital": [
+            "Praia"
+        ],
+        "poblacion": 188744,
+        "superficie_km2": 4033,
+        "densidad": 46.8,
+        "monedas": [
+            {
+                "codigo": "CVE",
+                "nombre": "Cape Verdean escudo",
+                "simbolo": "Esc"
+            }
+        ],
+        "idiomas": [
+            "Portuguese"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "CRI",
+        "nombre_comun": "Costa Rica",
+        "nombre_oficial": "República de Costa Rica",
+        "region": "Americas",
+        "subregion": "Central America",
+        "capital": [
+            "San José"
+        ],
+        "poblacion": 958125,
+        "superficie_km2": 51100,
+        "densidad": 18.75,
+        "monedas": [
+            {
+                "codigo": "CRC",
+                "nombre": "Costa Rican colón",
+                "simbolo": "₡"
+            }
+        ],
+        "idiomas": [
+            "Spanish"
+        ],
+        "fronteras": [
+            "NIC",
+            "PAN"
+        ]
+    },
+    {
+        "_id": "CUB",
+        "nombre_comun": "Cuba",
+        "nombre_oficial": "República de Cuba",
+        "region": "Americas",
+        "subregion": "Caribbean",
+        "capital": [
+            "Havana"
+        ],
+        "poblacion": 2142738,
+        "superficie_km2": 109884,
+        "densidad": 19.5,
+        "monedas": [
+            {
+                "codigo": "CUC",
+                "nombre": "Cuban convertible peso",
+                "simbolo": "$"
+            },
+            {
+                "codigo": "CUP",
+                "nombre": "Cuban peso",
+                "simbolo": "$"
+            }
+        ],
+        "idiomas": [
+            "Spanish"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "CUW",
+        "nombre_comun": "Curazao",
+        "nombre_oficial": "País de Curazao",
+        "region": "Americas",
+        "subregion": "Caribbean",
+        "capital": [
+            "Willemstad"
+        ],
+        "poblacion": 8325,
+        "superficie_km2": 444,
+        "densidad": 18.75,
+        "monedas": [
+            {
+                "codigo": "ANG",
+                "nombre": "Netherlands Antillean guilder",
+                "simbolo": "ƒ"
+            }
+        ],
+        "idiomas": [
+            "English",
+            "Dutch",
+            "Papiamento"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "CXR",
+        "nombre_comun": "Isla de Navidad",
+        "nombre_oficial": "Territorio de la Isla de Navidad",
+        "region": "Oceania",
+        "subregion": "Australia and New Zealand",
+        "capital": [
+            "Flying Fish Cove"
+        ],
+        "poblacion": 1000,
+        "superficie_km2": 135,
+        "densidad": 7.41,
+        "monedas": [
+            {
+                "codigo": "AUD",
+                "nombre": "Australian dollar",
+                "simbolo": "$"
+            }
+        ],
+        "idiomas": [
+            "English"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "CYM",
+        "nombre_comun": "Islas Caimán",
+        "nombre_oficial": "Islas Caimán",
+        "region": "Americas",
+        "subregion": "Caribbean",
+        "capital": [
+            "George Town"
+        ],
+        "poblacion": 6006,
+        "superficie_km2": 264,
+        "densidad": 22.75,
+        "monedas": [
+            {
+                "codigo": "KYD",
+                "nombre": "Cayman Islands dollar",
+                "simbolo": "$"
+            }
+        ],
+        "idiomas": [
+            "English"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "CYP",
+        "nombre_comun": "Chipre",
+        "nombre_oficial": "República de Chipre",
+        "region": "Europe",
+        "subregion": "Southern Europe",
+        "capital": [
+            "Nicosia"
+        ],
+        "poblacion": 518056,
+        "superficie_km2": 9251,
+        "densidad": 56,
+        "monedas": [
+            {
+                "codigo": "EUR",
+                "nombre": "Euro",
+                "simbolo": "€"
+            }
+        ],
+        "idiomas": [
+            "Greek",
+            "Turkish"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "CZE",
+        "nombre_comun": "Chequia",
+        "nombre_oficial": "República Checa",
+        "region": "Europe",
+        "subregion": "Central Europe",
+        "capital": [
+            "Prague"
+        ],
+        "poblacion": 6514249,
+        "superficie_km2": 78865,
+        "densidad": 82.6,
+        "monedas": [
+            {
+                "codigo": "CZK",
+                "nombre": "Czech koruna",
+                "simbolo": "Kč"
+            }
+        ],
+        "idiomas": [
+            "Czech",
+            "Slovak"
+        ],
+        "fronteras": [
+            "AUT",
+            "DEU",
+            "POL",
+            "SVK"
+        ]
+    },
+    {
+        "_id": "DEU",
+        "nombre_comun": "Alemania",
+        "nombre_oficial": "República Federal de Alemania",
+        "region": "Europe",
+        "subregion": "Western Europe",
+        "capital": [
+            "Berlin"
+        ],
+        "poblacion": 28747677,
+        "superficie_km2": 357114,
+        "densidad": 80.5,
+        "monedas": [
+            {
+                "codigo": "EUR",
+                "nombre": "Euro",
+                "simbolo": "€"
+            }
+        ],
+        "idiomas": [
+            "German"
+        ],
+        "fronteras": [
+            "AUT",
+            "BEL",
+            "CZE",
+            "DNK",
+            "FRA",
+            "LUX",
+            "NLD",
+            "POL",
+            "CHE"
+        ]
+    },
+    {
+        "_id": "DJI",
+        "nombre_comun": "Djibouti",
+        "nombre_oficial": "República de Djibouti",
+        "region": "Africa",
+        "subregion": "Eastern Africa",
+        "capital": [
+            "Djibouti"
+        ],
+        "poblacion": 803880,
+        "superficie_km2": 23200,
+        "densidad": 34.65,
+        "monedas": [
+            {
+                "codigo": "DJF",
+                "nombre": "Djiboutian franc",
+                "simbolo": "Fr"
+            }
+        ],
+        "idiomas": [
+            "Arabic",
+            "French"
+        ],
+        "fronteras": [
+            "ERI",
+            "ETH",
+            "SOM"
+        ]
+    },
+    {
+        "_id": "DMA",
+        "nombre_comun": "Dominica",
+        "nombre_oficial": "Mancomunidad de Dominica",
+        "region": "Americas",
+        "subregion": "Caribbean",
+        "capital": [
+            "Roseau"
+        ],
+        "poblacion": 22155,
+        "superficie_km2": 751,
+        "densidad": 29.5,
+        "monedas": [
+            {
+                "codigo": "XCD",
+                "nombre": "Eastern Caribbean dollar",
+                "simbolo": "$"
+            }
+        ],
+        "idiomas": [
+            "English"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "DNK",
+        "nombre_comun": "Dinamarca",
+        "nombre_oficial": "Reino de Dinamarca",
+        "region": "Europe",
+        "subregion": "Northern Europe",
+        "capital": [
+            "Copenhagen"
+        ],
+        "poblacion": 2805419,
+        "superficie_km2": 43094,
+        "densidad": 65.1,
+        "monedas": [
+            {
+                "codigo": "DKK",
+                "nombre": "Danish krone",
+                "simbolo": "kr"
+            }
+        ],
+        "idiomas": [
+            "Danish"
+        ],
+        "fronteras": [
+            "DEU"
+        ]
+    },
+    {
+        "_id": "DOM",
+        "nombre_comun": "República Dominicana",
+        "nombre_oficial": "República Dominicana",
+        "region": "Americas",
+        "subregion": "Caribbean",
+        "capital": [
+            "Santo Domingo"
+        ],
+        "poblacion": 1399291,
+        "superficie_km2": 48671,
+        "densidad": 28.75,
+        "monedas": [
+            {
+                "codigo": "DOP",
+                "nombre": "Dominican peso",
+                "simbolo": "$"
+            }
+        ],
+        "idiomas": [
+            "Spanish"
+        ],
+        "fronteras": [
+            "HTI"
+        ]
+    },
+    {
+        "_id": "DZA",
+        "nombre_comun": "Argelia",
+        "nombre_oficial": "República Argelina Democrática y Popular",
+        "region": "Africa",
+        "subregion": "Northern Africa",
+        "capital": [
+            "Algiers"
+        ],
+        "poblacion": 90029810,
+        "superficie_km2": 2381741,
+        "densidad": 37.8,
+        "monedas": [
+            {
+                "codigo": "DZD",
+                "nombre": "Algerian dinar",
+                "simbolo": "د.ج"
+            }
+        ],
+        "idiomas": [
+            "Arabic"
+        ],
+        "fronteras": [
+            "TUN",
+            "LBY",
+            "NER",
+            "ESH",
+            "MRT",
+            "MLI",
+            "MAR"
+        ]
+    },
+    {
+        "_id": "ECU",
+        "nombre_comun": "Ecuador",
+        "nombre_oficial": "República del Ecuador",
+        "region": "Americas",
+        "subregion": "South America",
+        "capital": [
+            "Quito"
+        ],
+        "poblacion": 5952082,
+        "superficie_km2": 276841,
+        "densidad": 21.5,
+        "monedas": [
+            {
+                "codigo": "USD",
+                "nombre": "United States dollar",
+                "simbolo": "$"
+            }
+        ],
+        "idiomas": [
+            "Spanish"
+        ],
+        "fronteras": [
+            "COL",
+            "PER"
+        ]
+    },
+    {
+        "_id": "EGY",
+        "nombre_comun": "Egipto",
+        "nombre_oficial": "República Árabe de Egipto",
+        "region": "Africa",
+        "subregion": "Northern Africa",
+        "capital": [
+            "Cairo"
+        ],
+        "poblacion": 39245918,
+        "superficie_km2": 1002450,
+        "densidad": 39.15,
+        "monedas": [
+            {
+                "codigo": "EGP",
+                "nombre": "Egyptian pound",
+                "simbolo": "£"
+            }
+        ],
+        "idiomas": [
+            "Arabic"
+        ],
+        "fronteras": [
+            "ISR",
+            "LBY",
+            "PSE",
+            "SDN"
+        ]
+    },
+    {
+        "_id": "ERI",
+        "nombre_comun": "Eritrea",
+        "nombre_oficial": "Estado de Eritrea",
+        "region": "Africa",
+        "subregion": "Eastern Africa",
+        "capital": [
+            "Asmara"
+        ],
+        "poblacion": 5027400,
+        "superficie_km2": 117600,
+        "densidad": 42.75,
+        "monedas": [
+            {
+                "codigo": "ERN",
+                "nombre": "Eritrean nakfa",
+                "simbolo": "Nfk"
+            }
+        ],
+        "idiomas": [
+            "Arabic",
+            "English",
+            "Tigrinya"
+        ],
+        "fronteras": [
+            "DJI",
+            "ETH",
+            "SDN"
+        ]
+    },
+    {
+        "_id": "ESH",
+        "nombre_comun": "Sahara Occidental",
+        "nombre_oficial": "República Árabe Saharaui Democrática",
+        "region": "Africa",
+        "subregion": "Northern Africa",
+        "capital": [
+            "El Aaiún"
+        ],
+        "poblacion": 11730600,
+        "superficie_km2": 266000,
+        "densidad": 44.1,
+        "monedas": [
+            {
+                "codigo": "DZD",
+                "nombre": "Algerian dinar",
+                "simbolo": "دج"
+            },
+            {
+                "codigo": "MAD",
+                "nombre": "Moroccan dirham",
+                "simbolo": "DH"
+            },
+            {
+                "codigo": "MRU",
+                "nombre": "Mauritanian ouguiya",
+                "simbolo": "UM"
+            }
+        ],
+        "idiomas": [
+            "Berber",
+            "Hassaniya",
+            "Spanish"
+        ],
+        "fronteras": [
+            "DZA",
+            "MRT",
+            "MAR"
+        ]
+    },
+    {
+        "_id": "ESP",
+        "nombre_comun": "España",
+        "nombre_oficial": "Reino de España",
+        "region": "Europe",
+        "subregion": "Southern Europe",
+        "capital": [
+            "Madrid"
+        ],
+        "poblacion": 31169107,
+        "superficie_km2": 505992,
+        "densidad": 61.6,
+        "monedas": [
+            {
+                "codigo": "EUR",
+                "nombre": "Euro",
+                "simbolo": "€"
+            }
+        ],
+        "idiomas": [
+            "Spanish"
+        ],
+        "fronteras": [
+            "AND",
+            "FRA",
+            "GIB",
+            "PRT",
+            "MAR"
+        ]
+    },
+    {
+        "_id": "EST",
+        "nombre_comun": "Estonia",
+        "nombre_oficial": "República de Estonia",
+        "region": "Europe",
+        "subregion": "Northern Europe",
+        "capital": [
+            "Tallinn"
+        ],
+        "poblacion": 2501053,
+        "superficie_km2": 45227,
+        "densidad": 55.3,
+        "monedas": [
+            {
+                "codigo": "EUR",
+                "nombre": "Euro",
+                "simbolo": "€"
+            }
+        ],
+        "idiomas": [
+            "Estonian"
+        ],
+        "fronteras": [
+            "LVA",
+            "RUS"
+        ]
+    },
+    {
+        "_id": "ETH",
+        "nombre_comun": "Etiopía",
+        "nombre_oficial": "República Democrática Federal de Etiopía",
+        "region": "Africa",
+        "subregion": "Eastern Africa",
+        "capital": [
+            "Addis Ababa"
+        ],
+        "poblacion": 40251735,
+        "superficie_km2": 1104300,
+        "densidad": 36.45,
+        "monedas": [
+            {
+                "codigo": "ETB",
+                "nombre": "Ethiopian birr",
+                "simbolo": "Br"
+            }
+        ],
+        "idiomas": [
+            "Amharic"
+        ],
+        "fronteras": [
+            "DJI",
+            "ERI",
+            "KEN",
+            "SOM",
+            "SSD",
+            "SDN"
+        ]
+    },
+    {
+        "_id": "FIN",
+        "nombre_comun": "Finlandia",
+        "nombre_oficial": "República de Finlandia",
+        "region": "Europe",
+        "subregion": "Northern Europe",
+        "capital": [
+            "Helsinki"
+        ],
+        "poblacion": 21083815,
+        "superficie_km2": 338424,
+        "densidad": 62.3,
+        "monedas": [
+            {
+                "codigo": "EUR",
+                "nombre": "Euro",
+                "simbolo": "€"
+            }
+        ],
+        "idiomas": [
+            "Finnish",
+            "Swedish"
+        ],
+        "fronteras": [
+            "NOR",
+            "SWE",
+            "RUS"
+        ]
+    },
+    {
+        "_id": "FJI",
+        "nombre_comun": "Fiyi",
+        "nombre_oficial": "República de Fiji",
+        "region": "Oceania",
+        "subregion": "Melanesia",
+        "capital": [
+            "Suva"
+        ],
+        "poblacion": 74002,
+        "superficie_km2": 18272,
+        "densidad": 4.05,
+        "monedas": [
+            {
+                "codigo": "FJD",
+                "nombre": "Fijian dollar",
+                "simbolo": "$"
+            }
+        ],
+        "idiomas": [
+            "English",
+            "Fijian",
+            "Fiji Hindi"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "FLK",
+        "nombre_comun": "Islas Malvinas",
+        "nombre_oficial": "islas Malvinas",
+        "region": "Americas",
+        "subregion": "South America",
+        "capital": [
+            "Stanley"
+        ],
+        "poblacion": 246503,
+        "superficie_km2": 12173,
+        "densidad": 20.25,
+        "monedas": [
+            {
+                "codigo": "FKP",
+                "nombre": "Falkland Islands pound",
+                "simbolo": "£"
+            }
+        ],
+        "idiomas": [
+            "English"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "FRA",
+        "nombre_comun": "Francia",
+        "nombre_oficial": "República francés",
+        "region": "Europe",
+        "subregion": "Western Europe",
+        "capital": [
+            "Paris"
+        ],
+        "poblacion": 34756785,
+        "superficie_km2": 551695,
+        "densidad": 63,
+        "monedas": [
+            {
+                "codigo": "EUR",
+                "nombre": "Euro",
+                "simbolo": "€"
+            }
+        ],
+        "idiomas": [
+            "French"
+        ],
+        "fronteras": [
+            "AND",
+            "BEL",
+            "DEU",
+            "ITA",
+            "LUX",
+            "MCO",
+            "ESP",
+            "CHE"
+        ]
+    },
+    {
+        "_id": "FRO",
+        "nombre_comun": "Islas Faroe",
+        "nombre_oficial": "Islas Feroe",
+        "region": "Europe",
+        "subregion": "Northern Europe",
+        "capital": [
+            "Tórshavn"
+        ],
+        "poblacion": 88734,
+        "superficie_km2": 1393,
+        "densidad": 63.7,
+        "monedas": [
+            {
+                "codigo": "DKK",
+                "nombre": "Danish krone",
+                "simbolo": "kr"
+            },
+            {
+                "codigo": "FOK",
+                "nombre": "Faroese króna",
+                "simbolo": "kr"
+            }
+        ],
+        "idiomas": [
+            "Danish",
+            "Faroese"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "FSM",
+        "nombre_comun": "Micronesia",
+        "nombre_oficial": "Estados Federados de Micronesia",
+        "region": "Oceania",
+        "subregion": "Micronesia",
+        "capital": [
+            "Palikir"
+        ],
+        "poblacion": 4072,
+        "superficie_km2": 702,
+        "densidad": 5.8,
+        "monedas": [],
+        "idiomas": [
+            "English"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "GAB",
+        "nombre_comun": "Gabón",
+        "nombre_oficial": "República de Gabón",
+        "region": "Africa",
+        "subregion": "Middle Africa",
+        "capital": [
+            "Libreville"
+        ],
+        "poblacion": 9033795,
+        "superficie_km2": 267668,
+        "densidad": 33.75,
+        "monedas": [
+            {
+                "codigo": "XAF",
+                "nombre": "Central African CFA franc",
+                "simbolo": "Fr"
+            }
+        ],
+        "idiomas": [
+            "French"
+        ],
+        "fronteras": [
+            "CMR",
+            "COG",
+            "GNQ"
+        ]
+    },
+    {
+        "_id": "GBR",
+        "nombre_comun": "Reino Unido",
+        "nombre_oficial": "Reino Unido de Gran Bretaña e Irlanda del Norte",
+        "region": "Europe",
+        "subregion": "Northern Europe",
+        "capital": [
+            "London"
+        ],
+        "poblacion": 20063540,
+        "superficie_km2": 242900,
+        "densidad": 82.6,
+        "monedas": [
+            {
+                "codigo": "GBP",
+                "nombre": "British pound",
+                "simbolo": "£"
+            }
+        ],
+        "idiomas": [
+            "English"
+        ],
+        "fronteras": [
+            "IRL"
+        ]
+    },
+    {
+        "_id": "GEO",
+        "nombre_comun": "Georgia",
+        "nombre_oficial": "Georgia",
+        "region": "Asia",
+        "subregion": "Western Asia",
+        "capital": [
+            "Tbilisi"
+        ],
+        "poblacion": 6691200,
+        "superficie_km2": 69700,
+        "densidad": 96,
+        "monedas": [
+            {
+                "codigo": "GEL",
+                "nombre": "lari",
+                "simbolo": "₾"
+            }
+        ],
+        "idiomas": [
+            "Georgian"
+        ],
+        "fronteras": [
+            "ARM",
+            "AZE",
+            "RUS",
+            "TUR"
+        ]
+    },
+    {
+        "_id": "GGY",
+        "nombre_comun": "Guernsey",
+        "nombre_oficial": "Bailía de Guernsey",
+        "region": "Europe",
+        "subregion": "Northern Europe",
+        "capital": [
+            "St. Peter Port"
+        ],
+        "poblacion": 5296,
+        "superficie_km2": 78,
+        "densidad": 67.9,
+        "monedas": [
+            {
+                "codigo": "GBP",
+                "nombre": "British pound",
+                "simbolo": "£"
+            },
+            {
+                "codigo": "GGP",
+                "nombre": "Guernsey pound",
+                "simbolo": "£"
+            }
+        ],
+        "idiomas": [
+            "English",
+            "French",
+            "Guernésiais"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "GHA",
+        "nombre_comun": "Ghana",
+        "nombre_oficial": "República de Ghana",
+        "region": "Africa",
+        "subregion": "Western Africa",
+        "capital": [
+            "Accra"
+        ],
+        "poblacion": 11378024,
+        "superficie_km2": 238533,
+        "densidad": 47.7,
+        "monedas": [
+            {
+                "codigo": "GHS",
+                "nombre": "Ghanaian cedi",
+                "simbolo": "₵"
+            }
+        ],
+        "idiomas": [
+            "English"
+        ],
+        "fronteras": [
+            "BFA",
+            "CIV",
+            "TGO"
+        ]
+    },
+    {
+        "_id": "GIB",
+        "nombre_comun": "Gibraltar",
+        "nombre_oficial": "Gibraltar",
+        "region": "Europe",
+        "subregion": "Southern Europe",
+        "capital": [
+            "Gibraltar"
+        ],
+        "poblacion": 1000,
+        "superficie_km2": 6,
+        "densidad": 166.67,
+        "monedas": [
+            {
+                "codigo": "GIP",
+                "nombre": "Gibraltar pound",
+                "simbolo": "£"
+            }
+        ],
+        "idiomas": [
+            "English"
+        ],
+        "fronteras": [
+            "ESP"
+        ]
+    },
+    {
+        "_id": "GIN",
+        "nombre_comun": "Guinea",
+        "nombre_oficial": "República de Guinea",
+        "region": "Africa",
+        "subregion": "Western Africa",
+        "capital": [
+            "Conakry"
+        ],
+        "poblacion": 10621022,
+        "superficie_km2": 245857,
+        "densidad": 43.2,
+        "monedas": [
+            {
+                "codigo": "GNF",
+                "nombre": "Guinean franc",
+                "simbolo": "Fr"
+            }
+        ],
+        "idiomas": [
+            "French"
+        ],
+        "fronteras": [
+            "CIV",
+            "GNB",
+            "LBR",
+            "MLI",
+            "SEN",
+            "SLE"
+        ]
+    },
+    {
+        "_id": "GLP",
+        "nombre_comun": "Guadalupe",
+        "nombre_oficial": "Guadalupe",
+        "region": "Americas",
+        "subregion": "Caribbean",
+        "capital": [
+            "Basse-Terre"
+        ],
+        "poblacion": 46398,
+        "superficie_km2": 1628,
+        "densidad": 28.5,
+        "monedas": [
+            {
+                "codigo": "EUR",
+                "nombre": "Euro",
+                "simbolo": "€"
+            }
+        ],
+        "idiomas": [
+            "French"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "GMB",
+        "nombre_comun": "Gambia",
+        "nombre_oficial": "República de Gambia",
+        "region": "Africa",
+        "subregion": "Western Africa",
+        "capital": [
+            "Banjul"
+        ],
+        "poblacion": 447335,
+        "superficie_km2": 10689,
+        "densidad": 41.85,
+        "monedas": [
+            {
+                "codigo": "GMD",
+                "nombre": "dalasi",
+                "simbolo": "D"
+            }
+        ],
+        "idiomas": [
+            "English"
+        ],
+        "fronteras": [
+            "SEN"
+        ]
+    },
+    {
+        "_id": "GNB",
+        "nombre_comun": "Guinea-Bisáu",
+        "nombre_oficial": "República de Guinea-Bissau",
+        "region": "Africa",
+        "subregion": "Western Africa",
+        "capital": [
+            "Bissau"
+        ],
+        "poblacion": 1918238,
+        "superficie_km2": 36125,
+        "densidad": 53.1,
+        "monedas": [
+            {
+                "codigo": "XOF",
+                "nombre": "West African CFA franc",
+                "simbolo": "Fr"
+            }
+        ],
+        "idiomas": [
+            "Portuguese",
+            "Upper Guinea Creole"
+        ],
+        "fronteras": [
+            "GIN",
+            "SEN"
+        ]
+    },
+    {
+        "_id": "GNQ",
+        "nombre_comun": "Guinea Ecuatorial",
+        "nombre_oficial": "República de Guinea Ecuatorial",
+        "region": "Africa",
+        "subregion": "Middle Africa",
+        "capital": [
+            "Malabo"
+        ],
+        "poblacion": 1136066,
+        "superficie_km2": 28051,
+        "densidad": 40.5,
+        "monedas": [
+            {
+                "codigo": "XAF",
+                "nombre": "Central African CFA franc",
+                "simbolo": "Fr"
+            }
+        ],
+        "idiomas": [
+            "French",
+            "Portuguese",
+            "Spanish"
+        ],
+        "fronteras": [
+            "CMR",
+            "GAB"
+        ]
+    },
+    {
+        "_id": "GRC",
+        "nombre_comun": "Grecia",
+        "nombre_oficial": "República Helénica",
+        "region": "Europe",
+        "subregion": "Southern Europe",
+        "capital": [
+            "Athens"
+        ],
+        "poblacion": 7483833,
+        "superficie_km2": 131990,
+        "densidad": 56.7,
+        "monedas": [
+            {
+                "codigo": "EUR",
+                "nombre": "Euro",
+                "simbolo": "€"
+            }
+        ],
+        "idiomas": [
+            "Greek"
+        ],
+        "fronteras": [
+            "ALB",
+            "BGR",
+            "TUR",
+            "MKD"
+        ]
+    },
+    {
+        "_id": "GRD",
+        "nombre_comun": "Grenada",
+        "nombre_oficial": "Granada",
+        "region": "Americas",
+        "subregion": "Caribbean",
+        "capital": [
+            "St. George's"
+        ],
+        "poblacion": 8944,
+        "superficie_km2": 344,
+        "densidad": 26,
+        "monedas": [
+            {
+                "codigo": "XCD",
+                "nombre": "Eastern Caribbean dollar",
+                "simbolo": "$"
+            }
+        ],
+        "idiomas": [
+            "English"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "GRL",
+        "nombre_comun": "Groenlandia",
+        "nombre_oficial": "Groenlandia",
+        "region": "Americas",
+        "subregion": "North America",
+        "capital": [
+            "Nuuk"
+        ],
+        "poblacion": 48736935,
+        "superficie_km2": 2166086,
+        "densidad": 22.5,
+        "monedas": [
+            {
+                "codigo": "DKK",
+                "nombre": "krone",
+                "simbolo": "kr."
+            }
+        ],
+        "idiomas": [
+            "Greenlandic"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "GTM",
+        "nombre_comun": "Guatemala",
+        "nombre_oficial": "República de Guatemala",
+        "region": "Americas",
+        "subregion": "Central America",
+        "capital": [
+            "Guatemala City"
+        ],
+        "poblacion": 2068891,
+        "superficie_km2": 108889,
+        "densidad": 19,
+        "monedas": [
+            {
+                "codigo": "GTQ",
+                "nombre": "Guatemalan quetzal",
+                "simbolo": "Q"
+            }
+        ],
+        "idiomas": [
+            "Spanish"
+        ],
+        "fronteras": [
+            "BLZ",
+            "SLV",
+            "HND",
+            "MEX"
+        ]
+    },
+    {
+        "_id": "GUF",
+        "nombre_comun": "Guayana Francesa",
+        "nombre_oficial": "Guayana",
+        "region": "Americas",
+        "subregion": "South America",
+        "capital": [
+            "Cayenne"
+        ],
+        "poblacion": 2359836,
+        "superficie_km2": 83534,
+        "densidad": 28.25,
+        "monedas": [
+            {
+                "codigo": "EUR",
+                "nombre": "Euro",
+                "simbolo": "€"
+            }
+        ],
+        "idiomas": [
+            "French"
+        ],
+        "fronteras": [
+            "BRA",
+            "SUR"
+        ]
+    },
+    {
+        "_id": "GUM",
+        "nombre_comun": "Guam",
+        "nombre_oficial": "Guam",
+        "region": "Oceania",
+        "subregion": "Micronesia",
+        "capital": [
+            "Hagåtña"
+        ],
+        "poblacion": 2004,
+        "superficie_km2": 549,
+        "densidad": 3.65,
+        "monedas": [
+            {
+                "codigo": "USD",
+                "nombre": "United States dollar",
+                "simbolo": "$"
+            }
+        ],
+        "idiomas": [
+            "Chamorro",
+            "English",
+            "Spanish"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "GUY",
+        "nombre_comun": "Guyana",
+        "nombre_oficial": "República Cooperativa de Guyana",
+        "region": "Americas",
+        "subregion": "South America",
+        "capital": [
+            "Georgetown"
+        ],
+        "poblacion": 4191896,
+        "superficie_km2": 214969,
+        "densidad": 19.5,
+        "monedas": [
+            {
+                "codigo": "GYD",
+                "nombre": "Guyanese dollar",
+                "simbolo": "$"
+            }
+        ],
+        "idiomas": [
+            "English"
+        ],
+        "fronteras": [
+            "BRA",
+            "SUR",
+            "VEN"
+        ]
+    },
+    {
+        "_id": "HKG",
+        "nombre_comun": "Hong Kong",
+        "nombre_oficial": "Hong Kong Región Administrativa Especial de la República Popular China",
+        "region": "Asia",
+        "subregion": "Eastern Asia",
+        "capital": [
+            "City of Victoria"
+        ],
+        "poblacion": 118128,
+        "superficie_km2": 1104,
+        "densidad": 107,
+        "monedas": [
+            {
+                "codigo": "HKD",
+                "nombre": "Hong Kong dollar",
+                "simbolo": "$"
+            }
+        ],
+        "idiomas": [
+            "English",
+            "Chinese"
+        ],
+        "fronteras": [
+            "CHN"
+        ]
+    },
+    {
+        "_id": "HMD",
+        "nombre_comun": "Islas Heard y McDonald",
+        "nombre_oficial": "Islas Heard y McDonald",
+        "region": "Antarctic",
+        "subregion": "",
+        "capital": [],
+        "poblacion": 1000,
+        "superficie_km2": 412,
+        "densidad": 2.43,
+        "monedas": [],
+        "idiomas": [
+            "English"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "HND",
+        "nombre_comun": "Honduras",
+        "nombre_oficial": "República de Honduras",
+        "region": "Americas",
+        "subregion": "Central America",
+        "capital": [
+            "Tegucigalpa"
+        ],
+        "poblacion": 2081102,
+        "superficie_km2": 112492,
+        "densidad": 18.5,
+        "monedas": [
+            {
+                "codigo": "HNL",
+                "nombre": "Honduran lempira",
+                "simbolo": "L"
+            }
+        ],
+        "idiomas": [
+            "Spanish"
+        ],
+        "fronteras": [
+            "GTM",
+            "SLV",
+            "NIC"
+        ]
+    },
+    {
+        "_id": "HRV",
+        "nombre_comun": "Croacia",
+        "nombre_oficial": "República de Croacia",
+        "region": "Europe",
+        "subregion": "Southeast Europe",
+        "capital": [
+            "Zagreb"
+        ],
+        "poblacion": 3050417,
+        "superficie_km2": 56594,
+        "densidad": 53.9,
+        "monedas": [
+            {
+                "codigo": "EUR",
+                "nombre": "Euro",
+                "simbolo": "€"
+            }
+        ],
+        "idiomas": [
+            "Croatian"
+        ],
+        "fronteras": [
+            "BIH",
+            "HUN",
+            "MNE",
+            "SRB",
+            "SVN"
+        ]
+    },
+    {
+        "_id": "HTI",
+        "nombre_comun": "Haití",
+        "nombre_oficial": "República de Haití",
+        "region": "Americas",
+        "subregion": "Caribbean",
+        "capital": [
+            "Port-au-Prince"
+        ],
+        "poblacion": 555000,
+        "superficie_km2": 27750,
+        "densidad": 20,
+        "monedas": [
+            {
+                "codigo": "HTG",
+                "nombre": "Haitian gourde",
+                "simbolo": "G"
+            }
+        ],
+        "idiomas": [
+            "French",
+            "Haitian Creole"
+        ],
+        "fronteras": [
+            "DOM"
+        ]
+    },
+    {
+        "_id": "HUN",
+        "nombre_comun": "Hungría",
+        "nombre_oficial": "Hungría",
+        "region": "Europe",
+        "subregion": "Central Europe",
+        "capital": [
+            "Budapest"
+        ],
+        "poblacion": 6772438,
+        "superficie_km2": 93028,
+        "densidad": 72.8,
+        "monedas": [
+            {
+                "codigo": "HUF",
+                "nombre": "Hungarian forint",
+                "simbolo": "Ft"
+            }
+        ],
+        "idiomas": [
+            "Hungarian"
+        ],
+        "fronteras": [
+            "AUT",
+            "HRV",
+            "ROU",
+            "SRB",
+            "SVK",
+            "SVN",
+            "UKR"
+        ]
+    },
+    {
+        "_id": "IDN",
+        "nombre_comun": "Indonesia",
+        "nombre_oficial": "República de Indonesia",
+        "region": "Asia",
+        "subregion": "South-Eastern Asia",
+        "capital": [
+            "Jakarta"
+        ],
+        "poblacion": 192361469,
+        "superficie_km2": 1904569,
+        "densidad": 101,
+        "monedas": [
+            {
+                "codigo": "IDR",
+                "nombre": "Indonesian rupiah",
+                "simbolo": "Rp"
+            }
+        ],
+        "idiomas": [
+            "Indonesian"
+        ],
+        "fronteras": [
+            "TLS",
+            "MYS",
+            "PNG"
+        ]
+    },
+    {
+        "_id": "IMN",
+        "nombre_comun": "Isla de Man",
+        "nombre_oficial": "Isla de Man",
+        "region": "Europe",
+        "subregion": "Northern Europe",
+        "capital": [
+            "Douglas"
+        ],
+        "poblacion": 41642,
+        "superficie_km2": 572,
+        "densidad": 72.8,
+        "monedas": [
+            {
+                "codigo": "GBP",
+                "nombre": "British pound",
+                "simbolo": "£"
+            },
+            {
+                "codigo": "IMP",
+                "nombre": "Manx pound",
+                "simbolo": "£"
+            }
+        ],
+        "idiomas": [
+            "English",
+            "Manx"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "IND",
+        "nombre_comun": "India",
+        "nombre_oficial": "República de la India",
+        "region": "Asia",
+        "subregion": "Southern Asia",
+        "capital": [
+            "New Delhi"
+        ],
+        "poblacion": 378072850,
+        "superficie_km2": 3287590,
+        "densidad": 115,
+        "monedas": [
+            {
+                "codigo": "INR",
+                "nombre": "Indian rupee",
+                "simbolo": "₹"
+            }
+        ],
+        "idiomas": [
+            "English",
+            "Hindi",
+            "Tamil"
+        ],
+        "fronteras": [
+            "BGD",
+            "BTN",
+            "MMR",
+            "CHN",
+            "NPL",
+            "PAK"
+        ]
+    },
+    {
+        "_id": "IOT",
+        "nombre_comun": "Territorio Británico del Océano Índico",
+        "nombre_oficial": "Territorio Británico del Océano Índico",
+        "region": "Africa",
+        "subregion": "Eastern Africa",
+        "capital": [
+            "Diego Garcia"
+        ],
+        "poblacion": 3186,
+        "superficie_km2": 60,
+        "densidad": 53.1,
+        "monedas": [
+            {
+                "codigo": "USD",
+                "nombre": "United States dollar",
+                "simbolo": "$"
+            }
+        ],
+        "idiomas": [
+            "English"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "IRL",
+        "nombre_comun": "Irlanda",
+        "nombre_oficial": "República de Irlanda",
+        "region": "Europe",
+        "subregion": "Northern Europe",
+        "capital": [
+            "Dublin"
+        ],
+        "poblacion": 5509403,
+        "superficie_km2": 70273,
+        "densidad": 78.4,
+        "monedas": [
+            {
+                "codigo": "EUR",
+                "nombre": "Euro",
+                "simbolo": "€"
+            }
+        ],
+        "idiomas": [
+            "English",
+            "Irish"
+        ],
+        "fronteras": [
+            "GBR"
+        ]
+    },
+    {
+        "_id": "IRN",
+        "nombre_comun": "Iran",
+        "nombre_oficial": "República Islámica de Irán",
+        "region": "Asia",
+        "subregion": "Southern Asia",
+        "capital": [
+            "Tehran"
+        ],
+        "poblacion": 128559210,
+        "superficie_km2": 1648195,
+        "densidad": 78,
+        "monedas": [
+            {
+                "codigo": "IRR",
+                "nombre": "Iranian rial",
+                "simbolo": "﷼"
+            }
+        ],
+        "idiomas": [
+            "Persian (Farsi)"
+        ],
+        "fronteras": [
+            "AFG",
+            "ARM",
+            "AZE",
+            "IRQ",
+            "PAK",
+            "TUR",
+            "TKM"
+        ]
+    },
+    {
+        "_id": "IRQ",
+        "nombre_comun": "Irak",
+        "nombre_oficial": "República de Irak",
+        "region": "Asia",
+        "subregion": "Western Asia",
+        "capital": [
+            "Baghdad"
+        ],
+        "poblacion": 33750409,
+        "superficie_km2": 438317,
+        "densidad": 77,
+        "monedas": [
+            {
+                "codigo": "IQD",
+                "nombre": "Iraqi dinar",
+                "simbolo": "ع.د"
+            }
+        ],
+        "idiomas": [
+            "Arabic",
+            "Aramaic",
+            "Sorani"
+        ],
+        "fronteras": [
+            "IRN",
+            "JOR",
+            "KWT",
+            "SAU",
+            "SYR",
+            "TUR"
+        ]
+    },
+    {
+        "_id": "ISL",
+        "nombre_comun": "Islandia",
+        "nombre_oficial": "Islandia",
+        "region": "Europe",
+        "subregion": "Northern Europe",
+        "capital": [
+            "Reykjavik"
+        ],
+        "poblacion": 6993700,
+        "superficie_km2": 103000,
+        "densidad": 67.9,
+        "monedas": [
+            {
+                "codigo": "ISK",
+                "nombre": "Icelandic króna",
+                "simbolo": "kr"
+            }
+        ],
+        "idiomas": [
+            "Icelandic"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "ISR",
+        "nombre_comun": "Israel",
+        "nombre_oficial": "Estado de Israel",
+        "region": "Asia",
+        "subregion": "Western Asia",
+        "capital": [
+            "Jerusalem"
+        ],
+        "poblacion": 2201620,
+        "superficie_km2": 20770,
+        "densidad": 106,
+        "monedas": [
+            {
+                "codigo": "ILS",
+                "nombre": "Israeli new shekel",
+                "simbolo": "₪"
+            }
+        ],
+        "idiomas": [
+            "Arabic",
+            "Hebrew"
+        ],
+        "fronteras": [
+            "EGY",
+            "JOR",
+            "LBN",
+            "PSE",
+            "SYR"
+        ]
+    },
+    {
+        "_id": "ITA",
+        "nombre_comun": "Italia",
+        "nombre_oficial": "República Italiana",
+        "region": "Europe",
+        "subregion": "Southern Europe",
+        "capital": [
+            "Rome"
+        ],
+        "poblacion": 14976399,
+        "superficie_km2": 301336,
+        "densidad": 49.7,
+        "monedas": [
+            {
+                "codigo": "EUR",
+                "nombre": "Euro",
+                "simbolo": "€"
+            }
+        ],
+        "idiomas": [
+            "Italian"
+        ],
+        "fronteras": [
+            "AUT",
+            "FRA",
+            "SMR",
+            "SVN",
+            "CHE",
+            "VAT"
+        ]
+    },
+    {
+        "_id": "JAM",
+        "nombre_comun": "Jamaica",
+        "nombre_oficial": "Jamaica",
+        "region": "Americas",
+        "subregion": "Caribbean",
+        "capital": [
+            "Kingston"
+        ],
+        "poblacion": 277523,
+        "superficie_km2": 10991,
+        "densidad": 25.25,
+        "monedas": [
+            {
+                "codigo": "JMD",
+                "nombre": "Jamaican dollar",
+                "simbolo": "$"
+            }
+        ],
+        "idiomas": [
+            "English",
+            "Jamaican Patois"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "JEY",
+        "nombre_comun": "Jersey",
+        "nombre_oficial": "Bailía de Jersey",
+        "region": "Europe",
+        "subregion": "Northern Europe",
+        "capital": [
+            "Saint Helier"
+        ],
+        "poblacion": 8932,
+        "superficie_km2": 116,
+        "densidad": 77,
+        "monedas": [
+            {
+                "codigo": "GBP",
+                "nombre": "British pound",
+                "simbolo": "£"
+            },
+            {
+                "codigo": "JEP",
+                "nombre": "Jersey pound",
+                "simbolo": "£"
+            }
+        ],
+        "idiomas": [
+            "English",
+            "French",
+            "Jèrriais"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "JOR",
+        "nombre_comun": "Jordania",
+        "nombre_oficial": "Reino Hachemita de Jordania",
+        "region": "Asia",
+        "subregion": "Western Asia",
+        "capital": [
+            "Amman"
+        ],
+        "poblacion": 9112884,
+        "superficie_km2": 89342,
+        "densidad": 102,
+        "monedas": [
+            {
+                "codigo": "JOD",
+                "nombre": "Jordanian dinar",
+                "simbolo": "د.ا"
+            }
+        ],
+        "idiomas": [
+            "Arabic"
+        ],
+        "fronteras": [
+            "IRQ",
+            "ISR",
+            "PSE",
+            "SAU",
+            "SYR"
+        ]
+    },
+    {
+        "_id": "JPN",
+        "nombre_comun": "Japón",
+        "nombre_oficial": "Japón",
+        "region": "Asia",
+        "subregion": "Eastern Asia",
+        "capital": [
+            "Tokyo"
+        ],
+        "poblacion": 41194370,
+        "superficie_km2": 377930,
+        "densidad": 109,
+        "monedas": [
+            {
+                "codigo": "JPY",
+                "nombre": "Japanese yen",
+                "simbolo": "¥"
+            }
+        ],
+        "idiomas": [
+            "Japanese"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "KAZ",
+        "nombre_comun": "Kazajistán",
+        "nombre_oficial": "República de Kazajstán",
+        "region": "Asia",
+        "subregion": "Central Asia",
+        "capital": [
+            "Astana"
+        ],
+        "poblacion": 215267100,
+        "superficie_km2": 2724900,
+        "densidad": 79,
+        "monedas": [
+            {
+                "codigo": "KZT",
+                "nombre": "Kazakhstani tenge",
+                "simbolo": "₸"
+            }
+        ],
+        "idiomas": [
+            "Kazakh",
+            "Russian"
+        ],
+        "fronteras": [
+            "CHN",
+            "KGZ",
+            "RUS",
+            "TKM",
+            "UZB"
+        ]
+    },
+    {
+        "_id": "KEN",
+        "nombre_comun": "Kenia",
+        "nombre_oficial": "República de Kenya",
+        "region": "Africa",
+        "subregion": "Eastern Africa",
+        "capital": [
+            "Nairobi"
+        ],
+        "poblacion": 25594185,
+        "superficie_km2": 580367,
+        "densidad": 44.1,
+        "monedas": [
+            {
+                "codigo": "KES",
+                "nombre": "Kenyan shilling",
+                "simbolo": "Sh"
+            }
+        ],
+        "idiomas": [
+            "English",
+            "Swahili"
+        ],
+        "fronteras": [
+            "ETH",
+            "SOM",
+            "SSD",
+            "TZA",
+            "UGA"
+        ]
+    },
+    {
+        "_id": "KGZ",
+        "nombre_comun": "Kirguizistán",
+        "nombre_oficial": "República Kirguisa",
+        "region": "Asia",
+        "subregion": "Central Asia",
+        "capital": [
+            "Bishkek"
+        ],
+        "poblacion": 14196521,
+        "superficie_km2": 199951,
+        "densidad": 71,
+        "monedas": [
+            {
+                "codigo": "KGS",
+                "nombre": "Kyrgyzstani som",
+                "simbolo": "с"
+            }
+        ],
+        "idiomas": [
+            "Kyrgyz",
+            "Russian"
+        ],
+        "fronteras": [
+            "CHN",
+            "KAZ",
+            "TJK",
+            "UZB"
+        ]
+    },
+    {
+        "_id": "KHM",
+        "nombre_comun": "Camboya",
+        "nombre_oficial": "Reino de Camboya",
+        "region": "Asia",
+        "subregion": "South-Eastern Asia",
+        "capital": [
+            "Phnom Penh"
+        ],
+        "poblacion": 21181095,
+        "superficie_km2": 181035,
+        "densidad": 117,
+        "monedas": [
+            {
+                "codigo": "KHR",
+                "nombre": "Cambodian riel",
+                "simbolo": "៛"
+            },
+            {
+                "codigo": "USD",
+                "nombre": "United States dollar",
+                "simbolo": "$"
+            }
+        ],
+        "idiomas": [
+            "Khmer"
+        ],
+        "fronteras": [
+            "LAO",
+            "THA",
+            "VNM"
+        ]
+    },
+    {
+        "_id": "KIR",
+        "nombre_comun": "Kiribati",
+        "nombre_oficial": "República Independiente y Soberano de Kiribati",
+        "region": "Oceania",
+        "subregion": "Micronesia",
+        "capital": [
+            "South Tarawa"
+        ],
+        "poblacion": 4177,
+        "superficie_km2": 811,
+        "densidad": 5.15,
+        "monedas": [
+            {
+                "codigo": "AUD",
+                "nombre": "Australian dollar",
+                "simbolo": "$"
+            },
+            {
+                "codigo": "KID",
+                "nombre": "Kiribati dollar",
+                "simbolo": "$"
+            }
+        ],
+        "idiomas": [
+            "English",
+            "Gilbertese"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "KNA",
+        "nombre_comun": "San Cristóbal y Nieves",
+        "nombre_oficial": "Federación de San Cristóbal y Nevis",
+        "region": "Americas",
+        "subregion": "Caribbean",
+        "capital": [
+            "Basseterre"
+        ],
+        "poblacion": 6134,
+        "superficie_km2": 261,
+        "densidad": 23.5,
+        "monedas": [
+            {
+                "codigo": "XCD",
+                "nombre": "Eastern Caribbean dollar",
+                "simbolo": "$"
+            }
+        ],
+        "idiomas": [
+            "English"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "KOR",
+        "nombre_comun": "Corea del Sur",
+        "nombre_oficial": "República de Corea",
+        "region": "Asia",
+        "subregion": "Eastern Asia",
+        "capital": [
+            "Seoul"
+        ],
+        "poblacion": 11724570,
+        "superficie_km2": 100210,
+        "densidad": 117,
+        "monedas": [
+            {
+                "codigo": "KRW",
+                "nombre": "South Korean won",
+                "simbolo": "₩"
+            }
+        ],
+        "idiomas": [
+            "Korean"
+        ],
+        "fronteras": [
+            "PRK"
+        ]
+    },
+    {
+        "_id": "UNK",
+        "nombre_comun": "Kosovo",
+        "nombre_oficial": "República de Kosovo",
+        "region": "Europe",
+        "subregion": "Southeast Europe",
+        "capital": [
+            "Pristina"
+        ],
+        "poblacion": 610848,
+        "superficie_km2": 10908,
+        "densidad": 56,
+        "monedas": [
+            {
+                "codigo": "EUR",
+                "nombre": "Euro",
+                "simbolo": "€"
+            }
+        ],
+        "idiomas": [
+            "Albanian",
+            "Serbian"
+        ],
+        "fronteras": [
+            "ALB",
+            "MKD",
+            "MNE",
+            "SRB"
+        ]
+    },
+    {
+        "_id": "KWT",
+        "nombre_comun": "Kuwait",
+        "nombre_oficial": "Estado de Kuwait",
+        "region": "Asia",
+        "subregion": "Western Asia",
+        "capital": [
+            "Kuwait City"
+        ],
+        "poblacion": 1621438,
+        "superficie_km2": 17818,
+        "densidad": 91,
+        "monedas": [
+            {
+                "codigo": "KWD",
+                "nombre": "Kuwaiti dinar",
+                "simbolo": "د.ك"
+            }
+        ],
+        "idiomas": [
+            "Arabic"
+        ],
+        "fronteras": [
+            "IRQ",
+            "SAU"
+        ]
+    },
+    {
+        "_id": "LAO",
+        "nombre_comun": "Laos",
+        "nombre_oficial": "República Democrática Popular Lao",
+        "region": "Asia",
+        "subregion": "South-Eastern Asia",
+        "capital": [
+            "Vientiane"
+        ],
+        "poblacion": 17760000,
+        "superficie_km2": 236800,
+        "densidad": 75,
+        "monedas": [
+            {
+                "codigo": "LAK",
+                "nombre": "Lao kip",
+                "simbolo": "₭"
+            }
+        ],
+        "idiomas": [
+            "Lao"
+        ],
+        "fronteras": [
+            "MMR",
+            "KHM",
+            "CHN",
+            "THA",
+            "VNM"
+        ]
+    },
+    {
+        "_id": "LBN",
+        "nombre_comun": "Líbano",
+        "nombre_oficial": "República Libanesa",
+        "region": "Asia",
+        "subregion": "Western Asia",
+        "capital": [
+            "Beirut"
+        ],
+        "poblacion": 877968,
+        "superficie_km2": 10452,
+        "densidad": 84,
+        "monedas": [
+            {
+                "codigo": "LBP",
+                "nombre": "Lebanese pound",
+                "simbolo": "ل.ل"
+            }
+        ],
+        "idiomas": [
+            "Arabic",
+            "French"
+        ],
+        "fronteras": [
+            "ISR",
+            "SYR"
+        ]
+    },
+    {
+        "_id": "LBR",
+        "nombre_comun": "Liberia",
+        "nombre_oficial": "República de Liberia",
+        "region": "Africa",
+        "subregion": "Western Africa",
+        "capital": [
+            "Monrovia"
+        ],
+        "poblacion": 5362417,
+        "superficie_km2": 111369,
+        "densidad": 48.15,
+        "monedas": [
+            {
+                "codigo": "LRD",
+                "nombre": "Liberian dollar",
+                "simbolo": "$"
+            }
+        ],
+        "idiomas": [
+            "English"
+        ],
+        "fronteras": [
+            "GIN",
+            "CIV",
+            "SLE"
+        ]
+    },
+    {
+        "_id": "LBY",
+        "nombre_comun": "Libia",
+        "nombre_oficial": "Estado de Libia",
+        "region": "Africa",
+        "subregion": "Northern Africa",
+        "capital": [
+            "Tripoli"
+        ],
+        "poblacion": 59384475,
+        "superficie_km2": 1759540,
+        "densidad": 33.75,
+        "monedas": [
+            {
+                "codigo": "LYD",
+                "nombre": "Libyan dinar",
+                "simbolo": "ل.د"
+            }
+        ],
+        "idiomas": [
+            "Arabic"
+        ],
+        "fronteras": [
+            "DZA",
+            "TCD",
+            "EGY",
+            "NER",
+            "SDN",
+            "TUN"
+        ]
+    },
+    {
+        "_id": "LCA",
+        "nombre_comun": "Santa Lucía",
+        "nombre_oficial": "Santa Lucía",
+        "region": "Americas",
+        "subregion": "Caribbean",
+        "capital": [
+            "Castries"
+        ],
+        "poblacion": 10780,
+        "superficie_km2": 616,
+        "densidad": 17.5,
+        "monedas": [
+            {
+                "codigo": "XCD",
+                "nombre": "Eastern Caribbean dollar",
+                "simbolo": "$"
+            }
+        ],
+        "idiomas": [
+            "English"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "LIE",
+        "nombre_comun": "Liechtenstein",
+        "nombre_oficial": "Principado de Liechtenstein",
+        "region": "Europe",
+        "subregion": "Western Europe",
+        "capital": [
+            "Vaduz"
+        ],
+        "poblacion": 9520,
+        "superficie_km2": 160,
+        "densidad": 59.5,
+        "monedas": [
+            {
+                "codigo": "CHF",
+                "nombre": "Swiss franc",
+                "simbolo": "Fr"
+            }
+        ],
+        "idiomas": [
+            "German"
+        ],
+        "fronteras": [
+            "AUT",
+            "CHE"
+        ]
+    },
+    {
+        "_id": "LKA",
+        "nombre_comun": "Sri Lanka",
+        "nombre_oficial": "República Democrática Socialista de Sri Lanka",
+        "region": "Asia",
+        "subregion": "Southern Asia",
+        "capital": [
+            "Colombo"
+        ],
+        "poblacion": 6167340,
+        "superficie_km2": 65610,
+        "densidad": 94,
+        "monedas": [
+            {
+                "codigo": "LKR",
+                "nombre": "Sri Lankan rupee",
+                "simbolo": "Rs රු"
+            }
+        ],
+        "idiomas": [
+            "Sinhala",
+            "Tamil"
+        ],
+        "fronteras": [
+            "IND"
+        ]
+    },
+    {
+        "_id": "LSO",
+        "nombre_comun": "Lesotho",
+        "nombre_oficial": "Reino de Lesotho",
+        "region": "Africa",
+        "subregion": "Southern Africa",
+        "capital": [
+            "Maseru"
+        ],
+        "poblacion": 1502573,
+        "superficie_km2": 30355,
+        "densidad": 49.5,
+        "monedas": [
+            {
+                "codigo": "LSL",
+                "nombre": "Lesotho loti",
+                "simbolo": "L"
+            },
+            {
+                "codigo": "ZAR",
+                "nombre": "South African rand",
+                "simbolo": "R"
+            }
+        ],
+        "idiomas": [
+            "English",
+            "Sotho"
+        ],
+        "fronteras": [
+            "ZAF"
+        ]
+    },
+    {
+        "_id": "LTU",
+        "nombre_comun": "Lituania",
+        "nombre_oficial": "República de Lituania",
+        "region": "Europe",
+        "subregion": "Northern Europe",
+        "capital": [
+            "Vilnius"
+        ],
+        "poblacion": 4159610,
+        "superficie_km2": 65300,
+        "densidad": 63.7,
+        "monedas": [
+            {
+                "codigo": "EUR",
+                "nombre": "Euro",
+                "simbolo": "€"
+            }
+        ],
+        "idiomas": [
+            "Lithuanian"
+        ],
+        "fronteras": [
+            "BLR",
+            "LVA",
+            "POL",
+            "RUS"
+        ]
+    },
+    {
+        "_id": "LUX",
+        "nombre_comun": "Luxemburgo",
+        "nombre_oficial": "Gran Ducado de Luxemburgo",
+        "region": "Europe",
+        "subregion": "Western Europe",
+        "capital": [
+            "Luxembourg"
+        ],
+        "poblacion": 132145,
+        "superficie_km2": 2586,
+        "densidad": 51.1,
+        "monedas": [
+            {
+                "codigo": "EUR",
+                "nombre": "Euro",
+                "simbolo": "€"
+            }
+        ],
+        "idiomas": [
+            "German",
+            "French",
+            "Luxembourgish"
+        ],
+        "fronteras": [
+            "BEL",
+            "FRA",
+            "DEU"
+        ]
+    },
+    {
+        "_id": "LVA",
+        "nombre_comun": "Letonia",
+        "nombre_oficial": "República de Letonia",
+        "region": "Europe",
+        "subregion": "Northern Europe",
+        "capital": [
+            "Riga"
+        ],
+        "poblacion": 4247982,
+        "superficie_km2": 64559,
+        "densidad": 65.8,
+        "monedas": [
+            {
+                "codigo": "EUR",
+                "nombre": "Euro",
+                "simbolo": "€"
+            }
+        ],
+        "idiomas": [
+            "Latvian"
+        ],
+        "fronteras": [
+            "BLR",
+            "EST",
+            "LTU",
+            "RUS"
+        ]
+    },
+    {
+        "_id": "MAC",
+        "nombre_comun": "Macao",
+        "nombre_oficial": "Macao, Región Administrativa Especial de la República Popular China",
+        "region": "Asia",
+        "subregion": "Eastern Asia",
+        "capital": [],
+        "poblacion": 3510,
+        "superficie_km2": 30,
+        "densidad": 117,
+        "monedas": [
+            {
+                "codigo": "MOP",
+                "nombre": "Macanese pataca",
+                "simbolo": "P"
+            }
+        ],
+        "idiomas": [
+            "Portuguese",
+            "Chinese"
+        ],
+        "fronteras": [
+            "CHN"
+        ]
+    },
+    {
+        "_id": "MAF",
+        "nombre_comun": "Saint Martin",
+        "nombre_oficial": "Saint Martin",
+        "region": "Americas",
+        "subregion": "Caribbean",
+        "capital": [
+            "Marigot"
+        ],
+        "poblacion": 1000,
+        "superficie_km2": 53,
+        "densidad": 18.87,
+        "monedas": [
+            {
+                "codigo": "EUR",
+                "nombre": "Euro",
+                "simbolo": "€"
+            }
+        ],
+        "idiomas": [
+            "French"
+        ],
+        "fronteras": [
+            "SXM"
+        ]
+    },
+    {
+        "_id": "MAR",
+        "nombre_comun": "Marruecos",
+        "nombre_oficial": "Reino de Marruecos",
+        "region": "Africa",
+        "subregion": "Northern Africa",
+        "capital": [
+            "Rabat"
+        ],
+        "poblacion": 15071063,
+        "superficie_km2": 446550,
+        "densidad": 33.75,
+        "monedas": [
+            {
+                "codigo": "MAD",
+                "nombre": "Moroccan dirham",
+                "simbolo": "د.م."
+            }
+        ],
+        "idiomas": [
+            "Arabic",
+            "Berber"
+        ],
+        "fronteras": [
+            "DZA",
+            "ESH",
+            "ESP"
+        ]
+    },
+    {
+        "_id": "MCO",
+        "nombre_comun": "Mónaco",
+        "nombre_oficial": "Principado de Mónaco",
+        "region": "Europe",
+        "subregion": "Western Europe",
+        "capital": [
+            "Monaco"
+        ],
+        "poblacion": 1000,
+        "superficie_km2": 2.02,
+        "densidad": 495.05,
+        "monedas": [
+            {
+                "codigo": "EUR",
+                "nombre": "Euro",
+                "simbolo": "€"
+            }
+        ],
+        "idiomas": [
+            "French"
+        ],
+        "fronteras": [
+            "FRA"
+        ]
+    },
+    {
+        "_id": "MDA",
+        "nombre_comun": "Moldavia",
+        "nombre_oficial": "República de Moldova",
+        "region": "Europe",
+        "subregion": "Eastern Europe",
+        "capital": [
+            "Chișinău"
+        ],
+        "poblacion": 1942760,
+        "superficie_km2": 33846,
+        "densidad": 57.4,
+        "monedas": [
+            {
+                "codigo": "MDL",
+                "nombre": "Moldovan leu",
+                "simbolo": "L"
+            }
+        ],
+        "idiomas": [
+            "Moldavian"
+        ],
+        "fronteras": [
+            "ROU",
+            "UKR"
+        ]
+    },
+    {
+        "_id": "MDG",
+        "nombre_comun": "Madagascar",
+        "nombre_oficial": "República de Madagascar",
+        "region": "Africa",
+        "subregion": "Eastern Africa",
+        "capital": [
+            "Antananarivo"
+        ],
+        "poblacion": 25624340,
+        "superficie_km2": 587041,
+        "densidad": 43.65,
+        "monedas": [
+            {
+                "codigo": "MGA",
+                "nombre": "Malagasy ariary",
+                "simbolo": "Ar"
+            }
+        ],
+        "idiomas": [
+            "French",
+            "Malagasy"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "MDV",
+        "nombre_comun": "Maldivas",
+        "nombre_oficial": "República de las Maldivas",
+        "region": "Asia",
+        "subregion": "Southern Asia",
+        "capital": [
+            "Malé"
+        ],
+        "poblacion": 28500,
+        "superficie_km2": 300,
+        "densidad": 95,
+        "monedas": [
+            {
+                "codigo": "MVR",
+                "nombre": "Maldivian rufiyaa",
+                "simbolo": ".ރ"
+            }
+        ],
+        "idiomas": [
+            "Maldivian"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "MEX",
+        "nombre_comun": "México",
+        "nombre_oficial": "Estados Unidos Mexicanos",
+        "region": "Americas",
+        "subregion": "North America",
+        "capital": [
+            "Mexico City"
+        ],
+        "poblacion": 47636094,
+        "superficie_km2": 1964375,
+        "densidad": 24.25,
+        "monedas": [
+            {
+                "codigo": "MXN",
+                "nombre": "Mexican peso",
+                "simbolo": "$"
+            }
+        ],
+        "idiomas": [
+            "Spanish"
+        ],
+        "fronteras": [
+            "BLZ",
+            "GTM",
+            "USA"
+        ]
+    },
+    {
+        "_id": "MHL",
+        "nombre_comun": "Islas Marshall",
+        "nombre_oficial": "República de las Islas Marshall",
+        "region": "Oceania",
+        "subregion": "Micronesia",
+        "capital": [
+            "Majuro"
+        ],
+        "poblacion": 1000,
+        "superficie_km2": 181,
+        "densidad": 5.52,
+        "monedas": [
+            {
+                "codigo": "USD",
+                "nombre": "United States dollar",
+                "simbolo": "$"
+            }
+        ],
+        "idiomas": [
+            "English",
+            "Marshallese"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "MKD",
+        "nombre_comun": "Macedonia del Norte",
+        "nombre_oficial": "República de Macedonia del Norte",
+        "region": "Europe",
+        "subregion": "Southeast Europe",
+        "capital": [
+            "Skopje"
+        ],
+        "poblacion": 1295935,
+        "superficie_km2": 25713,
+        "densidad": 50.4,
+        "monedas": [
+            {
+                "codigo": "MKD",
+                "nombre": "denar",
+                "simbolo": "den"
+            }
+        ],
+        "idiomas": [
+            "Macedonian"
+        ],
+        "fronteras": [
+            "ALB",
+            "BGR",
+            "GRC",
+            "UNK",
+            "SRB"
+        ]
+    },
+    {
+        "_id": "MLI",
+        "nombre_comun": "Mali",
+        "nombre_oficial": "República de Malí",
+        "region": "Africa",
+        "subregion": "Western Africa",
+        "capital": [
+            "Bamako"
+        ],
+        "poblacion": 41298394,
+        "superficie_km2": 1240192,
+        "densidad": 33.3,
+        "monedas": [
+            {
+                "codigo": "XOF",
+                "nombre": "West African CFA franc",
+                "simbolo": "Fr"
+            }
+        ],
+        "idiomas": [
+            "French"
+        ],
+        "fronteras": [
+            "DZA",
+            "BFA",
+            "GIN",
+            "CIV",
+            "MRT",
+            "NER",
+            "SEN"
+        ]
+    },
+    {
+        "_id": "MLT",
+        "nombre_comun": "Malta",
+        "nombre_oficial": "República de Malta",
+        "region": "Europe",
+        "subregion": "Southern Europe",
+        "capital": [
+            "Valletta"
+        ],
+        "poblacion": 17032,
+        "superficie_km2": 316,
+        "densidad": 53.9,
+        "monedas": [
+            {
+                "codigo": "EUR",
+                "nombre": "Euro",
+                "simbolo": "€"
+            }
+        ],
+        "idiomas": [
+            "English",
+            "Maltese"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "MMR",
+        "nombre_comun": "Myanmar",
+        "nombre_oficial": "República de la Unión de Myanmar",
+        "region": "Asia",
+        "subregion": "South-Eastern Asia",
+        "capital": [
+            "Naypyidaw"
+        ],
+        "poblacion": 56155974,
+        "superficie_km2": 676578,
+        "densidad": 83,
+        "monedas": [
+            {
+                "codigo": "MMK",
+                "nombre": "Burmese kyat",
+                "simbolo": "Ks"
+            }
+        ],
+        "idiomas": [
+            "Burmese"
+        ],
+        "fronteras": [
+            "BGD",
+            "CHN",
+            "IND",
+            "LAO",
+            "THA"
+        ]
+    },
+    {
+        "_id": "MNE",
+        "nombre_comun": "Montenegro",
+        "nombre_oficial": "Montenegro",
+        "region": "Europe",
+        "subregion": "Southeast Europe",
+        "capital": [
+            "Podgorica"
+        ],
+        "poblacion": 1015182,
+        "superficie_km2": 13812,
+        "densidad": 73.5,
+        "monedas": [
+            {
+                "codigo": "EUR",
+                "nombre": "Euro",
+                "simbolo": "€"
+            }
+        ],
+        "idiomas": [
+            "Montenegrin"
+        ],
+        "fronteras": [
+            "ALB",
+            "BIH",
+            "HRV",
+            "UNK",
+            "SRB"
+        ]
+    },
+    {
+        "_id": "MNG",
+        "nombre_comun": "Mongolia",
+        "nombre_oficial": "Mongolia",
+        "region": "Asia",
+        "subregion": "Eastern Asia",
+        "capital": [
+            "Ulan Bator"
+        ],
+        "poblacion": 173616210,
+        "superficie_km2": 1564110,
+        "densidad": 111,
+        "monedas": [
+            {
+                "codigo": "MNT",
+                "nombre": "Mongolian tögrög",
+                "simbolo": "₮"
+            }
+        ],
+        "idiomas": [
+            "Mongolian"
+        ],
+        "fronteras": [
+            "CHN",
+            "RUS"
+        ]
+    },
+    {
+        "_id": "MNP",
+        "nombre_comun": "Islas Marianas del Norte",
+        "nombre_oficial": "Mancomunidad de las Islas Marianas del Norte",
+        "region": "Oceania",
+        "subregion": "Micronesia",
+        "capital": [
+            "Saipan"
+        ],
+        "poblacion": 1717,
+        "superficie_km2": 464,
+        "densidad": 3.7,
+        "monedas": [
+            {
+                "codigo": "USD",
+                "nombre": "United States dollar",
+                "simbolo": "$"
+            }
+        ],
+        "idiomas": [
+            "Carolinian",
+            "Chamorro",
+            "English"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "MOZ",
+        "nombre_comun": "Mozambique",
+        "nombre_oficial": "República de Mozambique",
+        "region": "Africa",
+        "subregion": "Eastern Africa",
+        "capital": [
+            "Maputo"
+        ],
+        "poblacion": 27053663,
+        "superficie_km2": 801590,
+        "densidad": 33.75,
+        "monedas": [
+            {
+                "codigo": "MZN",
+                "nombre": "Mozambican metical",
+                "simbolo": "MT"
+            }
+        ],
+        "idiomas": [
+            "Portuguese"
+        ],
+        "fronteras": [
+            "MWI",
+            "ZAF",
+            "SWZ",
+            "TZA",
+            "ZMB",
+            "ZWE"
+        ]
+    },
+    {
+        "_id": "MRT",
+        "nombre_comun": "Mauritania",
+        "nombre_oficial": "República Islámica de Mauritania",
+        "region": "Africa",
+        "subregion": "Western Africa",
+        "capital": [
+            "Nouakchott"
+        ],
+        "poblacion": 41743350,
+        "superficie_km2": 1030700,
+        "densidad": 40.5,
+        "monedas": [
+            {
+                "codigo": "MRU",
+                "nombre": "Mauritanian ouguiya",
+                "simbolo": "UM"
+            }
+        ],
+        "idiomas": [
+            "Arabic"
+        ],
+        "fronteras": [
+            "DZA",
+            "MLI",
+            "SEN",
+            "ESH"
+        ]
+    },
+    {
+        "_id": "MSR",
+        "nombre_comun": "Montserrat",
+        "nombre_oficial": "Montserrat",
+        "region": "Americas",
+        "subregion": "Caribbean",
+        "capital": [
+            "Plymouth"
+        ],
+        "poblacion": 2856,
+        "superficie_km2": 102,
+        "densidad": 28,
+        "monedas": [
+            {
+                "codigo": "XCD",
+                "nombre": "Eastern Caribbean dollar",
+                "simbolo": "$"
+            }
+        ],
+        "idiomas": [
+            "English"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "MTQ",
+        "nombre_comun": "Martinica",
+        "nombre_oficial": "Martinica",
+        "region": "Americas",
+        "subregion": "Caribbean",
+        "capital": [
+            "Fort-de-France"
+        ],
+        "poblacion": 27918,
+        "superficie_km2": 1128,
+        "densidad": 24.75,
+        "monedas": [
+            {
+                "codigo": "EUR",
+                "nombre": "Euro",
+                "simbolo": "€"
+            }
+        ],
+        "idiomas": [
+            "French"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "MUS",
+        "nombre_comun": "Mauricio",
+        "nombre_oficial": "República de Mauricio",
+        "region": "Africa",
+        "subregion": "Eastern Africa",
+        "capital": [
+            "Port Louis"
+        ],
+        "poblacion": 71604,
+        "superficie_km2": 2040,
+        "densidad": 35.1,
+        "monedas": [
+            {
+                "codigo": "MUR",
+                "nombre": "Mauritian rupee",
+                "simbolo": "₨"
+            }
+        ],
+        "idiomas": [
+            "English",
+            "French",
+            "Mauritian Creole"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "MWI",
+        "nombre_comun": "Malawi",
+        "nombre_oficial": "República de Malawi",
+        "region": "Africa",
+        "subregion": "Eastern Africa",
+        "capital": [
+            "Lilongwe"
+        ],
+        "poblacion": 4905238,
+        "superficie_km2": 118484,
+        "densidad": 41.4,
+        "monedas": [
+            {
+                "codigo": "MWK",
+                "nombre": "Malawian kwacha",
+                "simbolo": "MK"
+            }
+        ],
+        "idiomas": [
+            "English",
+            "Chewa"
+        ],
+        "fronteras": [
+            "MOZ",
+            "TZA",
+            "ZMB"
+        ]
+    },
+    {
+        "_id": "MYS",
+        "nombre_comun": "Malasia",
+        "nombre_oficial": "Malasia",
+        "region": "Asia",
+        "subregion": "South-Eastern Asia",
+        "capital": [
+            "Kuala Lumpur"
+        ],
+        "poblacion": 23817816,
+        "superficie_km2": 330803,
+        "densidad": 72,
+        "monedas": [
+            {
+                "codigo": "MYR",
+                "nombre": "Malaysian ringgit",
+                "simbolo": "RM"
+            }
+        ],
+        "idiomas": [
+            "English",
+            "Malay"
+        ],
+        "fronteras": [
+            "BRN",
+            "IDN",
+            "THA"
+        ]
+    },
+    {
+        "_id": "MYT",
+        "nombre_comun": "Mayotte",
+        "nombre_oficial": "Departamento de Mayotte",
+        "region": "Africa",
+        "subregion": "Eastern Africa",
+        "capital": [
+            "Mamoudzou"
+        ],
+        "poblacion": 12623,
+        "superficie_km2": 374,
+        "densidad": 33.75,
+        "monedas": [
+            {
+                "codigo": "EUR",
+                "nombre": "Euro",
+                "simbolo": "€"
+            }
+        ],
+        "idiomas": [
+            "French"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "NAM",
+        "nombre_comun": "Namibia",
+        "nombre_oficial": "República de Namibia",
+        "region": "Africa",
+        "subregion": "Southern Africa",
+        "capital": [
+            "Windhoek"
+        ],
+        "poblacion": 40496416,
+        "superficie_km2": 825615,
+        "densidad": 49.05,
+        "monedas": [
+            {
+                "codigo": "NAD",
+                "nombre": "Namibian dollar",
+                "simbolo": "$"
+            },
+            {
+                "codigo": "ZAR",
+                "nombre": "South African rand",
+                "simbolo": "R"
+            }
+        ],
+        "idiomas": [
+            "Afrikaans",
+            "German",
+            "English",
+            "Herero",
+            "Khoekhoe",
+            "Kwangali",
+            "Lozi",
+            "Ndonga",
+            "Tswana"
+        ],
+        "fronteras": [
+            "AGO",
+            "BWA",
+            "ZAF",
+            "ZMB"
+        ]
+    },
+    {
+        "_id": "NCL",
+        "nombre_comun": "Nueva Caledonia",
+        "nombre_oficial": "nueva Caledonia",
+        "region": "Oceania",
+        "subregion": "Melanesia",
+        "capital": [
+            "Nouméa"
+        ],
+        "poblacion": 106806,
+        "superficie_km2": 18575,
+        "densidad": 5.75,
+        "monedas": [
+            {
+                "codigo": "XPF",
+                "nombre": "CFP franc",
+                "simbolo": "₣"
+            }
+        ],
+        "idiomas": [
+            "French"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "NER",
+        "nombre_comun": "Níger",
+        "nombre_oficial": "República de Níger",
+        "region": "Africa",
+        "subregion": "Western Africa",
+        "capital": [
+            "Niamey"
+        ],
+        "poblacion": 55874700,
+        "superficie_km2": 1267000,
+        "densidad": 44.1,
+        "monedas": [
+            {
+                "codigo": "XOF",
+                "nombre": "West African CFA franc",
+                "simbolo": "Fr"
+            }
+        ],
+        "idiomas": [
+            "French"
+        ],
+        "fronteras": [
+            "DZA",
+            "BEN",
+            "BFA",
+            "TCD",
+            "LBY",
+            "MLI",
+            "NGA"
+        ]
+    },
+    {
+        "_id": "NFK",
+        "nombre_comun": "Isla de Norfolk",
+        "nombre_oficial": "Territorio de la Isla Norfolk",
+        "region": "Oceania",
+        "subregion": "Australia and New Zealand",
+        "capital": [
+            "Kingston"
+        ],
+        "poblacion": 1000,
+        "superficie_km2": 36,
+        "densidad": 27.78,
+        "monedas": [
+            {
+                "codigo": "AUD",
+                "nombre": "Australian dollar",
+                "simbolo": "$"
+            }
+        ],
+        "idiomas": [
+            "English",
+            "Norfuk"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "NGA",
+        "nombre_comun": "Nigeria",
+        "nombre_oficial": "República Federal de Nigeria",
+        "region": "Africa",
+        "subregion": "Western Africa",
+        "capital": [
+            "Abuja"
+        ],
+        "poblacion": 29930083,
+        "superficie_km2": 923768,
+        "densidad": 32.4,
+        "monedas": [
+            {
+                "codigo": "NGN",
+                "nombre": "Nigerian naira",
+                "simbolo": "₦"
+            }
+        ],
+        "idiomas": [
+            "English"
+        ],
+        "fronteras": [
+            "BEN",
+            "CMR",
+            "TCD",
+            "NER"
+        ]
+    },
+    {
+        "_id": "NIC",
+        "nombre_comun": "Nicaragua",
+        "nombre_oficial": "República de Nicaragua",
+        "region": "Americas",
+        "subregion": "Central America",
+        "capital": [
+            "Managua"
+        ],
+        "poblacion": 3259325,
+        "superficie_km2": 130373,
+        "densidad": 25,
+        "monedas": [
+            {
+                "codigo": "NIO",
+                "nombre": "Nicaraguan córdoba",
+                "simbolo": "C$"
+            }
+        ],
+        "idiomas": [
+            "Spanish"
+        ],
+        "fronteras": [
+            "CRI",
+            "HND"
+        ]
+    },
+    {
+        "_id": "NIU",
+        "nombre_comun": "Niue",
+        "nombre_oficial": "Niue",
+        "region": "Oceania",
+        "subregion": "Polynesia",
+        "capital": [
+            "Alofi"
+        ],
+        "poblacion": 1105,
+        "superficie_km2": 260,
+        "densidad": 4.25,
+        "monedas": [
+            {
+                "codigo": "NZD",
+                "nombre": "New Zealand dollar",
+                "simbolo": "$"
+            }
+        ],
+        "idiomas": [
+            "English",
+            "Niuean"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "NLD",
+        "nombre_comun": "Países Bajos",
+        "nombre_oficial": "Países Bajos",
+        "region": "Europe",
+        "subregion": "Western Europe",
+        "capital": [
+            "Amsterdam"
+        ],
+        "poblacion": 2167830,
+        "superficie_km2": 41850,
+        "densidad": 51.8,
+        "monedas": [
+            {
+                "codigo": "EUR",
+                "nombre": "Euro",
+                "simbolo": "€"
+            }
+        ],
+        "idiomas": [
+            "Dutch"
+        ],
+        "fronteras": [
+            "BEL",
+            "DEU"
+        ]
+    },
+    {
+        "_id": "NOR",
+        "nombre_comun": "Noruega",
+        "nombre_oficial": "Reino de Noruega",
+        "region": "Europe",
+        "subregion": "Northern Europe",
+        "capital": [
+            "Oslo"
+        ],
+        "poblacion": 18132912,
+        "superficie_km2": 323802,
+        "densidad": 56,
+        "monedas": [
+            {
+                "codigo": "NOK",
+                "nombre": "Norwegian krone",
+                "simbolo": "kr"
+            }
+        ],
+        "idiomas": [
+            "Norwegian Nynorsk",
+            "Norwegian Bokmål",
+            "Sami"
+        ],
+        "fronteras": [
+            "FIN",
+            "SWE",
+            "RUS"
+        ]
+    },
+    {
+        "_id": "NPL",
+        "nombre_comun": "Nepal",
+        "nombre_oficial": "República Democrática Federal de Nepal",
+        "region": "Asia",
+        "subregion": "Southern Asia",
+        "capital": [
+            "Kathmandu"
+        ],
+        "poblacion": 10744213,
+        "superficie_km2": 147181,
+        "densidad": 73,
+        "monedas": [
+            {
+                "codigo": "NPR",
+                "nombre": "Nepalese rupee",
+                "simbolo": "₨"
+            }
+        ],
+        "idiomas": [
+            "Nepali"
+        ],
+        "fronteras": [
+            "CHN",
+            "IND"
+        ]
+    },
+    {
+        "_id": "NRU",
+        "nombre_comun": "Nauru",
+        "nombre_oficial": "República de Nauru",
+        "region": "Oceania",
+        "subregion": "Micronesia",
+        "capital": [
+            "Yaren"
+        ],
+        "poblacion": 1000,
+        "superficie_km2": 21,
+        "densidad": 47.62,
+        "monedas": [
+            {
+                "codigo": "AUD",
+                "nombre": "Australian dollar",
+                "simbolo": "$"
+            }
+        ],
+        "idiomas": [
+            "English",
+            "Nauru"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "NZL",
+        "nombre_comun": "Nueva Zelanda",
+        "nombre_oficial": "nueva Zelanda",
+        "region": "Oceania",
+        "subregion": "Australia and New Zealand",
+        "capital": [
+            "Wellington"
+        ],
+        "poblacion": 960158,
+        "superficie_km2": 270467,
+        "densidad": 3.55,
+        "monedas": [
+            {
+                "codigo": "NZD",
+                "nombre": "New Zealand dollar",
+                "simbolo": "$"
+            }
+        ],
+        "idiomas": [
+            "English",
+            "Māori",
+            "New Zealand Sign Language"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "OMN",
+        "nombre_comun": "Omán",
+        "nombre_oficial": "Sultanato de Omán",
+        "region": "Asia",
+        "subregion": "Western Asia",
+        "capital": [
+            "Muscat"
+        ],
+        "poblacion": 27236000,
+        "superficie_km2": 309500,
+        "densidad": 88,
+        "monedas": [
+            {
+                "codigo": "OMR",
+                "nombre": "Omani rial",
+                "simbolo": "ر.ع."
+            }
+        ],
+        "idiomas": [
+            "Arabic"
+        ],
+        "fronteras": [
+            "SAU",
+            "ARE",
+            "YEM"
+        ]
+    },
+    {
+        "_id": "PAK",
+        "nombre_comun": "Pakistán",
+        "nombre_oficial": "República Islámica de Pakistán",
+        "region": "Asia",
+        "subregion": "Southern Asia",
+        "capital": [
+            "Islamabad"
+        ],
+        "poblacion": 67025312,
+        "superficie_km2": 881912,
+        "densidad": 76,
+        "monedas": [
+            {
+                "codigo": "PKR",
+                "nombre": "Pakistani rupee",
+                "simbolo": "₨"
+            }
+        ],
+        "idiomas": [
+            "English",
+            "Urdu"
+        ],
+        "fronteras": [
+            "AFG",
+            "CHN",
+            "IND",
+            "IRN"
+        ]
+    },
+    {
+        "_id": "PAN",
+        "nombre_comun": "Panamá",
+        "nombre_oficial": "República de Panamá",
+        "region": "Americas",
+        "subregion": "Central America",
+        "capital": [
+            "Panama City"
+        ],
+        "poblacion": 1941988,
+        "superficie_km2": 75417,
+        "densidad": 25.75,
+        "monedas": [
+            {
+                "codigo": "PAB",
+                "nombre": "Panamanian balboa",
+                "simbolo": "B\/."
+            },
+            {
+                "codigo": "USD",
+                "nombre": "United States dollar",
+                "simbolo": "$"
+            }
+        ],
+        "idiomas": [
+            "Spanish"
+        ],
+        "fronteras": [
+            "COL",
+            "CRI"
+        ]
+    },
+    {
+        "_id": "PCN",
+        "nombre_comun": "Islas Pitcairn",
+        "nombre_oficial": "Grupo de Islas Pitcairn",
+        "region": "Oceania",
+        "subregion": "Polynesia",
+        "capital": [
+            "Adamstown"
+        ],
+        "poblacion": 1000,
+        "superficie_km2": 47,
+        "densidad": 21.28,
+        "monedas": [
+            {
+                "codigo": "NZD",
+                "nombre": "New Zealand dollar",
+                "simbolo": "$"
+            }
+        ],
+        "idiomas": [
+            "English"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "PER",
+        "nombre_comun": "Perú",
+        "nombre_oficial": "República de Perú",
+        "region": "Americas",
+        "subregion": "South America",
+        "capital": [
+            "Lima"
+        ],
+        "poblacion": 32773008,
+        "superficie_km2": 1285216,
+        "densidad": 25.5,
+        "monedas": [
+            {
+                "codigo": "PEN",
+                "nombre": "Peruvian sol",
+                "simbolo": "S\/."
+            }
+        ],
+        "idiomas": [
+            "Aymara",
+            "Quechua",
+            "Spanish"
+        ],
+        "fronteras": [
+            "BOL",
+            "BRA",
+            "CHL",
+            "COL",
+            "ECU"
+        ]
+    },
+    {
+        "_id": "PHL",
+        "nombre_comun": "Filipinas",
+        "nombre_oficial": "República de las Filipinas",
+        "region": "Asia",
+        "subregion": "South-Eastern Asia",
+        "capital": [
+            "Manila"
+        ],
+        "poblacion": 30811770,
+        "superficie_km2": 342353,
+        "densidad": 90,
+        "monedas": [
+            {
+                "codigo": "PHP",
+                "nombre": "Philippine peso",
+                "simbolo": "₱"
+            }
+        ],
+        "idiomas": [
+            "English",
+            "Filipino"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "PLW",
+        "nombre_comun": "Palau",
+        "nombre_oficial": "República de Palau",
+        "region": "Oceania",
+        "subregion": "Micronesia",
+        "capital": [
+            "Ngerulmud"
+        ],
+        "poblacion": 2020,
+        "superficie_km2": 459,
+        "densidad": 4.4,
+        "monedas": [
+            {
+                "codigo": "USD",
+                "nombre": "United States dollar",
+                "simbolo": "$"
+            }
+        ],
+        "idiomas": [
+            "English",
+            "Palauan"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "PNG",
+        "nombre_comun": "Papúa Nueva Guinea",
+        "nombre_oficial": "Estado Independiente de Papúa Nueva Guinea",
+        "region": "Oceania",
+        "subregion": "Melanesia",
+        "capital": [
+            "Port Moresby"
+        ],
+        "poblacion": 2267916,
+        "superficie_km2": 462840,
+        "densidad": 4.9,
+        "monedas": [
+            {
+                "codigo": "PGK",
+                "nombre": "Papua New Guinean kina",
+                "simbolo": "K"
+            }
+        ],
+        "idiomas": [
+            "English",
+            "Hiri Motu",
+            "Tok Pisin"
+        ],
+        "fronteras": [
+            "IDN"
+        ]
+    },
+    {
+        "_id": "POL",
+        "nombre_comun": "Polonia",
+        "nombre_oficial": "República de Polonia",
+        "region": "Europe",
+        "subregion": "Central Europe",
+        "capital": [
+            "Warsaw"
+        ],
+        "poblacion": 15977897,
+        "superficie_km2": 312679,
+        "densidad": 51.1,
+        "monedas": [
+            {
+                "codigo": "PLN",
+                "nombre": "Polish złoty",
+                "simbolo": "zł"
+            }
+        ],
+        "idiomas": [
+            "Polish"
+        ],
+        "fronteras": [
+            "BLR",
+            "CZE",
+            "DEU",
+            "LTU",
+            "RUS",
+            "SVK",
+            "UKR"
+        ]
+    },
+    {
+        "_id": "PRI",
+        "nombre_comun": "Puerto Rico",
+        "nombre_oficial": "Asociado de Puerto Rico",
+        "region": "Americas",
+        "subregion": "Caribbean",
+        "capital": [
+            "San Juan"
+        ],
+        "poblacion": 177400,
+        "superficie_km2": 8870,
+        "densidad": 20,
+        "monedas": [
+            {
+                "codigo": "USD",
+                "nombre": "United States dollar",
+                "simbolo": "$"
+            }
+        ],
+        "idiomas": [
+            "English",
+            "Spanish"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "PRK",
+        "nombre_comun": "Corea del Norte",
+        "nombre_oficial": "República Popular Democrática de Corea",
+        "region": "Asia",
+        "subregion": "Eastern Asia",
+        "capital": [
+            "Pyongyang"
+        ],
+        "poblacion": 11330572,
+        "superficie_km2": 120538,
+        "densidad": 94,
+        "monedas": [
+            {
+                "codigo": "KPW",
+                "nombre": "North Korean won",
+                "simbolo": "₩"
+            }
+        ],
+        "idiomas": [
+            "Korean"
+        ],
+        "fronteras": [
+            "CHN",
+            "KOR",
+            "RUS"
+        ]
+    },
+    {
+        "_id": "PRT",
+        "nombre_comun": "Portugal",
+        "nombre_oficial": "República Portuguesa",
+        "region": "Europe",
+        "subregion": "Southern Europe",
+        "capital": [
+            "Lisbon"
+        ],
+        "poblacion": 5350429,
+        "superficie_km2": 92090,
+        "densidad": 58.1,
+        "monedas": [
+            {
+                "codigo": "EUR",
+                "nombre": "Euro",
+                "simbolo": "€"
+            }
+        ],
+        "idiomas": [
+            "Portuguese"
+        ],
+        "fronteras": [
+            "ESP"
+        ]
+    },
+    {
+        "_id": "PRY",
+        "nombre_comun": "Paraguay",
+        "nombre_oficial": "República de Paraguay",
+        "region": "Americas",
+        "subregion": "South America",
+        "capital": [
+            "Asunción"
+        ],
+        "poblacion": 11389056,
+        "superficie_km2": 406752,
+        "densidad": 28,
+        "monedas": [
+            {
+                "codigo": "PYG",
+                "nombre": "Paraguayan guaraní",
+                "simbolo": "₲"
+            }
+        ],
+        "idiomas": [
+            "Guaraní",
+            "Spanish"
+        ],
+        "fronteras": [
+            "ARG",
+            "BOL",
+            "BRA"
+        ]
+    },
+    {
+        "_id": "PSE",
+        "nombre_comun": "Palestina",
+        "nombre_oficial": "Estado de Palestina",
+        "region": "Asia",
+        "subregion": "Western Asia",
+        "capital": [
+            "Ramallah"
+        ],
+        "poblacion": 547360,
+        "superficie_km2": 6220,
+        "densidad": 88,
+        "monedas": [
+            {
+                "codigo": "EGP",
+                "nombre": "Egyptian pound",
+                "simbolo": "E£"
+            },
+            {
+                "codigo": "ILS",
+                "nombre": "Israeli new shekel",
+                "simbolo": "₪"
+            },
+            {
+                "codigo": "JOD",
+                "nombre": "Jordanian dinar",
+                "simbolo": "JD"
+            }
+        ],
+        "idiomas": [
+            "Arabic"
+        ],
+        "fronteras": [
+            "ISR",
+            "EGY",
+            "JOR"
+        ]
+    },
+    {
+        "_id": "PYF",
+        "nombre_comun": "Polinesia Francesa",
+        "nombre_oficial": "Polinesia francés",
+        "region": "Oceania",
+        "subregion": "Polynesia",
+        "capital": [
+            "Papeetē"
+        ],
+        "poblacion": 18335,
+        "superficie_km2": 4167,
+        "densidad": 4.4,
+        "monedas": [
+            {
+                "codigo": "XPF",
+                "nombre": "CFP franc",
+                "simbolo": "₣"
+            }
+        ],
+        "idiomas": [
+            "French"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "QAT",
+        "nombre_comun": "Catar",
+        "nombre_oficial": "Estado de Qatar",
+        "region": "Asia",
+        "subregion": "Western Asia",
+        "capital": [
+            "Doha"
+        ],
+        "poblacion": 950052,
+        "superficie_km2": 11586,
+        "densidad": 82,
+        "monedas": [
+            {
+                "codigo": "QAR",
+                "nombre": "Qatari riyal",
+                "simbolo": "ر.ق"
+            }
+        ],
+        "idiomas": [
+            "Arabic"
+        ],
+        "fronteras": [
+            "SAU"
+        ]
+    },
+    {
+        "_id": "REU",
+        "nombre_comun": "Reunión",
+        "nombre_oficial": "Isla de la Reunión",
+        "region": "Africa",
+        "subregion": "Eastern Africa",
+        "capital": [
+            "Saint-Denis"
+        ],
+        "poblacion": 87006,
+        "superficie_km2": 2511,
+        "densidad": 34.65,
+        "monedas": [
+            {
+                "codigo": "EUR",
+                "nombre": "Euro",
+                "simbolo": "€"
+            }
+        ],
+        "idiomas": [
+            "French"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "ROU",
+        "nombre_comun": "Rumania",
+        "nombre_oficial": "Rumania",
+        "region": "Europe",
+        "subregion": "Southeast Europe",
+        "capital": [
+            "Bucharest"
+        ],
+        "poblacion": 18856728,
+        "superficie_km2": 238391,
+        "densidad": 79.1,
+        "monedas": [
+            {
+                "codigo": "RON",
+                "nombre": "Romanian leu",
+                "simbolo": "lei"
+            }
+        ],
+        "idiomas": [
+            "Romanian"
+        ],
+        "fronteras": [
+            "BGR",
+            "HUN",
+            "MDA",
+            "SRB",
+            "UKR"
+        ]
+    },
+    {
+        "_id": "RUS",
+        "nombre_comun": "Rusia",
+        "nombre_oficial": "Federación de Rusia",
+        "region": "Europe",
+        "subregion": "Eastern Europe",
+        "capital": [
+            "Moscow"
+        ],
+        "poblacion": 897657705,
+        "superficie_km2": 17098242,
+        "densidad": 52.5,
+        "monedas": [
+            {
+                "codigo": "RUB",
+                "nombre": "Russian ruble",
+                "simbolo": "₽"
+            }
+        ],
+        "idiomas": [
+            "Russian"
+        ],
+        "fronteras": [
+            "AZE",
+            "BLR",
+            "CHN",
+            "EST",
+            "FIN",
+            "GEO",
+            "KAZ",
+            "PRK",
+            "LVA",
+            "LTU",
+            "MNG",
+            "NOR",
+            "POL",
+            "UKR"
+        ]
+    },
+    {
+        "_id": "RWA",
+        "nombre_comun": "Ruanda",
+        "nombre_oficial": "República de Rwanda",
+        "region": "Africa",
+        "subregion": "Eastern Africa",
+        "capital": [
+            "Kigali"
+        ],
+        "poblacion": 1125950,
+        "superficie_km2": 26338,
+        "densidad": 42.75,
+        "monedas": [
+            {
+                "codigo": "RWF",
+                "nombre": "Rwandan franc",
+                "simbolo": "Fr"
+            }
+        ],
+        "idiomas": [
+            "English",
+            "French",
+            "Kinyarwanda"
+        ],
+        "fronteras": [
+            "BDI",
+            "COD",
+            "TZA",
+            "UGA"
+        ]
+    },
+    {
+        "_id": "SAU",
+        "nombre_comun": "Arabia Saudí",
+        "nombre_oficial": "Reino de Arabia Saudita",
+        "region": "Asia",
+        "subregion": "Western Asia",
+        "capital": [
+            "Riyadh"
+        ],
+        "poblacion": 219268380,
+        "superficie_km2": 2149690,
+        "densidad": 102,
+        "monedas": [
+            {
+                "codigo": "SAR",
+                "nombre": "Saudi riyal",
+                "simbolo": "ر.س"
+            }
+        ],
+        "idiomas": [
+            "Arabic"
+        ],
+        "fronteras": [
+            "IRQ",
+            "JOR",
+            "KWT",
+            "OMN",
+            "QAT",
+            "ARE",
+            "YEM"
+        ]
+    },
+    {
+        "_id": "SDN",
+        "nombre_comun": "Sudán",
+        "nombre_oficial": "República de Sudán",
+        "region": "Africa",
+        "subregion": "Northern Africa",
+        "capital": [
+            "Khartoum"
+        ],
+        "poblacion": 100998941,
+        "superficie_km2": 1886068,
+        "densidad": 53.55,
+        "monedas": [
+            {
+                "codigo": "SDG",
+                "nombre": "Sudanese pound",
+                "simbolo": "PT"
+            }
+        ],
+        "idiomas": [
+            "Arabic",
+            "English"
+        ],
+        "fronteras": [
+            "CAF",
+            "TCD",
+            "EGY",
+            "ERI",
+            "ETH",
+            "LBY",
+            "SSD"
+        ]
+    },
+    {
+        "_id": "SEN",
+        "nombre_comun": "Senegal",
+        "nombre_oficial": "República de Senegal",
+        "region": "Africa",
+        "subregion": "Western Africa",
+        "capital": [
+            "Dakar"
+        ],
+        "poblacion": 8144291,
+        "superficie_km2": 196722,
+        "densidad": 41.4,
+        "monedas": [
+            {
+                "codigo": "XOF",
+                "nombre": "West African CFA franc",
+                "simbolo": "Fr"
+            }
+        ],
+        "idiomas": [
+            "French"
+        ],
+        "fronteras": [
+            "GMB",
+            "GIN",
+            "GNB",
+            "MLI",
+            "MRT"
+        ]
+    },
+    {
+        "_id": "SGP",
+        "nombre_comun": "Singapur",
+        "nombre_oficial": "República de Singapur",
+        "region": "Asia",
+        "subregion": "South-Eastern Asia",
+        "capital": [
+            "Singapore"
+        ],
+        "poblacion": 63190,
+        "superficie_km2": 710,
+        "densidad": 89,
+        "monedas": [
+            {
+                "codigo": "SGD",
+                "nombre": "Singapore dollar",
+                "simbolo": "$"
+            }
+        ],
+        "idiomas": [
+            "English",
+            "Malay",
+            "Tamil",
+            "Chinese"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "SGS",
+        "nombre_comun": "Islas Georgias del Sur y Sandwich del Sur",
+        "nombre_oficial": "Georgia del Sur y las Islas Sandwich del Sur",
+        "region": "Antarctic",
+        "subregion": "",
+        "capital": [
+            "King Edward Point"
+        ],
+        "poblacion": 1000,
+        "superficie_km2": 3903,
+        "densidad": 0.26,
+        "monedas": [
+            {
+                "codigo": "SHP",
+                "nombre": "Saint Helena pound",
+                "simbolo": "£"
+            }
+        ],
+        "idiomas": [
+            "English"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "SJM",
+        "nombre_comun": "Islas Svalbard y Jan Mayen",
+        "nombre_oficial": "Svalbard og Jan Mayen",
+        "region": "Europe",
+        "subregion": "Northern Europe",
+        "capital": [
+            "Longyearbyen"
+        ],
+        "poblacion": 5670,
+        "superficie_km2": 100,
+        "densidad": 56.7,
+        "monedas": [
+            {
+                "codigo": "NOK",
+                "nombre": "krone",
+                "simbolo": "kr"
+            }
+        ],
+        "idiomas": [
+            "Norwegian"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "SLB",
+        "nombre_comun": "Islas Salomón",
+        "nombre_oficial": "islas Salomón",
+        "region": "Oceania",
+        "subregion": "Melanesia",
+        "capital": [
+            "Honiara"
+        ],
+        "poblacion": 112694,
+        "superficie_km2": 28896,
+        "densidad": 3.9,
+        "monedas": [
+            {
+                "codigo": "SBD",
+                "nombre": "Solomon Islands dollar",
+                "simbolo": "$"
+            }
+        ],
+        "idiomas": [
+            "English"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "SLE",
+        "nombre_comun": "Sierra Leone",
+        "nombre_oficial": "República de Sierra Leona",
+        "region": "Africa",
+        "subregion": "Western Africa",
+        "capital": [
+            "Freetown"
+        ],
+        "poblacion": 3712545,
+        "superficie_km2": 71740,
+        "densidad": 51.75,
+        "monedas": [
+            {
+                "codigo": "SLE",
+                "nombre": "Sierra Leonean leone",
+                "simbolo": "Le"
+            }
+        ],
+        "idiomas": [
+            "English"
+        ],
+        "fronteras": [
+            "GIN",
+            "LBR"
+        ]
+    },
+    {
+        "_id": "SLV",
+        "nombre_comun": "El Salvador",
+        "nombre_oficial": "República de El Salvador",
+        "region": "Americas",
+        "subregion": "Central America",
+        "capital": [
+            "San Salvador"
+        ],
+        "poblacion": 478683,
+        "superficie_km2": 21041,
+        "densidad": 22.75,
+        "monedas": [
+            {
+                "codigo": "USD",
+                "nombre": "United States dollar",
+                "simbolo": "$"
+            }
+        ],
+        "idiomas": [
+            "Spanish"
+        ],
+        "fronteras": [
+            "GTM",
+            "HND"
+        ]
+    },
+    {
+        "_id": "SMR",
+        "nombre_comun": "San Marino",
+        "nombre_oficial": "Serenísima República de San Marino",
+        "region": "Europe",
+        "subregion": "Southern Europe",
+        "capital": [
+            "City of San Marino"
+        ],
+        "poblacion": 3373,
+        "superficie_km2": 61,
+        "densidad": 55.3,
+        "monedas": [
+            {
+                "codigo": "EUR",
+                "nombre": "Euro",
+                "simbolo": "€"
+            }
+        ],
+        "idiomas": [
+            "Italian"
+        ],
+        "fronteras": [
+            "ITA"
+        ]
+    },
+    {
+        "_id": "SOM",
+        "nombre_comun": "Somalia",
+        "nombre_oficial": "República Federal de Somalia",
+        "region": "Africa",
+        "subregion": "Eastern Africa",
+        "capital": [
+            "Mogadishu"
+        ],
+        "poblacion": 20086196,
+        "superficie_km2": 637657,
+        "densidad": 31.5,
+        "monedas": [
+            {
+                "codigo": "SOS",
+                "nombre": "Somali shilling",
+                "simbolo": "Sh"
+            }
+        ],
+        "idiomas": [
+            "Arabic",
+            "Somali"
+        ],
+        "fronteras": [
+            "DJI",
+            "ETH",
+            "KEN"
+        ]
+    },
+    {
+        "_id": "SPM",
+        "nombre_comun": "San Pedro y Miquelón",
+        "nombre_oficial": "San Pedro y Miquelón",
+        "region": "Americas",
+        "subregion": "North America",
+        "capital": [
+            "Saint-Pierre"
+        ],
+        "poblacion": 4840,
+        "superficie_km2": 242,
+        "densidad": 20,
+        "monedas": [
+            {
+                "codigo": "EUR",
+                "nombre": "Euro",
+                "simbolo": "€"
+            }
+        ],
+        "idiomas": [
+            "French"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "SRB",
+        "nombre_comun": "Serbia",
+        "nombre_oficial": "República de Serbia",
+        "region": "Europe",
+        "subregion": "Southeast Europe",
+        "capital": [
+            "Belgrade"
+        ],
+        "poblacion": 6370828,
+        "superficie_km2": 88361,
+        "densidad": 72.1,
+        "monedas": [
+            {
+                "codigo": "RSD",
+                "nombre": "Serbian dinar",
+                "simbolo": "дин."
+            }
+        ],
+        "idiomas": [
+            "Serbian"
+        ],
+        "fronteras": [
+            "BIH",
+            "BGR",
+            "HRV",
+            "HUN",
+            "UNK",
+            "MKD",
+            "MNE",
+            "ROU"
+        ]
+    },
+    {
+        "_id": "SSD",
+        "nombre_comun": "Sudán del Sur",
+        "nombre_oficial": "República de Sudán del Sur",
+        "region": "Africa",
+        "subregion": "Middle Africa",
+        "capital": [
+            "Juba"
+        ],
+        "poblacion": 24263017,
+        "superficie_km2": 619745,
+        "densidad": 39.15,
+        "monedas": [
+            {
+                "codigo": "SSP",
+                "nombre": "South Sudanese pound",
+                "simbolo": "£"
+            }
+        ],
+        "idiomas": [
+            "English"
+        ],
+        "fronteras": [
+            "CAF",
+            "COD",
+            "ETH",
+            "KEN",
+            "SDN",
+            "UGA"
+        ]
+    },
+    {
+        "_id": "STP",
+        "nombre_comun": "Santo Tomé y Príncipe",
+        "nombre_oficial": "República Democrática de Santo Tomé y Príncipe",
+        "region": "Africa",
+        "subregion": "Middle Africa",
+        "capital": [
+            "São Tomé"
+        ],
+        "poblacion": 48152,
+        "superficie_km2": 964,
+        "densidad": 49.95,
+        "monedas": [
+            {
+                "codigo": "STN",
+                "nombre": "São Tomé and Príncipe dobra",
+                "simbolo": "Db"
+            }
+        ],
+        "idiomas": [
+            "Portuguese"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "SUR",
+        "nombre_comun": "Surinam",
+        "nombre_oficial": "República de Suriname",
+        "region": "Americas",
+        "subregion": "South America",
+        "capital": [
+            "Paramaribo"
+        ],
+        "poblacion": 3767860,
+        "superficie_km2": 163820,
+        "densidad": 23,
+        "monedas": [
+            {
+                "codigo": "SRD",
+                "nombre": "Surinamese dollar",
+                "simbolo": "$"
+            }
+        ],
+        "idiomas": [
+            "Dutch"
+        ],
+        "fronteras": [
+            "BRA",
+            "GUF",
+            "GUY"
+        ]
+    },
+    {
+        "_id": "SVK",
+        "nombre_comun": "Eslovaquia",
+        "nombre_oficial": "República Eslovaca",
+        "region": "Europe",
+        "subregion": "Central Europe",
+        "capital": [
+            "Bratislava"
+        ],
+        "poblacion": 3329612,
+        "superficie_km2": 49037,
+        "densidad": 67.9,
+        "monedas": [
+            {
+                "codigo": "EUR",
+                "nombre": "Euro",
+                "simbolo": "€"
+            }
+        ],
+        "idiomas": [
+            "Slovak"
+        ],
+        "fronteras": [
+            "AUT",
+            "CZE",
+            "HUN",
+            "POL",
+            "UKR"
+        ]
+    },
+    {
+        "_id": "SVN",
+        "nombre_comun": "Eslovenia",
+        "nombre_oficial": "República de Eslovenia",
+        "region": "Europe",
+        "subregion": "Central Europe",
+        "capital": [
+            "Ljubljana"
+        ],
+        "poblacion": 1504257,
+        "superficie_km2": 20273,
+        "densidad": 74.2,
+        "monedas": [
+            {
+                "codigo": "EUR",
+                "nombre": "Euro",
+                "simbolo": "€"
+            }
+        ],
+        "idiomas": [
+            "Slovene"
+        ],
+        "fronteras": [
+            "AUT",
+            "HRV",
+            "ITA",
+            "HUN"
+        ]
+    },
+    {
+        "_id": "SWE",
+        "nombre_comun": "Suecia",
+        "nombre_oficial": "Reino de Suecia",
+        "region": "Europe",
+        "subregion": "Northern Europe",
+        "capital": [
+            "Stockholm"
+        ],
+        "poblacion": 24901314,
+        "superficie_km2": 450295,
+        "densidad": 55.3,
+        "monedas": [
+            {
+                "codigo": "SEK",
+                "nombre": "Swedish krona",
+                "simbolo": "kr"
+            }
+        ],
+        "idiomas": [
+            "Swedish"
+        ],
+        "fronteras": [
+            "FIN",
+            "NOR"
+        ]
+    },
+    {
+        "_id": "SWZ",
+        "nombre_comun": "Esuatini",
+        "nombre_oficial": "Reino de eSwatini",
+        "region": "Africa",
+        "subregion": "Southern Africa",
+        "capital": [
+            "Lobamba"
+        ],
+        "poblacion": 797008,
+        "superficie_km2": 17364,
+        "densidad": 45.9,
+        "monedas": [
+            {
+                "codigo": "SZL",
+                "nombre": "Swazi lilangeni",
+                "simbolo": "L"
+            },
+            {
+                "codigo": "ZAR",
+                "nombre": "South African rand",
+                "simbolo": "R"
+            }
+        ],
+        "idiomas": [
+            "English",
+            "Swazi"
+        ],
+        "fronteras": [
+            "MOZ",
+            "ZAF"
+        ]
+    },
+    {
+        "_id": "SXM",
+        "nombre_comun": "Sint Maarten",
+        "nombre_oficial": "Sint Maarten",
+        "region": "Americas",
+        "subregion": "Caribbean",
+        "capital": [
+            "Philipsburg"
+        ],
+        "poblacion": 1000,
+        "superficie_km2": 34,
+        "densidad": 29.41,
+        "monedas": [
+            {
+                "codigo": "ANG",
+                "nombre": "Netherlands Antillean guilder",
+                "simbolo": "ƒ"
+            }
+        ],
+        "idiomas": [
+            "English",
+            "French",
+            "Dutch"
+        ],
+        "fronteras": [
+            "MAF"
+        ]
+    },
+    {
+        "_id": "SYC",
+        "nombre_comun": "Seychelles",
+        "nombre_oficial": "República de las Seychelles",
+        "region": "Africa",
+        "subregion": "Eastern Africa",
+        "capital": [
+            "Victoria"
+        ],
+        "poblacion": 17086,
+        "superficie_km2": 452,
+        "densidad": 37.8,
+        "monedas": [
+            {
+                "codigo": "SCR",
+                "nombre": "Seychellois rupee",
+                "simbolo": "₨"
+            }
+        ],
+        "idiomas": [
+            "Seychellois Creole",
+            "English",
+            "French"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "SYR",
+        "nombre_comun": "Siria",
+        "nombre_oficial": "República Árabe Siria",
+        "region": "Asia",
+        "subregion": "Western Asia",
+        "capital": [
+            "Damascus"
+        ],
+        "poblacion": 14814400,
+        "superficie_km2": 185180,
+        "densidad": 80,
+        "monedas": [
+            {
+                "codigo": "SYP",
+                "nombre": "Syrian pound",
+                "simbolo": "£"
+            }
+        ],
+        "idiomas": [
+            "Arabic"
+        ],
+        "fronteras": [
+            "IRQ",
+            "ISR",
+            "JOR",
+            "LBN",
+            "TUR"
+        ]
+    },
+    {
+        "_id": "TCA",
+        "nombre_comun": "Islas Turks y Caicos",
+        "nombre_oficial": "Islas Turcas y Caicos",
+        "region": "Americas",
+        "subregion": "Caribbean",
+        "capital": [
+            "Cockburn Town"
+        ],
+        "poblacion": 20382,
+        "superficie_km2": 948,
+        "densidad": 21.5,
+        "monedas": [
+            {
+                "codigo": "USD",
+                "nombre": "United States dollar",
+                "simbolo": "$"
+            }
+        ],
+        "idiomas": [
+            "English"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "TCD",
+        "nombre_comun": "Chad",
+        "nombre_oficial": "República de Chad",
+        "region": "Africa",
+        "subregion": "Middle Africa",
+        "capital": [
+            "N'Djamena"
+        ],
+        "poblacion": 64135800,
+        "superficie_km2": 1284000,
+        "densidad": 49.95,
+        "monedas": [
+            {
+                "codigo": "XAF",
+                "nombre": "Central African CFA franc",
+                "simbolo": "Fr"
+            }
+        ],
+        "idiomas": [
+            "Arabic",
+            "French"
+        ],
+        "fronteras": [
+            "CMR",
+            "CAF",
+            "LBY",
+            "NER",
+            "NGA",
+            "SDN"
+        ]
+    },
+    {
+        "_id": "TGO",
+        "nombre_comun": "Togo",
+        "nombre_oficial": "República de Togo",
+        "region": "Africa",
+        "subregion": "Western Africa",
+        "capital": [
+            "Lomé"
+        ],
+        "poblacion": 2478665,
+        "superficie_km2": 56785,
+        "densidad": 43.65,
+        "monedas": [
+            {
+                "codigo": "XOF",
+                "nombre": "West African CFA franc",
+                "simbolo": "Fr"
+            }
+        ],
+        "idiomas": [
+            "French"
+        ],
+        "fronteras": [
+            "BEN",
+            "BFA",
+            "GHA"
+        ]
+    },
+    {
+        "_id": "THA",
+        "nombre_comun": "Tailandia",
+        "nombre_oficial": "Reino de Tailandia",
+        "region": "Asia",
+        "subregion": "South-Eastern Asia",
+        "capital": [
+            "Bangkok"
+        ],
+        "poblacion": 57982560,
+        "superficie_km2": 513120,
+        "densidad": 113,
+        "monedas": [
+            {
+                "codigo": "THB",
+                "nombre": "Thai baht",
+                "simbolo": "฿"
+            }
+        ],
+        "idiomas": [
+            "Thai"
+        ],
+        "fronteras": [
+            "MMR",
+            "KHM",
+            "LAO",
+            "MYS"
+        ]
+    },
+    {
+        "_id": "TJK",
+        "nombre_comun": "Tayikistán",
+        "nombre_oficial": "República de Tayikistán",
+        "region": "Asia",
+        "subregion": "Central Asia",
+        "capital": [
+            "Dushanbe"
+        ],
+        "poblacion": 14166900,
+        "superficie_km2": 143100,
+        "densidad": 99,
+        "monedas": [
+            {
+                "codigo": "TJS",
+                "nombre": "Tajikistani somoni",
+                "simbolo": "ЅМ"
+            }
+        ],
+        "idiomas": [
+            "Russian",
+            "Tajik"
+        ],
+        "fronteras": [
+            "AFG",
+            "CHN",
+            "KGZ",
+            "UZB"
+        ]
+    },
+    {
+        "_id": "TKL",
+        "nombre_comun": "Islas Tokelau",
+        "nombre_oficial": "Tokelau",
+        "region": "Oceania",
+        "subregion": "Polynesia",
+        "capital": [
+            "Fakaofo"
+        ],
+        "poblacion": 1000,
+        "superficie_km2": 12,
+        "densidad": 83.33,
+        "monedas": [
+            {
+                "codigo": "NZD",
+                "nombre": "New Zealand dollar",
+                "simbolo": "$"
+            }
+        ],
+        "idiomas": [
+            "English",
+            "Samoan",
+            "Tokelauan"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "TKM",
+        "nombre_comun": "Turkmenistán",
+        "nombre_oficial": "Turkmenistán",
+        "region": "Asia",
+        "subregion": "Central Asia",
+        "capital": [
+            "Ashgabat"
+        ],
+        "poblacion": 48321900,
+        "superficie_km2": 488100,
+        "densidad": 99,
+        "monedas": [
+            {
+                "codigo": "TMT",
+                "nombre": "Turkmenistan manat",
+                "simbolo": "m"
+            }
+        ],
+        "idiomas": [
+            "Russian",
+            "Turkmen"
+        ],
+        "fronteras": [
+            "AFG",
+            "IRN",
+            "KAZ",
+            "UZB"
+        ]
+    },
+    {
+        "_id": "TLS",
+        "nombre_comun": "Timor Oriental",
+        "nombre_oficial": "República Democrática de Timor-Leste",
+        "region": "Asia",
+        "subregion": "South-Eastern Asia",
+        "capital": [
+            "Dili"
+        ],
+        "poblacion": 1710510,
+        "superficie_km2": 14874,
+        "densidad": 115,
+        "monedas": [
+            {
+                "codigo": "USD",
+                "nombre": "United States dollar",
+                "simbolo": "$"
+            }
+        ],
+        "idiomas": [
+            "Portuguese",
+            "Tetum"
+        ],
+        "fronteras": [
+            "IDN"
+        ]
+    },
+    {
+        "_id": "TON",
+        "nombre_comun": "Tonga",
+        "nombre_oficial": "Reino de Tonga",
+        "region": "Oceania",
+        "subregion": "Polynesia",
+        "capital": [
+            "Nuku'alofa"
+        ],
+        "poblacion": 2727,
+        "superficie_km2": 747,
+        "densidad": 3.65,
+        "monedas": [
+            {
+                "codigo": "TOP",
+                "nombre": "Tongan paʻanga",
+                "simbolo": "T$"
+            }
+        ],
+        "idiomas": [
+            "English",
+            "Tongan"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "TTO",
+        "nombre_comun": "Trinidad y Tobago",
+        "nombre_oficial": "República de Trinidad y Tobago",
+        "region": "Americas",
+        "subregion": "Caribbean",
+        "capital": [
+            "Port of Spain"
+        ],
+        "poblacion": 132098,
+        "superficie_km2": 5130,
+        "densidad": 25.75,
+        "monedas": [
+            {
+                "codigo": "TTD",
+                "nombre": "Trinidad and Tobago dollar",
+                "simbolo": "$"
+            }
+        ],
+        "idiomas": [
+            "English"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "TUN",
+        "nombre_comun": "Túnez",
+        "nombre_oficial": "República de Túnez",
+        "region": "Africa",
+        "subregion": "Northern Africa",
+        "capital": [
+            "Tunis"
+        ],
+        "poblacion": 7951446,
+        "superficie_km2": 163610,
+        "densidad": 48.6,
+        "monedas": [
+            {
+                "codigo": "TND",
+                "nombre": "Tunisian dinar",
+                "simbolo": "د.ت"
+            }
+        ],
+        "idiomas": [
+            "Arabic"
+        ],
+        "fronteras": [
+            "DZA",
+            "LBY"
+        ]
+    },
+    {
+        "_id": "TUR",
+        "nombre_comun": "Turquía",
+        "nombre_oficial": "República de Turquía",
+        "region": "Asia",
+        "subregion": "Western Asia",
+        "capital": [
+            "Ankara"
+        ],
+        "poblacion": 88542506,
+        "superficie_km2": 783562,
+        "densidad": 113,
+        "monedas": [
+            {
+                "codigo": "TRY",
+                "nombre": "Turkish lira",
+                "simbolo": "₺"
+            }
+        ],
+        "idiomas": [
+            "Turkish"
+        ],
+        "fronteras": [
+            "ARM",
+            "AZE",
+            "BGR",
+            "GEO",
+            "GRC",
+            "IRN",
+            "IRQ",
+            "SYR"
+        ]
+    },
+    {
+        "_id": "TUV",
+        "nombre_comun": "Tuvalu",
+        "nombre_oficial": "Tuvalu",
+        "region": "Oceania",
+        "subregion": "Polynesia",
+        "capital": [
+            "Funafuti"
+        ],
+        "poblacion": 1000,
+        "superficie_km2": 26,
+        "densidad": 38.46,
+        "monedas": [
+            {
+                "codigo": "AUD",
+                "nombre": "Australian dollar",
+                "simbolo": "$"
+            },
+            {
+                "codigo": "TVD",
+                "nombre": "Tuvaluan dollar",
+                "simbolo": "$"
+            }
+        ],
+        "idiomas": [
+            "English",
+            "Tuvaluan"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "TWN",
+        "nombre_comun": "Taiwán",
+        "nombre_oficial": "República de China en Taiwán",
+        "region": "Asia",
+        "subregion": "Eastern Asia",
+        "capital": [
+            "Taipei"
+        ],
+        "poblacion": 3112598,
+        "superficie_km2": 36193,
+        "densidad": 86,
+        "monedas": [
+            {
+                "codigo": "TWD",
+                "nombre": "New Taiwan dollar",
+                "simbolo": "$"
+            }
+        ],
+        "idiomas": [
+            "Chinese"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "TZA",
+        "nombre_comun": "Tanzania",
+        "nombre_oficial": "República Unida de Tanzania",
+        "region": "Africa",
+        "subregion": "Eastern Africa",
+        "capital": [
+            "Dodoma"
+        ],
+        "poblacion": 43379493,
+        "superficie_km2": 945087,
+        "densidad": 45.9,
+        "monedas": [
+            {
+                "codigo": "TZS",
+                "nombre": "Tanzanian shilling",
+                "simbolo": "Sh"
+            }
+        ],
+        "idiomas": [
+            "English",
+            "Swahili"
+        ],
+        "fronteras": [
+            "BDI",
+            "COD",
+            "KEN",
+            "MWI",
+            "MOZ",
+            "RWA",
+            "UGA",
+            "ZMB"
+        ]
+    },
+    {
+        "_id": "UGA",
+        "nombre_comun": "Uganda",
+        "nombre_oficial": "República de Uganda",
+        "region": "Africa",
+        "subregion": "Eastern Africa",
+        "capital": [
+            "Kampala"
+        ],
+        "poblacion": 11848028,
+        "superficie_km2": 241550,
+        "densidad": 49.05,
+        "monedas": [
+            {
+                "codigo": "UGX",
+                "nombre": "Ugandan shilling",
+                "simbolo": "Sh"
+            }
+        ],
+        "idiomas": [
+            "English",
+            "Swahili"
+        ],
+        "fronteras": [
+            "COD",
+            "KEN",
+            "RWA",
+            "SSD",
+            "TZA"
+        ]
+    },
+    {
+        "_id": "UKR",
+        "nombre_comun": "Ucrania",
+        "nombre_oficial": "Ucrania",
+        "region": "Europe",
+        "subregion": "Eastern Europe",
+        "capital": [
+            "Kyiv"
+        ],
+        "poblacion": 36753150,
+        "superficie_km2": 603500,
+        "densidad": 60.9,
+        "monedas": [
+            {
+                "codigo": "UAH",
+                "nombre": "Ukrainian hryvnia",
+                "simbolo": "₴"
+            }
+        ],
+        "idiomas": [
+            "Ukrainian"
+        ],
+        "fronteras": [
+            "BLR",
+            "HUN",
+            "MDA",
+            "POL",
+            "ROU",
+            "RUS",
+            "SVK"
+        ]
+    },
+    {
+        "_id": "UMI",
+        "nombre_comun": "Islas Ultramarinas Menores de Estados Unidos",
+        "nombre_oficial": "Estados Unidos Islas menores alejadas de",
+        "region": "Americas",
+        "subregion": "North America",
+        "capital": [],
+        "poblacion": 1000,
+        "superficie_km2": 34.2,
+        "densidad": 29.24,
+        "monedas": [
+            {
+                "codigo": "USD",
+                "nombre": "United States dollar",
+                "simbolo": "$"
+            }
+        ],
+        "idiomas": [
+            "English"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "URY",
+        "nombre_comun": "Uruguay",
+        "nombre_oficial": "República Oriental del Uruguay",
+        "region": "Americas",
+        "subregion": "South America",
+        "capital": [
+            "Montevideo"
+        ],
+        "poblacion": 5023694,
+        "superficie_km2": 181034,
+        "densidad": 27.75,
+        "monedas": [
+            {
+                "codigo": "UYU",
+                "nombre": "Uruguayan peso",
+                "simbolo": "$"
+            }
+        ],
+        "idiomas": [
+            "Spanish"
+        ],
+        "fronteras": [
+            "ARG",
+            "BRA"
+        ]
+    },
+    {
+        "_id": "USA",
+        "nombre_comun": "Estados Unidos",
+        "nombre_oficial": "Estados Unidos de América",
+        "region": "Americas",
+        "subregion": "North America",
+        "capital": [
+            "Washington D.C."
+        ],
+        "poblacion": 206197420,
+        "superficie_km2": 9372610,
+        "densidad": 22,
+        "monedas": [
+            {
+                "codigo": "USD",
+                "nombre": "United States dollar",
+                "simbolo": "$"
+            }
+        ],
+        "idiomas": [
+            "English"
+        ],
+        "fronteras": [
+            "CAN",
+            "MEX"
+        ]
+    },
+    {
+        "_id": "UZB",
+        "nombre_comun": "Uzbekistán",
+        "nombre_oficial": "República de Uzbekistán",
+        "region": "Asia",
+        "subregion": "Central Asia",
+        "capital": [
+            "Tashkent"
+        ],
+        "poblacion": 40713400,
+        "superficie_km2": 447400,
+        "densidad": 91,
+        "monedas": [
+            {
+                "codigo": "UZS",
+                "nombre": "Uzbekistani soʻm",
+                "simbolo": "so'm"
+            }
+        ],
+        "idiomas": [
+            "Russian",
+            "Uzbek"
+        ],
+        "fronteras": [
+            "AFG",
+            "KAZ",
+            "KGZ",
+            "TJK",
+            "TKM"
+        ]
+    },
+    {
+        "_id": "VAT",
+        "nombre_comun": "Ciudad del Vaticano",
+        "nombre_oficial": "Ciudad del Vaticano",
+        "region": "Europe",
+        "subregion": "Southern Europe",
+        "capital": [
+            "Vatican City"
+        ],
+        "poblacion": 1000,
+        "superficie_km2": 0.44,
+        "densidad": 2272.73,
+        "monedas": [
+            {
+                "codigo": "EUR",
+                "nombre": "Euro",
+                "simbolo": "€"
+            }
+        ],
+        "idiomas": [
+            "Italian",
+            "Latin"
+        ],
+        "fronteras": [
+            "ITA"
+        ]
+    },
+    {
+        "_id": "VCT",
+        "nombre_comun": "San Vicente y Granadinas",
+        "nombre_oficial": "San Vicente y las Granadinas",
+        "region": "Americas",
+        "subregion": "Caribbean",
+        "capital": [
+            "Kingstown"
+        ],
+        "poblacion": 7488,
+        "superficie_km2": 389,
+        "densidad": 19.25,
+        "monedas": [
+            {
+                "codigo": "XCD",
+                "nombre": "Eastern Caribbean dollar",
+                "simbolo": "$"
+            }
+        ],
+        "idiomas": [
+            "English"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "VEN",
+        "nombre_comun": "Venezuela",
+        "nombre_oficial": "República Bolivariana de Venezuela",
+        "region": "Americas",
+        "subregion": "South America",
+        "capital": [
+            "Caracas"
+        ],
+        "poblacion": 18558011,
+        "superficie_km2": 916445,
+        "densidad": 20.25,
+        "monedas": [
+            {
+                "codigo": "VES",
+                "nombre": "Venezuelan bolívar soberano",
+                "simbolo": "Bs.S."
+            }
+        ],
+        "idiomas": [
+            "Spanish"
+        ],
+        "fronteras": [
+            "BRA",
+            "COL",
+            "GUY"
+        ]
+    },
+    {
+        "_id": "VGB",
+        "nombre_comun": "Islas Vírgenes del Reino Unido",
+        "nombre_oficial": "Islas Vírgenes",
+        "region": "Americas",
+        "subregion": "Caribbean",
+        "capital": [
+            "Road Town"
+        ],
+        "poblacion": 2794,
+        "superficie_km2": 151,
+        "densidad": 18.5,
+        "monedas": [
+            {
+                "codigo": "USD",
+                "nombre": "United States dollar",
+                "simbolo": "$"
+            }
+        ],
+        "idiomas": [
+            "English"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "VIR",
+        "nombre_comun": "Islas Vírgenes de los Estados Unidos",
+        "nombre_oficial": "Islas Vírgenes de los Estados Unidos",
+        "region": "Americas",
+        "subregion": "Caribbean",
+        "capital": [
+            "Charlotte Amalie"
+        ],
+        "poblacion": 9196,
+        "superficie_km2": 347,
+        "densidad": 26.5,
+        "monedas": [
+            {
+                "codigo": "USD",
+                "nombre": "United States dollar",
+                "simbolo": "$"
+            }
+        ],
+        "idiomas": [
+            "English"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "VNM",
+        "nombre_comun": "Vietnam",
+        "nombre_oficial": "República Socialista de Vietnam",
+        "region": "Asia",
+        "subregion": "South-Eastern Asia",
+        "capital": [
+            "Hanoi"
+        ],
+        "poblacion": 31796352,
+        "superficie_km2": 331212,
+        "densidad": 96,
+        "monedas": [
+            {
+                "codigo": "VND",
+                "nombre": "Vietnamese đồng",
+                "simbolo": "₫"
+            }
+        ],
+        "idiomas": [
+            "Vietnamese"
+        ],
+        "fronteras": [
+            "KHM",
+            "CHN",
+            "LAO"
+        ]
+    },
+    {
+        "_id": "VUT",
+        "nombre_comun": "Vanuatu",
+        "nombre_oficial": "República de Vanuatu",
+        "region": "Oceania",
+        "subregion": "Melanesia",
+        "capital": [
+            "Port Vila"
+        ],
+        "poblacion": 67040,
+        "superficie_km2": 12189,
+        "densidad": 5.5,
+        "monedas": [
+            {
+                "codigo": "VUV",
+                "nombre": "Vanuatu vatu",
+                "simbolo": "Vt"
+            }
+        ],
+        "idiomas": [
+            "Bislama",
+            "English",
+            "French"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "WLF",
+        "nombre_comun": "Wallis y Futuna",
+        "nombre_oficial": "Territorio de las Islas Wallis y Futuna",
+        "region": "Oceania",
+        "subregion": "Polynesia",
+        "capital": [
+            "Mata-Utu"
+        ],
+        "poblacion": 1000,
+        "superficie_km2": 142,
+        "densidad": 7.04,
+        "monedas": [
+            {
+                "codigo": "XPF",
+                "nombre": "CFP franc",
+                "simbolo": "₣"
+            }
+        ],
+        "idiomas": [
+            "French"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "WSM",
+        "nombre_comun": "Samoa",
+        "nombre_oficial": "Estado Independiente de Samoa",
+        "region": "Oceania",
+        "subregion": "Polynesia",
+        "capital": [
+            "Apia"
+        ],
+        "poblacion": 14921,
+        "superficie_km2": 2842,
+        "densidad": 5.25,
+        "monedas": [
+            {
+                "codigo": "WST",
+                "nombre": "Samoan tālā",
+                "simbolo": "T"
+            }
+        ],
+        "idiomas": [
+            "English",
+            "Samoan"
+        ],
+        "fronteras": []
+    },
+    {
+        "_id": "YEM",
+        "nombre_comun": "Yemen",
+        "nombre_oficial": "República de Yemen",
+        "region": "Asia",
+        "subregion": "Western Asia",
+        "capital": [
+            "Sana'a"
+        ],
+        "poblacion": 38013696,
+        "superficie_km2": 527968,
+        "densidad": 72,
+        "monedas": [
+            {
+                "codigo": "YER",
+                "nombre": "Yemeni rial",
+                "simbolo": "﷼"
+            }
+        ],
+        "idiomas": [
+            "Arabic"
+        ],
+        "fronteras": [
+            "OMN",
+            "SAU"
+        ]
+    },
+    {
+        "_id": "ZAF",
+        "nombre_comun": "Sudáfrica",
+        "nombre_oficial": "República de Sudáfrica",
+        "region": "Africa",
+        "subregion": "Southern Africa",
+        "capital": [
+            "Pretoria",
+            "Bloemfontein",
+            "Cape Town"
+        ],
+        "poblacion": 60990798,
+        "superficie_km2": 1221037,
+        "densidad": 49.95,
+        "monedas": [
+            {
+                "codigo": "ZAR",
+                "nombre": "South African rand",
+                "simbolo": "R"
+            }
+        ],
+        "idiomas": [
+            "Afrikaans",
+            "English",
+            "Southern Ndebele",
+            "Northern Sotho",
+            "Southern Sotho",
+            "Swazi",
+            "Tswana",
+            "Tsonga",
+            "Venda",
+            "Xhosa",
+            "Zulu"
+        ],
+        "fronteras": [
+            "BWA",
+            "LSO",
+            "MOZ",
+            "NAM",
+            "SWZ",
+            "ZWE"
+        ]
+    },
+    {
+        "_id": "ZMB",
+        "nombre_comun": "Zambia",
+        "nombre_oficial": "República de Zambia",
+        "region": "Africa",
+        "subregion": "Eastern Africa",
+        "capital": [
+            "Lusaka"
+        ],
+        "poblacion": 37254294,
+        "superficie_km2": 752612,
+        "densidad": 49.5,
+        "monedas": [
+            {
+                "codigo": "ZMW",
+                "nombre": "Zambian kwacha",
+                "simbolo": "ZK"
+            }
+        ],
+        "idiomas": [
+            "English"
+        ],
+        "fronteras": [
+            "AGO",
+            "BWA",
+            "COD",
+            "MWI",
+            "MOZ",
+            "NAM",
+            "TZA",
+            "ZWE"
+        ]
+    },
+    {
+        "_id": "ZWE",
+        "nombre_comun": "Zimbabue",
+        "nombre_oficial": "República de Zimbabue",
+        "region": "Africa",
+        "subregion": "Eastern Africa",
+        "capital": [
+            "Harare"
+        ],
+        "poblacion": 17935746,
+        "superficie_km2": 390757,
+        "densidad": 45.9,
+        "monedas": [
+            {
+                "codigo": "BWP",
+                "nombre": "Botswana pula",
+                "simbolo": "P"
+            },
+            {
+                "codigo": "CNY",
+                "nombre": "Chinese yuan",
+                "simbolo": "¥"
+            },
+            {
+                "codigo": "EUR",
+                "nombre": "Euro",
+                "simbolo": "€"
+            },
+            {
+                "codigo": "GBP",
+                "nombre": "British pound",
+                "simbolo": "£"
+            },
+            {
+                "codigo": "INR",
+                "nombre": "Indian rupee",
+                "simbolo": "₹"
+            },
+            {
+                "codigo": "JPY",
+                "nombre": "Japanese yen",
+                "simbolo": "¥"
+            },
+            {
+                "codigo": "USD",
+                "nombre": "United States dollar",
+                "simbolo": "$"
+            },
+            {
+                "codigo": "ZAR",
+                "nombre": "South African rand",
+                "simbolo": "Rs"
+            },
+            {
+                "codigo": "ZWB",
+                "nombre": "Zimbabwean bonds",
+                "simbolo": "$"
+            }
+        ],
+        "idiomas": [
+            "Chibarwe",
+            "English",
+            "Kalanga",
+            "Khoisan",
+            "Ndau",
+            "Northern Ndebele",
+            "Chewa",
+            "Shona",
+            "Sotho",
+            "Tonga",
+            "Tswana",
+            "Tsonga",
+            "Venda",
+            "Xhosa",
+            "Zimbabwean Sign Language"
+        ],
+        "fronteras": [
+            "BWA",
+            "MOZ",
+            "ZAF",
+            "ZMB"
+        ]
+    }
+]
