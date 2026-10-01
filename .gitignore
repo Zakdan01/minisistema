@@ -1,0 +1,14 @@
+# Herramientas descargadas por instalar.bat
+.herramientas/
+
+# Entorno virtual de Python, uno por maquina
+.venv/
+
+# Artefactos de Maven
+target/
+
+# Cache de Python
+__pycache__/
+*.py[cod]
+
+# Excepciones: el driver de Python si se versiona a proposito

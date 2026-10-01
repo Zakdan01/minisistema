@@ -21,11 +21,20 @@ echo   EJECUTANDO JOB POR LOTES - APACHE FLINK
 echo ========================================================
 echo.
 
-rem --- 1. localizar un JDK 11 o superior ---
+rem --- 1. localizar un JDK 17 o superior ---
 rem     No se usa el java del PATH: en este equipo apunta a un JRE 8 roto.
+rem     Orden: JAVA_HOME, luego el JDK que dejo instalar.bat en
+rem     .herramientas\jdk, y por ultimo los JDK del sistema.
 set "MVN_JAVA="
 if defined JAVA_HOME (
     if exist "!JAVA_HOME!\bin\javac.exe" set "MVN_JAVA=!JAVA_HOME!"
+)
+if not defined MVN_JAVA (
+    for /d %%D in ("%~dp0..\.herramientas\jdk\*") do (
+        if not defined MVN_JAVA (
+            if exist "%%~fD\bin\javac.exe" set "MVN_JAVA=%%~fD"
+        )
+    )
 )
 if not defined MVN_JAVA (
     for /d %%D in ("%ProgramFiles%\Java\jdk-*") do (
@@ -42,16 +51,59 @@ if not defined MVN_JAVA (
     )
 )
 if not defined MVN_JAVA (
-    echo [ERROR] No se encontro un JDK 11 o superior.
+    echo.
+    echo [ERROR] No se encontro un JDK 17 o superior.
+    echo.
+    echo        El pom.xml pide Java 17, asi que un JDK 11 no alcanza
+    echo        para compilar este proyecto. Se recomienda un JDK 21 LTS.
+    echo.
+    echo        Descargalo desde:
+    echo          https://adoptium.net/temurin/releases/?version=21
+    echo        Elige "Windows" y "x64", el paquete .zip o .msi.
+    echo        Al instalarlo en su ruta por defecto, este script lo
+    echo        encuentra solo y no hay que hacer nada mas.
+    echo.
+    echo        Si ya lo instalaste en otra carpeta, define JAVA_HOME:
+    echo          set JAVA_HOME=C:\ruta\del\jdk
+    echo.
     exit /b 1
 )
 set "JAVA_BIN=!MVN_JAVA!\bin\java.exe"
 
 rem --- 2. compilar y dejar los jars en target\lib ---
-echo [1/2] Compilando con Maven...
-call mvnw.cmd -o -q compile
+rem     La compilacion va en dos modos. Con los jars ya descargados se usa
+rem     -o (offline) y es rapido. Sin ellos hay que dejar que Maven los
+rem     baje, porque en una maquina nueva ~/.m2 esta vacio y con -o
+rem     fallaria al no poder descargarse nada.
+set "JARS_ESPERADOS=45"
+set "JARS_PRESENTES=0"
+if exist "target\lib" (
+    for /f %%C in ('dir /b "target\lib\*.jar" 2^>nul ^| find /c /v ""') do set "JARS_PRESENTES=%%C"
+)
+
+if !JARS_PRESENTES! lss !JARS_ESPERADOS! (
+    echo [1/2] Compilando con Maven...
+    echo       Primera compilacion: se descargan las dependencias de Flink.
+    echo       Esto se hace una sola vez; despues ya no se necesita internet.
+    echo       Usa .herramientas\jdk\ si no hay JDK en el sistema,
+    echo       o borra target\lib\ si esa carpeta esta incompleta.
+    echo.
+    call mvnw.cmd -q compile
+) else (
+    echo [1/2] Compilando con Maven...
+    echo       Modo offline: las dependencias ya estan descargadas.
+    echo.
+    call mvnw.cmd -o -q compile
+)
 if errorlevel 1 (
+    echo.
     echo [ERROR] La compilacion fallo.
+    echo.
+    echo        Si dice que no encuentra una dependencia, la carpeta
+    echo        target\lib esta incompleta. Borrala y vuelve a correr:
+    echo          rmdir /s /q target\lib
+    echo        Eso fuerza a descargarla de nuevo.
+    echo.
     exit /b 1
 )
 
@@ -84,12 +136,14 @@ if errorlevel 1 (
     echo.
     echo [ERROR] El job fallo.
     echo.
-    pause
+    if not defined MONDO_SIN_PAUSE pause
     exit /b 1
 )
 
 echo.
 echo [OK] El job termino. Los resultados estan en Mundo.resumen_regiones
 echo.
-pause
+rem  El pause se salta cuando otro script, como arrancar.bat, llama a este
+rem  archivo: si no, ese script se quedaria esperando una tecla.
+if not defined MONDO_SIN_PAUSE pause
 exit /b 0
