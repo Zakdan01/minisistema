@@ -13,6 +13,8 @@ Las rutas:
   GET /api/buscar           el buscador, con filtros por query
   POST /api/comparar        comparar la poblacion de los paises elegidos
   GET /api/resumen          los 6 resultados que calculo Apache Flink
+  GET /api/top              el Top 5 mas poblado de cada region
+  GET /api/densidades       la densidad real frente a la del promedio
   GET /api/opciones         lo que hay en los desplegables del buscador
 """
 
@@ -119,6 +121,14 @@ class Manejador(BaseHTTPRequestHandler):
                     "regiones": regiones,
                     "mundial": consultas.resumen_mundial(),
                 })
+
+            if ruta == "/api/top":
+                regiones = consultas.obtener_top_paises()
+                return self._responder(200, {"regiones": regiones})
+
+            if ruta == "/api/densidades":
+                regiones = consultas.obtener_densidades()
+                return self._responder(200, {"regiones": regiones})
 
             if ruta == "/api/opciones":
                 return self._responder(200, consultas.opciones_filtro())

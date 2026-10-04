@@ -9,6 +9,12 @@ Las 3 operaciones de la interfaz se resuelven aqui:
   1. Ver las fichas       -> listar_paises()
   2. Comparar poblaciones -> comparar_paises()
   3. Buscar               -> buscar_paises()
+
+Y ademas se leen los resultados del job de Flink:
+
+  - los totales por region -> obtener_resumen()
+  - el top 5 por region    -> obtener_top_paises()
+  - las densidades         -> obtener_densidades()
 """
 
 from pymongo import MongoClient
@@ -255,6 +261,79 @@ def resumen_mundial():
     }
 
 
+# --- EL TOP 5 QUE CALCULO FLINK ----------------------------------------------
+
+def obtener_top_paises():
+    """
+    Lee el Top 5 de paises mas poblados de cada region.
+
+    Cada documento de Mundo.top_paises_region tiene la forma:
+
+        { region: 'Asia',
+          cantidad_paises: 5,
+          top: [ {puesto: 1, codigo: 'CHN', nombre: 'China',
+                   poblacion: 1155128359, superficie_km2: 9596960}, ... ] }
+
+    El arreglo 'top' ya viene ordenado de mas a menos poblacion: lo ordeno
+    Flink, no esta pagina. Aqui solo se normalizan los tipos para que JSON
+    los sepa manejar, que es lo mismo que se hace con los paises en
+    _pais_a_dict().
+    """
+    documentos = list(collection("top_paises_region").find().sort("region", 1))
+
+    regiones = []
+    for d in documentos:
+        items = d.get("top", []) or []
+        regiones.append({
+            "region":  d.get("region", ""),
+            "cantidad": len(items),
+            "top": [
+                {
+                    "puesto":    int(i.get("puesto", 0) or 0),
+                    "codigo":    i.get("codigo", ""),
+                    "nombre":    i.get("nombre", ""),
+                    "poblacion": int(i.get("poblacion", 0) or 0),
+                    "superficie": int(i.get("superficie_km2", 0) or 0),
+                }
+                for i in items
+            ],
+        })
+    return regiones
+
+
+# --- LAS DENSIDADES QUE CALCULO FLINK ----------------------------------------
+
+def obtener_densidades():
+    """
+    Lee las dos densidades de cada region que calculo el job.
+
+    Cada documento de Mundo.densidad_regiones trae:
+
+        densidad_real      = poblacion total / superficie total
+        densidad_promedio  = media de las densidades de cada pais
+        error_porcentaje   = cuanto se equivoca el promedio
+
+    Se devuelven las dos cifras para que la pagina pueda ensenar por que
+    promediar densidades esta mal. Si solo se devolviera la real, la
+    coleccion no diria nada nuevo.
+    """
+    documentos = list(collection("densidad_regiones").find().sort("region", 1))
+
+    return [
+        {
+            "region":      d.get("region", ""),
+            "cantidad":    int(d.get("cantidad_paises", 0) or 0),
+            "poblacion":   int(d.get("poblacion_total", 0) or 0),
+            "superficie":  int(d.get("superficie_total", 0) or 0),
+            "conSuperficie": int(d.get("paises_con_superficie", 0) or 0),
+            "densidadReal": float(d.get("densidad_real", 0) or 0),
+            "densidadPromedio": float(d.get("densidad_promedio", 0) or 0),
+            "error":       float(d.get("error_porcentaje", 0) or 0),
+        }
+        for d in documentos
+    ]
+
+
 # --- ESTADO, para el pie de la pagina ---------------------------------------
 
 def estado():
@@ -265,11 +344,20 @@ def estado():
     try:
         total_paises = collection("paises").count_documents({})
         regiones = obtener_resumen()
+        # El job escribe tres colecciones. Se cuentan las tres para que la
+        # pagina sepa que estan todas completas y no enseñe un ranking vacio
+        # al lado de una tabla que si tiene datos.
+        tops = collection("top_paises_region").count_documents({})
+        densidades = collection("densidad_regiones").count_documents({})
         return {
             "mongo": True,
             "paises": total_paises,
             "regiones": len(regiones),
             "jobCorrido": len(regiones) > 0,
+            "jobCompleto": (len(regiones) > 0
+                            and len(regiones) == tops == densidades),
+            "tops": tops,
+            "densidades": densidades,
             "servidor": _cliente.server_info().get("version", "?"),
         }
     except PyMongoError as e:

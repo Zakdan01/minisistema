@@ -39,6 +39,8 @@ const numberFormat = new Intl.NumberFormat('es-ES');
 
 const fmt = (n) => numberFormat.format(n ?? 0);
 
+const fmt2 = (n) => Number(n ?? 0).toLocaleString("es-ES", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+
 /** 1.278.000.000 -> "1.278 mil M" */
 function fmtCorto(n) {
   n = n ?? 0;
@@ -66,9 +68,11 @@ async function pedir(ruta, opciones) {
 }
 
 const api = {
-  paises:   ()            => pedir('/api/paises'),
-  resumen:  ()            => pedir('/api/resumen'),
-  opciones: ()            => pedir('/api/opciones'),
+  paises:      ()            => pedir('/api/paises'),
+  resumen:     ()            => pedir('/api/resumen'),
+  top:         ()            => pedir('/api/top'),
+  densidades:  ()            => pedir('/api/densidades'),
+  opciones:    ()            => pedir('/api/opciones'),
   buscar:   (q)           => pedir('/api/buscar?' + new URLSearchParams(q)),
   comparar: (codigos)     => pedir('/api/comparar', {
               method: 'POST',
@@ -83,9 +87,11 @@ const api = {
    ========================================================================== */
 
 const estado = {
-  paises:      [],     // los 250, se cargan una vez
-  seleccion:   new Set(),
-  datosResumen: null,
+  paises:          [],     // los 250, se cargan una vez
+  seleccion:       new Set(),
+  datosResumen:    null,
+  datosTop:        null,
+  datosDensidades: null,
 };
 
 /* ==========================================================================
@@ -376,6 +382,163 @@ function limpiarBusqueda() {
   $('#bContador').textContent = '';
 }
 
+
+/* ==========================================================================
+   Vista: TOP PAISES Y DENSIDADES (FLINK)
+   ========================================================================== */
+
+function pintarTop(zona, regiones) {
+  const cols = (regiones || []).map(r => {
+    const filas = (r.top || []).map(p => `
+      <tr>
+        <td class="text-center"><span class="medalla m${p.puesto}">${p.puesto}</span></td>
+        <td>${escapar(p.nombre)}</td>
+        <td class="text-center"><span class="badge text-bg-secondary">${escapar(p.codigo)}</span></td>
+        <td class="text-end">${fmt(p.poblacion)}</td>
+        <td class="text-end d-none d-sm-table-cell">${fmt(p.superficie)}</td>
+      </tr>`).join('');
+    const total = (r.top || []).reduce((s, x) => s + (x.poblacion || 0), 0);
+    return `
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <div class="card-header d-flex justify-content-between align-items-center">
+            <span class="fw-semibold">${escapar(r.region)}</span>
+            <span class="badge text-bg-primary">Top 5</span>
+          </div>
+          <div class="table-responsive">
+            <table class="table table-sm table-hover align-middle mb-0">
+              <thead class="table-dark">
+                <tr>
+                  <th class="text-center">#</th>
+                  <th>País</th>
+                  <th class="text-center">Código</th>
+                  <th class="text-end">Población</th>
+                  <th class="text-end d-none d-sm-table-cell">Superficie km²</th>
+                </tr>
+              </thead>
+              <tbody>${filas}</tbody>
+            </table>
+          </div>
+          <div class="card-footer small text-body-secondary">
+            Suman ${fmt(total)} hab
+          </div>
+        </div>
+      </div>`;
+  }).join('');
+  zona.innerHTML = `<div class="row row-cols-1 row-cols-md-2 row-cols-xxl-3 g-4">${cols}</div>`;
+}
+
+function pintarDensidades(zona, regiones) {
+  const lista = regiones || [];
+  const filas = lista.map(r => {
+    const err = r.error || 0;
+    const grande = Math.abs(err) >= 100;
+    return `
+      <tr>
+        <td>${escapar(r.region)}</td>
+        <td class="text-end">${r.cantidad}</td>
+        <td class="text-end">${fmt2(r.densidadReal)}</td>
+        <td class="text-end">${fmt2(r.densidadPromedio)}</td>
+        <td class="text-end ${grande ? 'error-grande' : 'error-medio'}">
+          ${fmt2(err).toString().replace(',00','')} %
+        </td>
+      </tr>`;
+  }).join('');
+  const peor = lista.length ? lista.reduce((a,b)=>Math.abs(b.error||0)>Math.abs(a.error||0)?b:a) : {region:'',error:0};
+  const mediaAbs = lista.length ? lista.reduce((s,r)=>s+Math.abs(r.error||0),0)/lista.length : 0;
+  zona.innerHTML = `
+    <div class="card mb-4 shadow-sm">
+      <div class="card-header fw-semibold">Densidad real vs promedio ingenuo</div>
+      <div class="table-responsive">
+        <table class="table table-striped table-hover align-middle mb-0">
+          <thead class="table-dark">
+            <tr>
+              <th>Región</th>
+              <th class="text-end">Países</th>
+              <th class="text-end">Real (hab/km²)</th>
+              <th class="text-end">Promedio ingenuo (hab/km²)</th>
+              <th class="text-end">Error (%)</th>
+            </tr>
+          </thead>
+          <tbody>${filas}</tbody>
+        </table>
+      </div>
+    </div>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-3">
+      <div class="col">
+        <div class="card h-100 text-center shadow-sm border-danger">
+          <div class="card-body">
+            <div class="small text-body-secondary">Mayor error (absoluto)</div>
+            <div class="h5 text-danger">${fmt2(peor.error||0).toString().replace(',00','')} %</div>
+            <div class="small">${escapar(peor.region||'')}</div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 text-center shadow-sm">
+          <div class="card-body">
+            <div class="small text-body-secondary">Total regiones</div>
+            <div class="h5">${lista.length}</div>
+            <div class="small">Con datos</div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 text-center shadow-sm">
+          <div class="card-body">
+            <div class="small text-body-secondary">Media |error|</div>
+            <div class="h5">${fmt2(mediaAbs).toString().replace(',00','')} %</div>
+            <div class="small">Entre regiones</div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 text-center shadow-sm border-primary">
+          <div class="card-body">
+            <div class="small text-body-secondary">Diferencia</div>
+            <div class="h5">Real vs Promedio ingenuo</div>
+            <div class="small">Calculada por región</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mt-3 border-start border-3 border-primary shadow-sm">
+      <div class="card-body small text-body-secondary">
+        Nota (Flink): densidad_real = población_total / superficie_total. densidad_promedio = media de densidades por país (promedio ingenuo).
+        error_porcentaje = ((densidad_promedio - densidad_real) / densidad_real) × 100 (con signo).
+      </div>
+    </div>`;
+}
+
+async function cargarTop() {
+  const zona = document.getElementById('topTabla');
+  if (!zona) return;
+  zona.innerHTML = '<div class="cargando">cargando top de países...</div>';
+  try {
+    if (estado.datosTop) { pintarTop(zona, estado.datosTop); return; }
+    const r = await api.top();
+    estado.datosTop = r.regiones || [];
+    pintarTop(zona, estado.datosTop);
+  } catch (e) {
+    zona.innerHTML = '<div class="alert alert-danger">Error: ' + escapar(e.message) + '</div>';
+  }
+}
+
+async function cargarDensidades() {
+  const zona = document.getElementById('densidadesTabla');
+  if (!zona) return;
+  zona.innerHTML = '<div class="cargando">cargando densidades...</div>';
+  try {
+    if (estado.datosDensidades) { pintarDensidades(zona, estado.datosDensidades); return; }
+    const r = await api.densidades();
+    estado.datosDensidades = r.regiones || [];
+    pintarDensidades(zona, estado.datosDensidades);
+  } catch (e) {
+    zona.innerHTML = '<div class="alert alert-danger">Error: ' + escapar(e.message) + '</div>';
+  }
+}
+
+
 /* ==========================================================================
    Vista: RESUMEN DE FLINK
    ========================================================================== */
@@ -476,13 +639,25 @@ function cambiarVista(nombre) {
   document.querySelectorAll('.pestana').forEach(p => {
     p.classList.toggle('activa', p.dataset.vista === nombre);
   });
+  document.querySelectorAll('.nav-link').forEach(n => {
+    n.classList.toggle('active', n.dataset.vista === nombre);
+  });
   document.querySelectorAll('.vista').forEach(v => {
     v.classList.toggle('activa', v.id === 'vista-' + nombre);
   });
 
-  // El resumen se pide la primera vez que se abre, no al arrancar.
+  if (location.hash !== ('#' + nombre)) {
+    try { history.replaceState(null, '', '#' + nombre); } catch (_) {}
+  }
+
   if (nombre === 'resumen' && !estado.datosResumen) {
     cargarResumen();
+  }
+  if (nombre === 'top' && !estado.datosTop) {
+    cargarTop();
+  }
+  if (nombre === 'densidades' && !estado.datosDensidades) {
+    cargarDensidades();
   }
 }
 
@@ -522,8 +697,8 @@ async function refrescarEstado() {
 
 function conectarEventos() {
   // --- Pestanas ---
-  document.querySelectorAll('.pestana').forEach(p => {
-    p.addEventListener('click', () => cambiarVista(p.dataset.vista));
+  document.querySelectorAll('.nav-link, .pestana').forEach(b => {
+    b.addEventListener('click', () => cambiarVista(b.dataset.vista));
   });
 
   // --- Fichas ---

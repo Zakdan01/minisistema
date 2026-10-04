@@ -360,14 +360,21 @@ for ($i = 0; $i -lt $esperado; $i++) {
 }
 
 if ($arriba) {
-    $hilo.Receive() | ForEach-Object { Write-Host $_ }
+    # Receive-Job y NO $hilo.Receive(): Start-Job devuelve un PSRemotingJob,
+    # que no tiene ningun metodo Receive. Con el metodo salia un MethodNotFound
+    # que, al ser ErrorActionPreference Continue, se tragaba en silencio y la
+    # salida de servidor.py nunca se llegaba a ver.
+    Receive-Job -Job $hilo | ForEach-Object { Write-Host $_ }
     Escribir-Ok "Servidor listo en $url. Se abrio el navegador."
     Start-Process $url
 }
 else {
     Escribir-Mal 'El servidor web no se pudo levantar.'
     Escribir-Ok 'Lo que salio de servidor.py:'
-    $hilo.Receive() 2>&1 | ForEach-Object { Write-Host $_ }
+    # Aqui Receive-Job es lo mas importante: es la unica vez que el usuario ve
+    # el error real de Python. Con $hilo.Receive() ese mensaje se perdia, que es
+    # justo lo que este branch existe para mostrar.
+    Receive-Job -Job $hilo 2>&1 | ForEach-Object { Write-Host $_ }
     Write-Host ''
     Write-Host '  Si el error es que la direccion ya esta en uso, es que otro'
     Write-Host '  programa tiene el puerto. Cambia PUERTO en este script.'
@@ -378,7 +385,9 @@ Write-Host ''
 Write-Host '  La web queda corriendo mientras esta ventana siga abierta.'
 Write-Host ''
 
-# Receive -Wait mantiene viva la consola hasta que se cierre con Ctrl+C.
+# El pipe a Wait-Job mantiene viva la consola hasta que el job termine, que
+# en el caso del servidor web es hasta que se cierre con Ctrl+C. Receive-Job
+# despues va mostrando lo que el servidor escribe en cada peticion.
 try {
     $hilo | Wait-Job | Receive-Job
 }
